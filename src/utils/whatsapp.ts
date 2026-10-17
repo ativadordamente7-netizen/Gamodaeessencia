@@ -34,23 +34,27 @@ export function createGeneralWhatsAppLink(phoneNumber: string): string {
   return buildWhatsAppUrl(phoneNumber, text);
 }
 
+/** Endereço da página do produto (funciona também nas prévias do Netlify). */
+export function productUrl(product: Product): string {
+  const origin = typeof window !== 'undefined' ? window.location.origin : 'https://gamodaeessencia.com.br';
+  return `${origin}/produto/${product.id}`;
+}
+
 export function createProductWhatsAppLink(
   phoneNumber: string,
   product: Product,
   selectedSize?: string,
   selectedColor?: string
 ): string {
-  const sizeText = selectedSize ? selectedSize : (product.sizes[0] || 'Tamanho Único');
-  const colorText = selectedColor ? selectedColor : (product.colors[0]?.name || 'Padrão');
-
-  const text = `Olá! Vi no site da GA Moda & Essência e tenho interesse na peça:
-
-🛍️ *${product.name}*
-📏 Numeração/tamanho: ${sizeText}${product.colors.length ? `\n🎨 Cor: ${colorText}` : ''}
-
-Poderia me informar o valor, a disponibilidade e as opções de envio? ✨`;
-
-  return buildWhatsAppUrl(phoneNumber, text);
+  const linhas = [
+    'Olá! Vi no site da GA Moda & Essência e tenho interesse neste modelo:',
+    '',
+    `🛍️ *${product.name}*`,
+  ];
+  if (product.colors.length) linhas.push(`🎨 Cor: ${selectedColor || 'a definir'}`);
+  if (product.sizes.length > 1) linhas.push(`📏 Numeração/tamanho: ${selectedSize || 'a definir'}`);
+  linhas.push(`🔗 ${productUrl(product)}`, '', 'Pode me passar valor e disponibilidade? ✨');
+  return buildWhatsAppUrl(phoneNumber, linhas.join('\n'));
 }
 
 export function createCartWhatsAppLink(

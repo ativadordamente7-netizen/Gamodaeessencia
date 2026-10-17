@@ -15,7 +15,7 @@ export const PromoMarquee: React.FC<PromoMarqueeProps> = ({ whatsappNumber }) =>
       highlight: 'MODELOS & CORES',
       text: 'Veja as cores e numerações de cada modelo',
       href: '#vitrine',
-      badgeColor: 'bg-[#D4A373]/15 text-[#7A5C40] border-[#D4A373]/30',
+      badgeColor: 'bg-[#D8B98A]/15 text-[#7A5530] border-[#D8B98A]/30',
     },
     {
       icon: MessageCircle,
@@ -40,12 +40,12 @@ export const PromoMarquee: React.FC<PromoMarqueeProps> = ({ whatsappNumber }) =>
   return (
     <div
       id="promo-marquee"
-      className="relative w-full overflow-hidden bg-gradient-to-r from-[#FAF7F2] via-white/80 to-[#FAF7F2] border-b border-[#D4A373]/25 py-2.5 shadow-2xs backdrop-blur-sm z-30 select-none group"
+      className="relative w-full overflow-hidden bg-gradient-to-r from-[#F7F3ED] via-white/80 to-[#F7F3ED] border-b border-[#D8B98A]/25 py-2.5 shadow-2xs backdrop-blur-sm z-30 select-none group"
       aria-label="Avisos da loja"
     >
       {/* Left and right gradient fade masks for smooth transition */}
-      <div className="absolute left-0 top-0 bottom-0 w-12 sm:w-20 bg-gradient-to-r from-[#FAF7F2] to-transparent z-10 pointer-events-none" />
-      <div className="absolute right-0 top-0 bottom-0 w-12 sm:w-20 bg-gradient-to-l from-[#FAF7F2] to-transparent z-10 pointer-events-none" />
+      <div className="absolute left-0 top-0 bottom-0 w-12 sm:w-20 bg-gradient-to-r from-[#F7F3ED] to-transparent z-10 pointer-events-none" />
+      <div className="absolute right-0 top-0 bottom-0 w-12 sm:w-20 bg-gradient-to-l from-[#F7F3ED] to-transparent z-10 pointer-events-none" />
 
       {/* Marquee Track */}
       <div className="animate-marquee flex items-center whitespace-nowrap">
@@ -65,7 +65,7 @@ export const PromoMarquee: React.FC<PromoMarqueeProps> = ({ whatsappNumber }) =>
                 <Icon className="w-3 h-3 shrink-0" />
                 {item.highlight}
               </span>
-              <span className="font-medium group-hover/item:text-[#2D2D2D] transition-colors">
+              <span className="font-medium group-hover/item:text-[#242322] transition-colors">
                 {item.text}
               </span>
               <span className="text-stone-300 text-xs ml-2 font-serif">•</span>

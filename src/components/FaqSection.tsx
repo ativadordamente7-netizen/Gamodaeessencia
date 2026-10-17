@@ -39,14 +39,14 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ whatsappNumber }) => {
   const whatsappUrl = createGeneralWhatsAppLink(whatsappNumber);
 
   return (
-    <section className="py-16 sm:py-24 text-[#2D2D2D]">
+    <section className="py-16 sm:py-24 text-[#242322]">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center space-y-3 mb-10">
-          <span className="text-xs font-semibold text-[#7A5C40] uppercase tracking-widest flex items-center justify-center gap-1">
-            <HelpCircle className="w-4 h-4 text-[#D4A373]" /> Tira-Dúvidas
+          <span className="text-xs font-semibold text-[#7A5530] uppercase tracking-widest flex items-center justify-center gap-1">
+            <HelpCircle className="w-4 h-4 text-[#D8B98A]" /> Tira-Dúvidas
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl font-extrabold text-[#2D2D2D]">
+          <h2 className="font-serif text-3xl sm:text-4xl font-extrabold text-[#242322]">
             Perguntas Frequentes
           </h2>
           <p className="text-stone-600 text-sm">
@@ -63,11 +63,11 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ whatsappNumber }) => {
             >
               <button
                 onClick={() => setOpenIndex(openIndex === idx ? null : idx)}
-                className="w-full p-5 text-left font-serif font-bold text-sm sm:text-base text-[#2D2D2D] hover:text-[#D4A373] flex items-center justify-between gap-4 transition"
+                className="w-full p-5 text-left font-serif font-bold text-sm sm:text-base text-[#242322] hover:text-[#D8B98A] flex items-center justify-between gap-4 transition"
               >
                 <span>{faq.question}</span>
                 <ChevronDown
-                  className={`w-5 h-5 text-[#D4A373] transition-transform duration-300 shrink-0 ${
+                  className={`w-5 h-5 text-[#D8B98A] transition-transform duration-300 shrink-0 ${
                     openIndex === idx ? 'rotate-180' : ''
                   }`}
                 />

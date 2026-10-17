@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# GA Moda & Essência — vitrine digital
 
-# Run and deploy your AI Studio app
+Site: https://gamodaeessencia.com.br. Feito com React, Vite e Tailwind, e publicado no Netlify a partir da branch `main`.
 
-This contains everything you need to run your app locally.
+## Comandos
+```bash
+npm install          # instala as dependências
+npm run dev          # roda o site no computador: http://localhost:3000
+npm run build        # gera o sitemap e a versão de produção (pasta dist)
+npm run preview      # abre a versão de produção no computador
+npm test             # testes automáticos (na 1ª vez: npx playwright install chromium)
+npm run lint         # checagem de tipos (TypeScript)
+```
 
-View your app in AI Studio: https://ai.studio/apps/f6301245-f763-407b-a0dc-1ca454d786f3
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Onde fica cada coisa
+- `src/data/produtos.json`: catálogo. Veja o `GUIA-ATUALIZACAO.md`.
+- `src/data/produtos-aguardando-foto.json`: produtos já descritos que esperam foto.
+- `src/components/experience/`: GA Product Experience (galeria, profundidade, 360° e 3D).
+- `public/produtos/`: fotos em 3 tamanhos (`nome.webp`, `nome-720.webp` e `nome-480.webp`).
+- `tools/tratar_fotos.py`: tratamento padrão das fotos.
+- `CHANGELOG-EXPERIENCE-2.0.md`: o que mudou na versão 2.0.

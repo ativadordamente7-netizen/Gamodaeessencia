@@ -2,7 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { X, Heart, MessageCircle, ShoppingBag, Check } from 'lucide-react';
 import { Product, ProductSize } from '../types';
 import { createProductWhatsAppLink } from '../utils/whatsapp';
-import { srcSet, thumb, altProduto } from '../utils/img';
+import { Link } from 'react-router-dom';
+import { ProductExperience } from './experience/ProductExperience';
 import { PUBLICO_LABEL } from '../data/catalogo';
 
 interface ProductModalProps {
@@ -31,7 +32,6 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
   const [selectedColor, setSelectedColor] = useState<string>(product.colors[0]?.name || '');
   const tamanhos = product.sizesByColor?.[selectedColor] ?? product.sizes;
   const [selectedSize, setSelectedSize] = useState<ProductSize>('');
-  const [selectedImage, setSelectedImage] = useState<string>(product.image);
   const [addedSuccess, setAddedSuccess] = useState(false);
   const [avisoTamanho, setAvisoTamanho] = useState(false);
   const closeRef = useRef<HTMLButtonElement>(null);
@@ -39,7 +39,6 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
   const tamanhoUnico = tamanhos.length <= 1;
   const tamanhoFinal = tamanhoUnico ? tamanhos[0] ?? '' : selectedSize;
 
-  const images = product.gallery && product.gallery.length > 0 ? product.gallery : [product.image];
 
   // Acessibilidade: foco no botão fechar, Esc fecha, Tab fica dentro do modal, fundo não rola
   useEffect(() => {
@@ -77,8 +76,6 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
 
   const escolherCor = (nome: string) => {
     setSelectedColor(nome);
-    const img = product.colorImages?.[nome];
-    if (img) setSelectedImage(img);
     const lista = product.sizesByColor?.[nome];
     if (lista && selectedSize && !lista.includes(selectedSize)) setSelectedSize('');
   };
@@ -95,7 +92,7 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
         role="dialog"
         aria-modal="true"
         aria-labelledby="modal-titulo"
-        className="relative w-full max-w-4xl bg-[#FAF7F2] text-[#2D2D2D] rounded-t-3xl sm:rounded-3xl overflow-hidden shadow-2xl max-h-[94vh] flex flex-col md:flex-row"
+        className="relative w-full max-w-4xl bg-[#F7F3ED] text-[#242322] rounded-t-3xl sm:rounded-3xl overflow-hidden shadow-2xl max-h-[94vh] flex flex-col md:flex-row"
       >
         <button
           ref={closeRef}
@@ -107,60 +104,28 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
           <X className="w-5 h-5" aria-hidden="true" />
         </button>
 
-        {/* Galeria */}
-        <div className="md:w-1/2 bg-[#F3EEE6] p-4 sm:p-6 flex flex-col overflow-y-auto">
-          <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-sm">
-            <img
-              src={selectedImage}
-              srcSet={srcSet(selectedImage)}
-              sizes="(min-width:768px) 440px, 100vw"
-              alt={altProduto(product.name, selectedColor)}
-              width={960}
-              height={1200}
-              className="w-full h-full object-cover"
-            />
-          </div>
-          {images.length > 1 && (
-            <ul className="flex gap-2 mt-3 overflow-x-auto pb-1" aria-label="Outras fotos">
-              {images.map((img, idx) => {
-                const cor = Object.entries(product.colorImages ?? {}).find(([, v]) => v === img)?.[0];
-                return (
-                  <li key={img}>
-                    <button
-                      type="button"
-                      onClick={() => (cor ? escolherCor(cor) : setSelectedImage(img))}
-                      aria-label={cor ? `Ver cor ${cor}` : `Ver foto ${idx + 1}`}
-                      aria-current={selectedImage === img}
-                      className={`w-16 h-20 rounded-lg overflow-hidden border-2 transition ${
-                        selectedImage === img ? 'border-[#7A5C40]' : 'border-transparent opacity-75 hover:opacity-100'
-                      }`}
-                    >
-                      <img src={thumb(img)} alt="" className="w-full h-full object-cover" loading="lazy" />
-                    </button>
-                  </li>
-                );
-              })}
-            </ul>
-          )}
+        {/* Galeria — GA Product Experience */}
+        <div className="md:w-1/2 bg-[#EFE8DD] p-4 sm:p-6 overflow-y-auto">
+          <ProductExperience product={product} cor={selectedColor} onCorPelaFoto={escolherCor} />
         </div>
 
         {/* Detalhes */}
         <div className="md:w-1/2 p-5 sm:p-8 flex flex-col overflow-y-auto">
           <div>
-            <p className="text-[11px] font-bold tracking-[0.2em] text-[#7A5C40] uppercase pr-12">
+            <p className="text-[11px] font-bold tracking-[0.2em] text-[#7A5530] uppercase pr-12">
               {[product.marca, publico].filter(Boolean).join(' · ')}
             </p>
-            <h2 id="modal-titulo" className="font-serif text-2xl sm:text-3xl font-extrabold text-[#1F1F1F] mt-1 pr-10">
+            <h2 id="modal-titulo" className="font-serif text-2xl sm:text-3xl font-extrabold text-[#242322] mt-1 pr-10">
               {product.name}
             </h2>
-            {product.subtitle && <p className="text-[#7A5C40] font-medium text-sm mt-1">{product.subtitle}</p>}
+            {product.subtitle && <p className="text-[#7A5530] font-medium text-sm mt-1">{product.subtitle}</p>}
 
             <p className="text-stone-700 text-sm mt-4 leading-relaxed">{product.description}</p>
 
             {product.colors.length > 0 && (
               <fieldset className="mt-5">
-                <legend className="text-xs font-semibold text-[#1F1F1F] mb-2">
-                  Cor: <span className="text-[#7A5C40] font-bold">{selectedColor}</span>
+                <legend className="text-xs font-semibold text-[#242322] mb-2">
+                  Cor: <span className="text-[#7A5530] font-bold">{selectedColor}</span>
                 </legend>
                 <div className="flex flex-wrap gap-2">
                   {product.colors.map((color) => (
@@ -170,7 +135,7 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
                       onClick={() => escolherCor(color.name)}
                       aria-pressed={selectedColor === color.name}
                       className={`flex items-center gap-2 px-3 py-2 rounded-full border text-xs transition ${
-                        selectedColor === color.name ? 'border-[#1F1F1F] bg-white font-semibold' : 'border-stone-300 bg-white/60 hover:border-stone-500'
+                        selectedColor === color.name ? 'border-[#242322] bg-white font-semibold' : 'border-stone-300 bg-white/60 hover:border-stone-500'
                       }`}
                     >
                       <span className="w-4 h-4 rounded-full border border-stone-300" style={{ backgroundColor: color.hex }} aria-hidden="true" />
@@ -183,8 +148,8 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
 
             {!tamanhoUnico && (
               <fieldset className="mt-5">
-                <legend className="text-xs font-semibold text-[#1F1F1F] mb-2">
-                  Numeração{selectedSize ? <>: <span className="text-[#7A5C40] font-bold">{selectedSize}</span></> : ''}
+                <legend className="text-xs font-semibold text-[#242322] mb-2">
+                  Numeração{selectedSize ? <>: <span className="text-[#7A5530] font-bold">{selectedSize}</span></> : ''}
                 </legend>
                 <div className="flex flex-wrap gap-2">
                   {tamanhos.map((size) => (
@@ -194,7 +159,7 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
                       onClick={() => { setSelectedSize(size); setAvisoTamanho(false); }}
                       aria-pressed={selectedSize === size}
                       className={`min-w-11 h-11 px-3 rounded-xl text-sm font-semibold transition border ${
-                        selectedSize === size ? 'bg-[#1F1F1F] text-[#FAF7F2] border-[#1F1F1F]' : 'bg-white text-stone-800 border-stone-300 hover:border-[#7A5C40]'
+                        selectedSize === size ? 'bg-[#242322] text-[#F7F3ED] border-[#242322]' : 'bg-white text-stone-800 border-stone-300 hover:border-[#7A5530]'
                       }`}
                     >
                       {size}
@@ -209,21 +174,21 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
             )}
 
             {product.details && product.details.length > 0 && (
-              <div className="mt-5 text-xs text-stone-700 bg-white p-4 rounded-xl border border-[#E8DFD2]">
-                <p className="font-semibold text-[#1F1F1F] mb-1.5">Ficha do produto</p>
-                <ul className="space-y-1 list-disc pl-4 marker:text-[#D4A373]">
+              <div className="mt-5 text-xs text-stone-700 bg-white p-4 rounded-xl border border-[#E6DCCB]">
+                <p className="font-semibold text-[#242322] mb-1.5">Ficha do produto</p>
+                <ul className="space-y-1 list-disc pl-4 marker:text-[#D8B98A]">
                   {product.details.map((d) => <li key={d}>{d}</li>)}
                 </ul>
               </div>
             )}
           </div>
 
-          <div className="mt-6 pt-4 border-t border-[#E8DFD2] space-y-2.5">
+          <div className="mt-6 pt-4 border-t border-[#E6DCCB] space-y-2.5">
             <a
               href={whatsAppUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full bg-[#25D366] hover:bg-[#1EBE5A] text-[#0B3B1F] font-bold text-sm py-3.5 px-4 rounded-full transition flex items-center justify-center gap-2"
+              className="w-full bg-[#0F7A40] hover:bg-[#0B6334] text-white font-bold text-sm py-3.5 px-4 rounded-full transition flex items-center justify-center gap-2"
             >
               <MessageCircle className="w-5 h-5" aria-hidden="true" />
               Consultar valor no WhatsApp
@@ -231,12 +196,12 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
             <button
               type="button"
               onClick={handleAddToCart}
-              className="w-full bg-[#1F1F1F] hover:bg-black text-[#FAF7F2] font-semibold text-sm py-3.5 px-4 rounded-full transition flex items-center justify-center gap-2"
+              className="w-full bg-[#242322] hover:bg-black text-[#F7F3ED] font-semibold text-sm py-3.5 px-4 rounded-full transition flex items-center justify-center gap-2"
             >
               {addedSuccess ? (
                 <><Check className="w-4 h-4 text-emerald-400" aria-hidden="true" /><span role="status">Adicionado à lista!</span></>
               ) : (
-                <><ShoppingBag className="w-4 h-4 text-[#D4A373]" aria-hidden="true" />Adicionar à lista de pedidos</>
+                <><ShoppingBag className="w-4 h-4 text-[#D8B98A]" aria-hidden="true" />Adicionar à lista de pedidos</>
               )}
             </button>
             <button
@@ -248,6 +213,13 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
               <Heart className={`w-4 h-4 ${isWishlisted ? 'fill-current text-rose-600' : ''}`} aria-hidden="true" />
               {isWishlisted ? 'Nos seus favoritos' : 'Salvar nos favoritos'}
             </button>
+            <Link
+              to={`/produto/${product.id}`}
+              onClick={onClose}
+              className="block text-center text-xs font-semibold text-[#7A5530] underline underline-offset-4 decoration-[#D8B98A] hover:text-[#242322]"
+            >
+              Ver página completa do produto
+            </Link>
           </div>
         </div>
       </div>

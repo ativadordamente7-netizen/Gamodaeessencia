@@ -10,6 +10,9 @@ import { useLocation } from 'react-router-dom';
 import { CategoryNav } from './components/CategoryNav';
 import { DEFAULT_WHATSAPP_NUMBER } from './utils/whatsapp';
 import { CATEGORIAS } from './data/categorias';
+import { ProductPage } from './components/ProductPage';
+import { Reveal } from './components/Reveal';
+import { useSeo, LOJA_JSONLD } from './utils/seo';
 
 import { Navbar } from './components/Navbar';
 import { PromoMarquee } from './components/PromoMarquee';
@@ -54,6 +57,7 @@ export default function App() {
   const { pathname } = useLocation();
   const rota = pathname.replace(/^\/|\/$/g, '');
   const isHome = rota === '';
+  const isProduto = rota.startsWith('produto/');
   const visibleProducts =
     rota === 'feminino' || rota === 'masculino'
       ? PRODUCTS_DATA.filter((p) => p.publico === rota || p.publico === 'unissex')
@@ -67,7 +71,6 @@ export default function App() {
   };
   const fecharModal = useCallback(() => setSelectedProductModal(null), []);
   useEffect(() => {
-    document.title = (TITULOS[rota] ? TITULOS[rota] + ' | ' : '') + 'GA Moda & Essência — Serra Gaúcha';
     window.scrollTo(0, 0);
   }, [rota]);
 
@@ -90,10 +93,11 @@ export default function App() {
   };
 
   // Add to Cart Handlers
+  // Adição rápida (pelo card): não escolhe numeração/cor no lugar do cliente
   const handleAddToCart = (product: Product) => {
-    const defaultSize: ProductSize = product.sizes[0] || 'M';
-    const defaultColor = product.colors[0]?.name || 'Padrão';
-    handleAddToCartWithSizeAndColor(product, defaultSize, defaultColor);
+    const size: ProductSize = product.sizes.length > 1 ? 'a definir' : product.sizes[0] || 'Único';
+    const color = product.colors.length > 1 ? 'a definir' : product.colors[0]?.name || 'Única';
+    handleAddToCartWithSizeAndColor(product, size, color);
   };
 
   const handleAddToCartWithSizeAndColor = (
@@ -110,9 +114,7 @@ export default function App() {
       );
 
       if (existingIndex > -1) {
-        const updated = [...prev];
-        updated[existingIndex].quantity += 1;
-        return updated;
+        return prev.map((item, i) => (i === existingIndex ? { ...item, quantity: item.quantity + 1 } : item));
       }
 
       return [
@@ -135,11 +137,7 @@ export default function App() {
       handleRemoveCartItem(index);
       return;
     }
-    setCartItems((prev) => {
-      const updated = [...prev];
-      updated[index].quantity = newQty;
-      return updated;
-    });
+    setCartItems((prev) => prev.map((item, i) => (i === index ? { ...item, quantity: newQty } : item)));
   };
 
   const handleRemoveCartItem = (index: number) => {
@@ -151,16 +149,13 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FAF7F2] text-[#2D2D2D] font-sans selection:bg-[#D4A373] selection:text-white relative overflow-x-hidden">
+    <div className="min-h-screen bg-[#F7F3ED] text-[#242322] font-sans selection:bg-[#D8B98A] selection:text-white relative overflow-x-hidden">
       
-      <a href="#vitrine" className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[60] focus:bg-[#1F1F1F] focus:text-white focus:px-4 focus:py-2 focus:rounded-full">
-        Pular para os produtos
+      <a href={isProduto ? '#conteudo' : '#vitrine'} className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[60] focus:bg-[#242322] focus:text-white focus:px-4 focus:py-2 focus:rounded-full">
+        Pular para o conteúdo
       </a>
 
       {/* Soft Ambient Background Orbs for Frosted Glass Depth */}
-      <div aria-hidden="true" className="fixed top-0 left-1/4 w-96 h-96 bg-[#D4A373]/15 rounded-full blur-3xl pointer-events-none -z-10" />
-      <div aria-hidden="true" className="fixed top-1/3 right-10 w-[500px] h-[500px] bg-[#A5A58D]/20 rounded-full blur-3xl pointer-events-none -z-10" />
-      <div aria-hidden="true" className="fixed bottom-10 left-10 w-[600px] h-[600px] bg-[#E6E2DE]/50 rounded-full blur-3xl pointer-events-none -z-10" />
       
       {/* Header Navigation */}
       <Navbar
@@ -183,6 +178,18 @@ export default function App() {
       <PromoMarquee whatsappNumber={whatsappNumber} />
 
       <main id="conteudo">
+      {isProduto ? (
+        <ProductPage
+          whatsappNumber={whatsappNumber}
+          wishlistIds={wishlistIds}
+          onToggleWishlist={handleToggleWishlist}
+          onAddToCart={handleAddToCartWithSizeAndColor}
+          onQuickAdd={handleAddToCart}
+          onQuickView={(p) => setSelectedProductModal(p)}
+        />
+      ) : (
+      <>
+      <ListagemSeo titulo={TITULOS[rota]} rota={rota} />
       {/* Hero Banner Section */}
       {isHome && <Hero whatsappNumber={whatsappNumber} />}
 
@@ -199,17 +206,19 @@ export default function App() {
         title={TITULOS[rota] ? `${TITULOS[rota]}` : undefined}
       />
       {/* About the Store */}
-      {isHome && <AboutSection whatsappNumber={whatsappNumber} />}
+      {isHome && <Reveal><AboutSection whatsappNumber={whatsappNumber} /></Reveal>}
 
       {/* Frequently Asked Questions */}
-      {isHome && <FaqSection whatsappNumber={whatsappNumber} />}
+      {isHome && <Reveal><FaqSection whatsappNumber={whatsappNumber} /></Reveal>}
+      </>
+      )}
       </main>
 
       {/* Footer */}
       <Footer whatsappNumber={whatsappNumber} />
 
       {/* Floating Action Button (WhatsApp) */}
-      <WhatsAppFloat whatsappNumber={whatsappNumber} />
+      {!isProduto && <WhatsAppFloat whatsappNumber={whatsappNumber} />}
 
       {/* Product Detail Modal */}
       <ProductModal
@@ -234,4 +243,15 @@ export default function App() {
 
     </div>
   );
+}
+
+/** Título, descrição e dados da loja para a página inicial e as páginas de categoria. */
+function ListagemSeo({ titulo, rota }: { titulo?: string; rota: string }) {
+  useSeo({
+    title: titulo,
+    description: titulo ? `${titulo} na GA Moda & Essência: fotos reais, novidades toda semana e atendimento pelo WhatsApp.` : undefined,
+    path: rota ? `/${rota}` : '/',
+    jsonLd: rota ? undefined : LOJA_JSONLD,
+  });
+  return null;
 }

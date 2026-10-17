@@ -36,13 +36,13 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
       />
 
       <div className="fixed inset-y-0 right-0 max-w-full flex pl-10">
-        <div className="w-screen max-w-md frosted-glass text-[#2D2D2D] shadow-2xl flex flex-col border-l border-white/80">
+        <div className="w-screen max-w-md frosted-glass text-[#242322] shadow-2xl flex flex-col border-l border-white/80">
           
           {/* Drawer Header */}
           <div className="p-5 bg-white/80 border-b border-stone-200/80 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <ShoppingBag className="w-5 h-5 text-[#D4A373]" />
-              <h2 className="font-serif text-lg font-bold text-[#2D2D2D]">
+              <ShoppingBag className="w-5 h-5 text-[#D8B98A]" />
+              <h2 className="font-serif text-lg font-bold text-[#242322]">
                 Lista de Pedidos ({totalItemsCount} {totalItemsCount === 1 ? 'item' : 'itens'})
               </h2>
             </div>
@@ -65,15 +65,15 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
             {cartItems.length === 0 ? (
               <div className="text-center py-16 space-y-3">
                 <div className="w-16 h-16 bg-white/80 rounded-full flex items-center justify-center mx-auto text-stone-400 border border-stone-200">
-                  <ShoppingBag className="w-8 h-8 text-[#D4A373]" />
+                  <ShoppingBag className="w-8 h-8 text-[#D8B98A]" />
                 </div>
-                <p className="text-[#2D2D2D] font-bold">Sua lista está vazia</p>
+                <p className="text-[#242322] font-bold">Sua lista está vazia</p>
                 <p className="text-xs text-stone-500 max-w-xs mx-auto">
                   Explore nossa vitrine unissex e selecione suas peças favoritas.
                 </p>
                 <button
                   onClick={onClose}
-                  className="mt-2 bg-[#2D2D2D] hover:bg-black text-[#FAF7F2] font-bold text-xs py-3 px-6 rounded-full transition shadow-xs"
+                  className="mt-2 bg-[#242322] hover:bg-black text-[#F7F3ED] font-bold text-xs py-3 px-6 rounded-full transition shadow-xs"
                 >
                   Ver Vitrine
                 </button>
@@ -93,7 +93,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                   <div className="flex-1 flex flex-col justify-between">
                     <div>
                       <div className="flex justify-between items-start">
-                        <h4 className="font-serif text-sm font-bold text-[#2D2D2D] line-clamp-1">
+                        <h4 className="font-serif text-sm font-bold text-[#242322] line-clamp-1">
                           {item.product.name}
                         </h4>
                         <button
@@ -105,7 +105,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                         </button>
                       </div>
                       <p className="text-[11px] text-stone-600 mt-0.5">
-                        Tamanho: <span className="text-[#2D2D2D] font-bold">{item.selectedSize}</span> | Cor: <span className="text-[#2D2D2D] font-bold">{item.selectedColor}</span>
+                        Tamanho: <span className="text-[#242322] font-bold">{item.selectedSize}</span> | Cor: <span className="text-[#242322] font-bold">{item.selectedColor}</span>
                       </p>
                     </div>
 
@@ -117,7 +117,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
                         >
                           <Minus className="w-3.5 h-3.5" />
                         </button>
-                        <span className="px-2 text-xs font-mono font-bold text-[#2D2D2D]">
+                        <span className="px-2 text-xs font-mono font-bold text-[#242322]">
                           {item.quantity}
                         </span>
                         <button
@@ -143,7 +143,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
             <div className="p-5 bg-white/90 border-t border-stone-200/80 space-y-3 shadow-xs">
               <div className="flex justify-between items-center text-sm font-bold">
                 <span className="text-stone-700">Total de Peças Selecionadas:</span>
-                <span className="text-lg text-[#2D2D2D]">
+                <span className="text-lg text-[#242322]">
                   {totalItemsCount} {totalItemsCount === 1 ? 'peça' : 'peças'}
                 </span>
               </div>

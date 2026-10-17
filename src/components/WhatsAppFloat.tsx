@@ -15,7 +15,7 @@ export const WhatsAppFloat: React.FC<WhatsAppFloatProps> = ({ whatsappNumber }) 
       
       {/* Tooltip Popup Bubble */}
       {showTooltip && (
-        <div className="hidden sm:flex frosted-glass text-[#2D2D2D] p-4 rounded-2xl border border-white/80 shadow-lg max-w-xs text-xs relative motion-safe:animate-bounce-subtle items-start gap-2.5">
+        <div className="hidden sm:flex frosted-glass text-[#242322] p-4 rounded-2xl border border-white/80 shadow-lg max-w-xs text-xs relative motion-safe:animate-bounce-subtle items-start gap-2.5">
           <button
             onClick={() => setShowTooltip(false)}
             className="absolute top-1.5 right-1.5 text-stone-500 hover:text-black p-1"
@@ -26,7 +26,7 @@ export const WhatsAppFloat: React.FC<WhatsAppFloatProps> = ({ whatsappNumber }) 
           </button>
           <img src="/dono-avatar.jpg" alt="Proprietário da GA Moda & Essência" width={40} height={40} className="w-10 h-10 rounded-full object-cover shrink-0 ring-2 ring-[#25D366]" />
           <div>
-            <p className="font-bold text-[#2D2D2D]">Fale com a gente</p>
+            <p className="font-bold text-[#242322]">Fale com a gente</p>
             <p className="text-stone-600 text-[11px] mt-0.5 leading-snug">
               Dúvida de numeração ou quer ver mais fotos de um modelo? Chama no WhatsApp.
             </p>

@@ -39,6 +39,10 @@ export interface Product {
   publico?: 'feminino' | 'masculino' | 'unissex';
   sizesByColor?: Record<string, string[]>;
   colorImages?: Record<string, string>;
+  /** Giro 360° real: sequência de fotos do mesmo produto em ângulos em volta (mín. 12, ideal 24–36). */
+  spin360?: { frames: string[] };
+  /** Modelo 3D real do produto (GLB para Android/web, USDZ opcional para iPhone). */
+  model3d?: { glb: string; usdz?: string; poster?: string };
 }
 
 export interface CartItem {

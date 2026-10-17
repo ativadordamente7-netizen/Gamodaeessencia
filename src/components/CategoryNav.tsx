@@ -12,11 +12,11 @@ const LINKS = [
 ];
 
 export const CategoryNav: React.FC = () => (
-  <nav aria-label="Categorias" className="border-b border-[#D4A373]/25 bg-[#FAF7F2]/90">
+  <nav aria-label="Categorias" className="border-b border-[#D8B98A]/25 bg-[#F7F3ED]/90">
     <ul className="max-w-7xl mx-auto px-4 flex gap-2 sm:gap-4 overflow-x-auto py-2 text-sm font-semibold">
       {LINKS.map((l) => (
         <li key={l.to} className="shrink-0">
-          <NavLink to={l.to} end className={({ isActive }) => `inline-block px-4 py-1.5 rounded-full transition ${isActive ? 'bg-[#2D2D2D] text-white' : 'text-stone-700 hover:text-[#7A5C40]'}`}>
+          <NavLink to={l.to} end className={({ isActive }) => `inline-block px-4 py-1.5 rounded-full transition ${isActive ? 'bg-[#242322] text-white' : 'text-stone-700 hover:text-[#7A5530]'}`}>
             {l.label}
           </NavLink>
         </li>

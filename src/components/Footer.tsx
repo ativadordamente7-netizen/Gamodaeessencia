@@ -17,7 +17,7 @@ export const Footer: React.FC<FooterProps> = ({ whatsappNumber }) => {
   };
 
   return (
-    <footer className="bg-[#2D2D2D] text-[#FAF7F2] border-t border-white/20 pt-16 pb-8">
+    <footer className="bg-[#242322] text-[#F7F3ED] border-t border-white/20 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Footer Grid */}
@@ -25,17 +25,7 @@ export const Footer: React.FC<FooterProps> = ({ whatsappNumber }) => {
           
           {/* Brand Col */}
           <div className="lg:col-span-5 space-y-4">
-            <span className="block w-28 h-28 rounded-full overflow-hidden bg-black ring-1 ring-[#D4A373]/60">
-              <img src="/logo-ga.webp" alt="Logo GA Moda & Essência — Serra Gaúcha" width={224} height={224} loading="lazy" className="w-full h-full object-cover scale-[1.12]" />
-            </span>
-            <div className="flex items-center gap-1.5">
-              <span className="font-serif text-3xl font-extrabold tracking-wider text-[#D4A373]">
-                GA
-              </span>
-              <span className="text-xs uppercase tracking-[0.25em] font-light text-stone-300 border-l border-stone-600 pl-2">
-                Moda & Essência
-              </span>
-            </div>
+            <img src="/logo-ga-transparente.webp" alt="GA Moda & Essência — Serra Gaúcha" width={176} height={176} loading="lazy" className="w-44 h-44 -ml-3" />
             
             <p className="text-stone-300 text-xs sm:text-sm font-sans leading-relaxed max-w-sm">
               Tênis, moda e perfumaria com curadoria na Serra Gaúcha. Novidades toda semana e atendimento direto pelo WhatsApp.
@@ -65,28 +55,28 @@ export const Footer: React.FC<FooterProps> = ({ whatsappNumber }) => {
 
           {/* Quick Links */}
           <div className="lg:col-span-3 space-y-3">
-            <h4 className="font-serif text-sm font-bold text-[#D4A373] uppercase tracking-wider">
+            <h2 className="font-serif text-sm font-bold text-[#D8B98A] uppercase tracking-wider">
               Navegação
-            </h4>
+            </h2>
             <ul className="space-y-2 text-xs font-medium text-stone-300">
               <li>
-                <a href="#vitrine" className="hover:text-[#D4A373] transition">Vitrine de Produtos</a>
+                <a href="#vitrine" className="hover:text-[#D8B98A] transition">Vitrine de Produtos</a>
               </li>
               
               
               
               <li>
-                <a href="#sobre" className="hover:text-[#D4A373] transition">Sobre a GA Moda & Essência</a>
+                <a href="#sobre" className="hover:text-[#D8B98A] transition">Sobre a GA Moda & Essência</a>
               </li>
             </ul>
           </div>
 
           {/* Contact Box */}
           <div className="lg:col-span-4 space-y-3 bg-stone-800/80 p-5 sm:p-6 rounded-2xl border border-stone-700 shadow-sm">
-            <h4 className="font-serif text-sm font-bold text-[#D4A373] uppercase tracking-wider flex items-center gap-1.5">
+            <h2 className="font-serif text-sm font-bold text-[#D8B98A] uppercase tracking-wider flex items-center gap-1.5">
               <MessageCircle className="w-4 h-4 text-[#25D366]" />
               Atendimento Direto
-            </h4>
+            </h2>
             <p className="text-xs text-stone-300">
               Dúvidas sobre entregas, tamanhos ou pedidos personalizados? Fale com a gente:
             </p>
@@ -126,7 +116,7 @@ export const Footer: React.FC<FooterProps> = ({ whatsappNumber }) => {
             </span>
             <button
               onClick={scrollToTop}
-              className="p-2 bg-stone-800 hover:bg-[#D4A373] hover:text-[#2D2D2D] text-stone-300 rounded-full transition border border-stone-700"
+              className="p-2 bg-stone-800 hover:bg-[#D8B98A] hover:text-[#242322] text-stone-300 rounded-full transition border border-stone-700"
               title="Voltar ao topo"
             >
               <ArrowUp className="w-4 h-4" />

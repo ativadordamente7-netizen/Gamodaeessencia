@@ -3,6 +3,7 @@ import { CategoryType, Product } from '../types';
 import { ProductCard } from './ProductCard';
 import { Heart, Search, X } from 'lucide-react';
 import { CATEGORIAS } from '../data/categorias';
+import { Reveal } from './Reveal';
 
 interface VitrineSectionProps {
   products: Product[];
@@ -29,8 +30,8 @@ const categorySynonyms: Partial<Record<CategoryType, string[]>> = {
 const chip = (ativo: boolean) =>
   `px-4 py-2 rounded-full text-xs font-semibold transition whitespace-nowrap border ${
     ativo
-      ? 'bg-[#1F1F1F] text-[#FAF7F2] border-[#1F1F1F]'
-      : 'bg-white/80 text-stone-700 border-[#E8DFD2] hover:border-[#D4A373] hover:text-[#1F1F1F]'
+      ? 'bg-[#242322] text-[#F7F3ED] border-[#242322]'
+      : 'bg-white/80 text-stone-700 border-[#E6DCCB] hover:border-[#D8B98A] hover:text-[#242322]'
   }`;
 
 export const VitrineSection: React.FC<VitrineSectionProps> = ({
@@ -88,11 +89,11 @@ export const VitrineSection: React.FC<VitrineSectionProps> = ({
   };
 
   return (
-    <section id="vitrine" aria-labelledby="vitrine-titulo" className="py-12 sm:py-20 text-[#2D2D2D] scroll-mt-28">
+    <section id="vitrine" aria-labelledby="vitrine-titulo" className="py-12 sm:py-20 text-[#242322] scroll-mt-28">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto space-y-3">
-          <p className="text-[11px] font-bold uppercase tracking-[0.3em] text-[#7A5C40]">Vitrine GA</p>
-          <h2 id="vitrine-titulo" className="font-serif text-3xl sm:text-5xl font-extrabold text-[#1F1F1F] tracking-tight">
+          <p className="text-[11px] font-bold uppercase tracking-[0.3em] text-[#7A5530]">Vitrine GA</p>
+          <h2 id="vitrine-titulo" className="font-serif text-3xl sm:text-5xl font-extrabold text-[#242322] tracking-tight">
             {title ?? 'Novidades toda semana'}
           </h2>
           <p className="text-stone-600 text-sm sm:text-base">
@@ -101,11 +102,11 @@ export const VitrineSection: React.FC<VitrineSectionProps> = ({
         </div>
 
         {searchQuery.trim() && (
-          <div className="mt-8 max-w-xl mx-auto bg-white border border-[#D4A373]/50 rounded-2xl p-3.5 flex items-center justify-between gap-3">
+          <div className="mt-8 max-w-xl mx-auto bg-white border border-[#D8B98A]/50 rounded-2xl p-3.5 flex items-center justify-between gap-3">
             <p className="flex items-center gap-2.5 text-xs text-stone-700">
-              <Search className="w-4 h-4 text-[#7A5C40] shrink-0" aria-hidden="true" />
+              <Search className="w-4 h-4 text-[#7A5530] shrink-0" aria-hidden="true" />
               <span>
-                Busca: <strong className="text-[#1F1F1F]">"{searchQuery}"</strong>
+                Busca: <strong className="text-[#242322]">"{searchQuery}"</strong>
               </span>
             </p>
             {onClearSearch && (
@@ -145,7 +146,7 @@ export const VitrineSection: React.FC<VitrineSectionProps> = ({
             </div>
           )}
 
-          <div className="flex items-center justify-between gap-3 pt-2 border-t border-[#E8DFD2]">
+          <div className="flex items-center justify-between gap-3 pt-2 border-t border-[#E6DCCB]">
             <p className="text-xs text-stone-600" aria-live="polite">
               {filtered.length} {filtered.length === 1 ? 'modelo' : 'modelos'}
             </p>
@@ -155,7 +156,7 @@ export const VitrineSection: React.FC<VitrineSectionProps> = ({
                 aria-pressed={onlyFavorites}
                 onClick={() => setOnlyFavorites(!onlyFavorites)}
                 className={`flex items-center gap-1.5 px-3 py-2 rounded-full border text-xs transition ${
-                  onlyFavorites ? 'bg-rose-50 text-rose-700 border-rose-300 font-semibold' : 'bg-white/80 text-stone-700 border-[#E8DFD2]'
+                  onlyFavorites ? 'bg-rose-50 text-rose-700 border-rose-300 font-semibold' : 'bg-white/80 text-stone-700 border-[#E6DCCB]'
                 }`}
               >
                 <Heart className={`w-3.5 h-3.5 ${onlyFavorites ? 'fill-current' : ''}`} aria-hidden="true" />
@@ -166,7 +167,7 @@ export const VitrineSection: React.FC<VitrineSectionProps> = ({
                 id="ordenar"
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value as 'novidades' | 'nome-az')}
-                className="bg-white/80 text-[#1F1F1F] border border-[#E8DFD2] rounded-full px-3 py-2 text-xs cursor-pointer"
+                className="bg-white/80 text-[#242322] border border-[#E6DCCB] rounded-full px-3 py-2 text-xs cursor-pointer"
               >
                 <option value="novidades">Mais recentes</option>
                 <option value="nome-az">Nome (A-Z)</option>
@@ -178,19 +179,19 @@ export const VitrineSection: React.FC<VitrineSectionProps> = ({
         {/* Grade */}
         <div className="mt-6">
           {filtered.length === 0 ? (
-            <div className="text-center py-16 bg-white/70 rounded-3xl border border-[#E8DFD2] space-y-3">
-              <p className="text-[#1F1F1F] font-serif text-lg font-bold">Nenhum produto encontrado</p>
+            <div className="text-center py-16 bg-white/70 rounded-3xl border border-[#E6DCCB] space-y-3">
+              <p className="text-[#242322] font-serif text-lg font-bold">Nenhum produto encontrado</p>
               <p className="text-stone-600 text-sm max-w-sm mx-auto">
                 Tente outro termo ou limpe os filtros. Se procura um modelo específico, pergunte no WhatsApp: chegam novidades toda semana.
               </p>
-              <button type="button" onClick={limparTudo} className="bg-[#1F1F1F] text-[#FAF7F2] text-xs font-semibold py-2.5 px-5 rounded-full">
+              <button type="button" onClick={limparTudo} className="bg-[#242322] text-[#F7F3ED] text-xs font-semibold py-2.5 px-5 rounded-full">
                 Limpar busca e filtros
               </button>
             </div>
           ) : (
             <ul className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6">
               {filtered.map((product, i) => (
-                <li key={product.id}>
+                <Reveal as="li" key={product.id} delay={(i % 4) * 70}>
                   <ProductCard
                     product={product}
                     priority={i < 4}
@@ -200,7 +201,7 @@ export const VitrineSection: React.FC<VitrineSectionProps> = ({
                     onQuickView={onQuickView}
                     onAddToCart={onAddToCart}
                   />
-                </li>
+                </Reveal>
               ))}
             </ul>
           )}

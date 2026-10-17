@@ -1014,12 +1014,12 @@
     "id": "nike-dunk-low",
     "name": "Nike Dunk Low",
     "category": "tenis",
-    "image": "/produtos/nike-dunk-low-cimento-areia.webp",
+    "image": "/produtos/nike-dunk-low-panda-preto-branco.webp",
     "gallery": [
+      "/produtos/nike-dunk-low-panda-preto-branco.webp",
       "/produtos/nike-dunk-low-cimento-areia.webp",
       "/produtos/nike-dunk-low-branco.webp",
-      "/produtos/nike-dunk-low-verde-branco.webp",
-      "/produtos/nike-dunk-low-panda-preto-branco.webp"
+      "/produtos/nike-dunk-low-verde-branco.webp"
     ],
     "description": "Cano baixo, recortes sobrepostos e o swoosh em destaque. Do clássico panda preto e branco ao verde, cimento com areia e todo branco, há um Dunk para cada estilo.",
     "details": [
@@ -1043,6 +1043,10 @@
     ],
     "colors": [
       {
+        "name": "Panda (preto/branco)",
+        "hex": "#F4F1EA"
+      },
+      {
         "name": "Cimento/areia",
         "hex": "#D8C3A5"
       },
@@ -1052,10 +1056,6 @@
       },
       {
         "name": "Verde/branco",
-        "hex": "#F4F1EA"
-      },
-      {
-        "name": "Panda (preto/branco)",
         "hex": "#F4F1EA"
       }
     ],

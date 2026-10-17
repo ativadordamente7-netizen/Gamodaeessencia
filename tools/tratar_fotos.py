@@ -5,7 +5,7 @@ O que faz (sem alterar o produto em si):
 - corrige contraste e luz de forma suave (CLAHE no canal de luminância)
 - realça nitidez levemente
 - padroniza em 4:5 (960x1200); fotos muito largas ficam centralizadas sobre fundo creme da marca
-- exporta WebP grande (vitrine/modal) e pequeno (miniaturas)
+- exporta WebP em 3 tamanhos: 960 (tela grande), 720 (celular) e 480 (miniaturas)
 
 Uso: python3 tratar_fotos.py <pasta_entrada> <pasta_saida>
 """
@@ -86,6 +86,7 @@ def process(path, outdir):
         out = contain_on_blur(im, W, H)
     out = out.filter(ImageFilter.UnsharpMask(radius=1.4, percent=55, threshold=2))
     out.save(os.path.join(outdir, name + '.webp'), 'WEBP', quality=84, method=6)
+    out.resize((720, 900), Image.LANCZOS).save(os.path.join(outdir, name + '-720.webp'), 'WEBP', quality=80, method=6)
     thumb = out.resize((480, 600), Image.LANCZOS)
     thumb.save(os.path.join(outdir, name + '-480.webp'), 'WEBP', quality=80, method=6)
     return name
