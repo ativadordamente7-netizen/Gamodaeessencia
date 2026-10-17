@@ -1,0 +1,1534 @@
+[
+  {
+    "id": "tommy-hilfiger",
+    "name": "Tênis Tommy Hilfiger",
+    "category": "tenis",
+    "image": "/produtos/tommy-hilfiger-off-white.webp",
+    "gallery": [
+      "/produtos/tommy-hilfiger-off-white.webp",
+      "/produtos/tommy-hilfiger-caramelo.webp",
+      "/produtos/tommy-hilfiger-preto.webp"
+    ],
+    "description": "Linhas limpas, detalhe listrado na lateral e um visual que vai do jeans ao look mais arrumado. Disponível em off white, caramelo e preto, para quem gosta de elegância sem esforço.",
+    "details": [
+      "Marca: Tommy Hilfiger",
+      "Modelo: Tênis Tommy Hilfiger",
+      "Cores: Off white, Caramelo, Preto",
+      "Numeração: 38 ao 43",
+      "Público: Masculino"
+    ],
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Off white",
+        "hex": "#EDE6D6"
+      },
+      {
+        "name": "Caramelo",
+        "hex": "#B5733A"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "sizesByColor": {
+      "Off white": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Caramelo": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Preto": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Off white": "/produtos/tommy-hilfiger-off-white.webp",
+      "Caramelo": "/produtos/tommy-hilfiger-caramelo.webp",
+      "Preto": "/produtos/tommy-hilfiger-preto.webp"
+    },
+    "marca": "Tommy Hilfiger",
+    "publico": "masculino",
+    "inStock": true,
+    "subtitle": "Clássico casual com a assinatura listrada",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "hugo-boss-sapatenis",
+    "name": "Sapatênis Hugo Boss",
+    "category": "tenis",
+    "image": "/produtos/hugo-boss-sapatenis-caramelo.webp",
+    "gallery": [
+      "/produtos/hugo-boss-sapatenis-caramelo.webp",
+      "/produtos/hugo-boss-sapatenis-marrom-cafe.webp"
+    ],
+    "description": "Sapatênis de visual sóbrio, com sola em contraste e tons terrosos que combinam com tudo. Caramelo ou marrom café, para o homem que quer se vestir bem do trabalho ao fim de semana.",
+    "details": [
+      "Marca: Hugo Boss",
+      "Modelo: Sapatênis Hugo Boss",
+      "Cores: Caramelo, Marrom/café",
+      "Numeração: 38 ao 43",
+      "Público: Masculino"
+    ],
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Caramelo",
+        "hex": "#B5733A"
+      },
+      {
+        "name": "Marrom/café",
+        "hex": "#5D4037"
+      }
+    ],
+    "sizesByColor": {
+      "Caramelo": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Marrom/café": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Caramelo": "/produtos/hugo-boss-sapatenis-caramelo.webp",
+      "Marrom/café": "/produtos/hugo-boss-sapatenis-marrom-cafe.webp"
+    },
+    "marca": "Hugo Boss",
+    "publico": "masculino",
+    "inStock": true,
+    "subtitle": "Sofisticação para o dia a dia",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "new-balance",
+    "name": "Tênis New Balance",
+    "category": "tenis",
+    "image": "/produtos/new-balance-branco-marinho-azul-claro.webp",
+    "gallery": [
+      "/produtos/new-balance-branco-marinho-azul-claro.webp"
+    ],
+    "description": "Silhueta esportiva com inspiração retrô, em branco com detalhes marinho e azul claro. Leve no visual e fácil de combinar com jeans, legging ou alfaiataria.",
+    "details": [
+      "Marca: New Balance",
+      "Modelo: Tênis New Balance",
+      "Cores: Branco/marinho/azul claro",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Branco/marinho/azul claro",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Branco/marinho/azul claro": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Branco/marinho/azul claro": "/produtos/new-balance-branco-marinho-azul-claro.webp"
+    },
+    "marca": "New Balance",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Retrô esportivo em tons suaves",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "new-balance-9060",
+    "name": "New Balance 9060",
+    "category": "tenis",
+    "image": "/produtos/new-balance-9060-off-white-castor.webp",
+    "gallery": [
+      "/produtos/new-balance-9060-off-white-castor.webp",
+      "/produtos/new-balance-9060-off-white-onca.webp",
+      "/produtos/new-balance-9060-branco-azul.webp",
+      "/produtos/new-balance-9060-preto-sola-bege.webp",
+      "/produtos/new-balance-9060-branco-cinza.webp"
+    ],
+    "description": "Volume na medida certa, camadas sobrepostas e sola marcante: o 9060 é o tênis que transforma um look básico em estilo. Escolha entre cinco combinações, das neutras às mais ousadas, como a versão com detalhe onça.",
+    "details": [
+      "Marca: New Balance",
+      "Modelo: New Balance 9060",
+      "Cores: Off white/castor, Off white/onça, Branco/azul, Preto (sola bege), Branco/cinza",
+      "Numeração: 34 ao 41",
+      "Público: Unissex"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "colors": [
+      {
+        "name": "Off white/castor",
+        "hex": "#EDE6D6"
+      },
+      {
+        "name": "Off white/onça",
+        "hex": "#EDE6D6"
+      },
+      {
+        "name": "Branco/azul",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preto (sola bege)",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Branco/cinza",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Off white/castor": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Off white/onça": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Branco/azul": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Preto (sola bege)": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Branco/cinza": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ]
+    },
+    "colorImages": {
+      "Off white/castor": "/produtos/new-balance-9060-off-white-castor.webp",
+      "Off white/onça": "/produtos/new-balance-9060-off-white-onca.webp",
+      "Branco/azul": "/produtos/new-balance-9060-branco-azul.webp",
+      "Preto (sola bege)": "/produtos/new-balance-9060-preto-sola-bege.webp",
+      "Branco/cinza": "/produtos/new-balance-9060-branco-cinza.webp"
+    },
+    "marca": "New Balance",
+    "publico": "unissex",
+    "inStock": true,
+    "tag": "Unissex",
+    "subtitle": "O chunky do momento, em 5 combinações",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "nike-mind-bolha",
+    "name": "Nike Mind Bolha",
+    "category": "tenis",
+    "image": "/produtos/nike-mind-bolha-preto-laranja.webp",
+    "gallery": [
+      "/produtos/nike-mind-bolha-preto-laranja.webp",
+      "/produtos/nike-mind-bolha-off-white-creme.webp",
+      "/produtos/nike-mind-bolha-cinza-azulado.webp"
+    ],
+    "description": "Cabedal em malha e sola com relevo em bolhas que chamam atenção de longe. Para quem gosta de um tênis diferente de tudo, nas cores preto com laranja, off white creme e cinza azulado.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike Mind Bolha",
+      "Cores: Preto/laranja, Off white/creme, Cinza azulado",
+      "Numeração: 34, 35, 37, 38, 39, 40, 41, 42, 43",
+      "Público: Unissex"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Preto/laranja",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Off white/creme",
+        "hex": "#EDE6D6"
+      },
+      {
+        "name": "Cinza azulado",
+        "hex": "#9AA0A6"
+      }
+    ],
+    "sizesByColor": {
+      "Preto/laranja": [
+        "34",
+        "35",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "Off white/creme": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Cinza azulado": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Preto/laranja": "/produtos/nike-mind-bolha-preto-laranja.webp",
+      "Off white/creme": "/produtos/nike-mind-bolha-off-white-creme.webp",
+      "Cinza azulado": "/produtos/nike-mind-bolha-cinza-azulado.webp"
+    },
+    "marca": "Nike",
+    "publico": "unissex",
+    "inStock": true,
+    "tag": "Unissex",
+    "subtitle": "Design ousado, sola esculpida",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "nike-air-force-1",
+    "name": "Nike Air Force 1",
+    "category": "tenis",
+    "image": "/produtos/nike-air-force-1-areia-azul.webp",
+    "gallery": [
+      "/produtos/nike-air-force-1-areia-azul.webp",
+      "/produtos/nike-air-force-1-preto-trancado.webp",
+      "/produtos/nike-air-force-1-branco-trancado.webp"
+    ],
+    "description": "O clássico que nunca sai de moda, aqui em versões com acabamento trançado em preto e branco e uma opção areia com azul. Combina com qualquer estilo, do streetwear ao casual.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike Air Force 1",
+      "Cores: Areia/azul, Preto trançado, Branco trançado",
+      "Numeração: 34 ao 43",
+      "Público: Unissex"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Areia/azul",
+        "hex": "#D8C3A5"
+      },
+      {
+        "name": "Preto trançado",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Branco trançado",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Areia/azul": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Preto trançado": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "Branco trançado": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Areia/azul": "/produtos/nike-air-force-1-areia-azul.webp",
+      "Preto trançado": "/produtos/nike-air-force-1-preto-trancado.webp",
+      "Branco trançado": "/produtos/nike-air-force-1-branco-trancado.webp"
+    },
+    "marca": "Nike",
+    "publico": "unissex",
+    "inStock": true,
+    "tag": "Unissex",
+    "subtitle": "Um ícone, três versões",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "nike-fit",
+    "name": "Nike Fit",
+    "category": "tenis",
+    "image": "/produtos/nike-fit-bordo-off-white.webp",
+    "gallery": [
+      "/produtos/nike-fit-bordo-off-white.webp",
+      "/produtos/nike-fit-marrom-cafe.webp"
+    ],
+    "description": "Tênis de linhas esportivas em tons sofisticados de bordô e marrom café. Ideal para o dia a dia, com visual que foge do óbvio.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike Fit",
+      "Cores: Bordô/off white, Marrom/café",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Bordô/off white",
+        "hex": "#EDE6D6"
+      },
+      {
+        "name": "Marrom/café",
+        "hex": "#5D4037"
+      }
+    ],
+    "sizesByColor": {
+      "Bordô/off white": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Marrom/café": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Bordô/off white": "/produtos/nike-fit-bordo-off-white.webp",
+      "Marrom/café": "/produtos/nike-fit-marrom-cafe.webp"
+    },
+    "marca": "Nike",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Conforto com elegância nas cores da estação",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "adidas-duramo",
+    "name": "Adidas Duramo",
+    "category": "tenis",
+    "image": "/produtos/adidas-duramo-off-white-dourado.webp",
+    "gallery": [
+      "/produtos/adidas-duramo-off-white-dourado.webp",
+      "/produtos/adidas-duramo-preto-pink.webp",
+      "/produtos/adidas-duramo-preto-branco.webp"
+    ],
+    "description": "Visual de corrida com as três listras em destaque. Off white com dourado para um toque luxuoso, preto com pink para quem gosta de cor ou preto com branco para o clássico de todo dia.",
+    "details": [
+      "Marca: Adidas",
+      "Modelo: Adidas Duramo",
+      "Cores: Off white/dourado, Preto/pink, Preto/branco",
+      "Numeração: 34 ao 43",
+      "Público: Unissex"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Off white/dourado",
+        "hex": "#EDE6D6"
+      },
+      {
+        "name": "Preto/pink",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Preto/branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Off white/dourado": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Preto/pink": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Off white/dourado": "/produtos/adidas-duramo-off-white-dourado.webp",
+      "Preto/pink": "/produtos/adidas-duramo-preto-pink.webp",
+      "Preto/branco": "/produtos/adidas-duramo-preto-branco.webp"
+    },
+    "marca": "Adidas",
+    "publico": "unissex",
+    "inStock": true,
+    "tag": "Unissex",
+    "subtitle": "Esportivo, moderno e versátil",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "vans-old-skool",
+    "name": "Vans Old Skool",
+    "category": "tenis",
+    "image": "/produtos/vans-old-skool-preto-branco.webp",
+    "gallery": [
+      "/produtos/vans-old-skool-preto-branco.webp"
+    ],
+    "description": "Cano baixo, faixa lateral icônica e o contraste preto e branco que combina com tudo. Um básico indispensável no guarda-roupa.",
+    "details": [
+      "Marca: Vans",
+      "Modelo: Vans Old Skool",
+      "Cores: Preto/branco",
+      "Numeração: 34 ao 43",
+      "Público: Unissex"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Preto/branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Preto/branco": "/produtos/vans-old-skool-preto-branco.webp"
+    },
+    "marca": "Vans",
+    "publico": "unissex",
+    "inStock": true,
+    "tag": "Unissex",
+    "subtitle": "O clássico do skate",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "vans-ultraranger",
+    "name": "Vans Ultraranger",
+    "category": "tenis",
+    "image": "/produtos/vans-ultraranger-caramelo.webp",
+    "gallery": [
+      "/produtos/vans-ultraranger-caramelo.webp",
+      "/produtos/vans-ultraranger-preto-branco.webp",
+      "/produtos/vans-ultraranger-branco-off-white.webp",
+      "/produtos/vans-ultraranger-preto-off-white.webp"
+    ],
+    "description": "Silhueta moderna e sola robusta em quatro combinações, do caramelo aos tons neutros. Para quem vive a cidade com estilo e conforto.",
+    "details": [
+      "Marca: Vans",
+      "Modelo: Vans Ultraranger",
+      "Cores: Caramelo, Preto/branco, Branco/off white, Preto/off white",
+      "Numeração: 34 ao 42",
+      "Público: Unissex"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "colors": [
+      {
+        "name": "Caramelo",
+        "hex": "#B5733A"
+      },
+      {
+        "name": "Preto/branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Branco/off white",
+        "hex": "#EDE6D6"
+      },
+      {
+        "name": "Preto/off white",
+        "hex": "#EDE6D6"
+      }
+    ],
+    "sizesByColor": {
+      "Caramelo": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "Branco/off white": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "Preto/off white": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Caramelo": "/produtos/vans-ultraranger-caramelo.webp",
+      "Preto/branco": "/produtos/vans-ultraranger-preto-branco.webp",
+      "Branco/off white": "/produtos/vans-ultraranger-branco-off-white.webp",
+      "Preto/off white": "/produtos/vans-ultraranger-preto-off-white.webp"
+    },
+    "marca": "Vans",
+    "publico": "unissex",
+    "inStock": true,
+    "tag": "Unissex",
+    "subtitle": "Estilo urbano com pegada aventureira",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "vans-plataforma",
+    "name": "Vans Plataforma",
+    "category": "tenis",
+    "image": "/produtos/vans-plataforma-preto-branco.webp",
+    "gallery": [
+      "/produtos/vans-plataforma-preto-branco.webp"
+    ],
+    "description": "Toda a identidade do Vans preto e branco com sola plataforma, que alonga a silhueta e deixa o look mais fashion.",
+    "details": [
+      "Marca: Vans",
+      "Modelo: Vans Plataforma",
+      "Cores: Preto/branco",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Preto/branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Preto/branco": "/produtos/vans-plataforma-preto-branco.webp"
+    },
+    "marca": "Vans",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "O Vans clássico, com mais altura",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "vans-knu",
+    "name": "Vans Knu",
+    "category": "tenis",
+    "image": "/produtos/vans-knu-preto-branco.webp",
+    "gallery": [
+      "/produtos/vans-knu-preto-branco.webp",
+      "/produtos/vans-knu-preto.webp"
+    ],
+    "description": "Cadarço largo, língua acolchoada e formato robusto: o Knu traz o estilo skate dos anos 2000 de volta. Em preto com branco ou todo preto.",
+    "details": [
+      "Marca: Vans",
+      "Modelo: Vans Knu",
+      "Cores: Preto/branco, Preto",
+      "Numeração: 34 ao 43",
+      "Público: Unissex"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Preto/branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "sizesByColor": {
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "Preto": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Preto/branco": "/produtos/vans-knu-preto-branco.webp",
+      "Preto": "/produtos/vans-knu-preto.webp"
+    },
+    "marca": "Vans",
+    "publico": "unissex",
+    "inStock": true,
+    "tag": "Unissex",
+    "subtitle": "Volume e atitude anos 2000",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "adidas-campus",
+    "name": "Adidas Campus",
+    "category": "tenis",
+    "image": "/produtos/adidas-campus-branco.webp",
+    "gallery": [
+      "/produtos/adidas-campus-branco.webp",
+      "/produtos/adidas-campus-branco-cinza.webp"
+    ],
+    "description": "Visual limpo e delicado em branco e branco com cinza. O tipo de tênis que combina com tudo, do vestido ao jeans.",
+    "details": [
+      "Marca: Adidas",
+      "Modelo: Adidas Campus",
+      "Cores: Branco, Branco/cinza",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Branco/cinza",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Branco/cinza": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Branco": "/produtos/adidas-campus-branco.webp",
+      "Branco/cinza": "/produtos/adidas-campus-branco-cinza.webp"
+    },
+    "marca": "Adidas",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Minimalismo em branco",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "adidas-samba",
+    "name": "Adidas Samba",
+    "category": "tenis",
+    "image": "/produtos/adidas-samba-branco-preto.webp",
+    "gallery": [
+      "/produtos/adidas-samba-branco-preto.webp"
+    ],
+    "description": "Silhueta baixa, três listras em preto e biqueira característica. Um dos modelos mais desejados do momento, perfeito para looks casuais e elegantes.",
+    "details": [
+      "Marca: Adidas",
+      "Modelo: Adidas Samba",
+      "Cores: Branco/preto",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Branco/preto",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Branco/preto": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Branco/preto": "/produtos/adidas-samba-branco-preto.webp"
+    },
+    "marca": "Adidas",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "O queridinho das ruas",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "nike-dunk-low",
+    "name": "Nike Dunk Low",
+    "category": "tenis",
+    "image": "/produtos/nike-dunk-low-cimento-areia.webp",
+    "gallery": [
+      "/produtos/nike-dunk-low-cimento-areia.webp",
+      "/produtos/nike-dunk-low-branco.webp",
+      "/produtos/nike-dunk-low-verde-branco.webp",
+      "/produtos/nike-dunk-low-panda-preto-branco.webp"
+    ],
+    "description": "Cano baixo, recortes sobrepostos e o swoosh em destaque. Do clássico panda preto e branco ao verde, cimento com areia e todo branco, há um Dunk para cada estilo.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike Dunk Low",
+      "Cores: Cimento/areia, Branco, Verde/branco, Panda (preto/branco)",
+      "Numeração: 34 ao 43",
+      "Público: Unissex"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Cimento/areia",
+        "hex": "#D8C3A5"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Verde/branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Panda (preto/branco)",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Cimento/areia": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Verde/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Panda (preto/branco)": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Cimento/areia": "/produtos/nike-dunk-low-cimento-areia.webp",
+      "Branco": "/produtos/nike-dunk-low-branco.webp",
+      "Verde/branco": "/produtos/nike-dunk-low-verde-branco.webp",
+      "Panda (preto/branco)": "/produtos/nike-dunk-low-panda-preto-branco.webp"
+    },
+    "marca": "Nike",
+    "publico": "unissex",
+    "inStock": true,
+    "tag": "Unissex",
+    "subtitle": "O Dunk em quatro combinações",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "nike-dunk-jordan-low",
+    "name": "Nike Dunk Jordan Low",
+    "category": "tenis",
+    "image": "/produtos/nike-dunk-jordan-low-off-white-rosa.webp",
+    "gallery": [
+      "/produtos/nike-dunk-jordan-low-off-white-rosa.webp"
+    ],
+    "description": "Tons suaves de off white com rosa para um visual feminino e moderno. Fica lindo com jeans claro, saias e vestidos.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike Dunk Jordan Low",
+      "Cores: Off white/rosa",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Off white/rosa",
+        "hex": "#EDE6D6"
+      }
+    ],
+    "sizesByColor": {
+      "Off white/rosa": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Off white/rosa": "/produtos/nike-dunk-jordan-low-off-white-rosa.webp"
+    },
+    "marca": "Nike",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Delicadeza em off white e rosa",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "puma-180-xl",
+    "name": "Puma 180 XL",
+    "category": "tenis",
+    "image": "/produtos/puma-180-xl-off-white-azul-claro.webp",
+    "gallery": [
+      "/produtos/puma-180-xl-off-white-azul-claro.webp"
+    ],
+    "description": "Formato robusto inspirado no skate dos anos 90, em off white com detalhes azul claro. Atual, confortável no visual e cheio de personalidade.",
+    "details": [
+      "Marca: Puma",
+      "Modelo: Puma 180 XL",
+      "Cores: Off white/azul claro",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Off white/azul claro",
+        "hex": "#EDE6D6"
+      }
+    ],
+    "sizesByColor": {
+      "Off white/azul claro": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Off white/azul claro": "/produtos/puma-180-xl-off-white-azul-claro.webp"
+    },
+    "marca": "Puma",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Skate retrô em azul claro",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "puma-plataforma-suede-xl",
+    "name": "Puma Plataforma Suede XL",
+    "category": "tenis",
+    "image": "/produtos/puma-plataforma-suede-xl-preto-branco.webp",
+    "gallery": [
+      "/produtos/puma-plataforma-suede-xl-preto-branco.webp"
+    ],
+    "description": "Cabedal com toque de camurça em preto, faixa branca e sola plataforma. Um clássico com proporções modernas e cadarço largo.",
+    "details": [
+      "Marca: Puma",
+      "Modelo: Puma Plataforma Suede XL",
+      "Cores: Preto/branco",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Preto/branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Preto/branco": "/produtos/puma-plataforma-suede-xl-preto-branco.webp"
+    },
+    "marca": "Puma",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Camurça e plataforma",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "puma-palermo",
+    "name": "Puma Palermo",
+    "category": "tenis",
+    "image": "/produtos/puma-palermo-preto.webp",
+    "gallery": [
+      "/produtos/puma-palermo-preto.webp",
+      "/produtos/puma-palermo-preto-branco.webp"
+    ],
+    "description": "Silhueta baixa e esportiva inspirada nos anos 80, em preto total ou preto com branco. Discreto, elegante e fácil de usar todos os dias.",
+    "details": [
+      "Marca: Puma",
+      "Modelo: Puma Palermo",
+      "Cores: Preto, Preto/branco",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Preto/branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Preto": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Preto": "/produtos/puma-palermo-preto.webp",
+      "Preto/branco": "/produtos/puma-palermo-preto-branco.webp"
+    },
+    "marca": "Puma",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Estilo terraço, em preto",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "nike-tn",
+    "name": "Nike TN",
+    "category": "tenis",
+    "image": "/produtos/nike-tn-branco-preto.webp",
+    "gallery": [
+      "/produtos/nike-tn-branco-preto.webp"
+    ],
+    "description": "Linhas onduladas e contraste branco e preto que não passam despercebidos. Para quem gosta de um tênis com atitude.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike TN",
+      "Cores: Branco/preto",
+      "Numeração: 38 ao 43",
+      "Público: Masculino"
+    ],
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Branco/preto",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Branco/preto": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Branco/preto": "/produtos/nike-tn-branco-preto.webp"
+    },
+    "marca": "Nike",
+    "publico": "masculino",
+    "inStock": true,
+    "subtitle": "Presença marcante",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "nike-air-max-tl",
+    "name": "Nike Air Max TL",
+    "category": "tenis",
+    "image": "/produtos/nike-air-max-tl-preto.webp",
+    "gallery": [
+      "/produtos/nike-air-max-tl-preto.webp",
+      "/produtos/nike-air-max-tl-branco-cinza.webp"
+    ],
+    "description": "Design aerodinâmico com linhas que dão movimento ao visual. Em preto total ou branco com cinza, para um visual moderno e esportivo.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike Air Max TL",
+      "Cores: Preto, Branco/cinza",
+      "Numeração: 38 ao 43",
+      "Público: Masculino"
+    ],
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Branco/cinza",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Preto": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ],
+      "Branco/cinza": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "colorImages": {
+      "Preto": "/produtos/nike-air-max-tl-preto.webp",
+      "Branco/cinza": "/produtos/nike-air-max-tl-branco-cinza.webp"
+    },
+    "marca": "Nike",
+    "publico": "masculino",
+    "inStock": true,
+    "subtitle": "Futurista e esportivo",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "nike-vomero",
+    "name": "Nike Vomero",
+    "category": "tenis",
+    "image": "/produtos/nike-vomero-branco-lilas-rosa.webp",
+    "gallery": [
+      "/produtos/nike-vomero-branco-lilas-rosa.webp"
+    ],
+    "description": "Branco com lilás e rosa em um tênis de visual esportivo e leve. Uma combinação delicada que ilumina qualquer look.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike Vomero",
+      "Cores: Branco/lilás/rosa",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Branco/lilás/rosa",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Branco/lilás/rosa": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Branco/lilás/rosa": "/produtos/nike-vomero-branco-lilas-rosa.webp"
+    },
+    "marca": "Nike",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Tons pastel com estilo esportivo",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "xion-smart-tv-32",
+    "name": "Smart TV Xion 32 polegadas",
+    "category": "eletronicos",
+    "image": "/produtos/xion-smart-tv-32.webp",
+    "description": "Smart TV de 32 polegadas com Wi-Fi e Android 12, ideal para quarto, cozinha ou escritório. Consulte disponibilidade e condições pelo WhatsApp.",
+    "details": [
+      "Marca: Xion",
+      "Tela: 32 polegadas",
+      "Smart WiFi",
+      "Sintonizador digital",
+      "Memória: 1GB RAM / 8GB ROM",
+      "Sistema: Android 12"
+    ],
+    "sizes": [
+      "32\""
+    ],
+    "colors": [],
+    "marca": "Xion",
+    "inStock": true,
+    "subtitle": "Smart TV compacta para qualquer ambiente",
+    "addedAt": "2026-09-30"
+  },
+  {
+    "id": "xion-smart-tv-55",
+    "name": "Smart TV Xion 55 polegadas",
+    "category": "eletronicos",
+    "image": "/produtos/xion-smart-tv-55.webp",
+    "description": "Smart TV de 55 polegadas com resolução 4K Ultra HD, Wi-Fi e Android 12. Cinema em casa para a família toda. Consulte disponibilidade e condições pelo WhatsApp.",
+    "details": [
+      "Marca: Xion",
+      "Tela: 55 polegadas",
+      "Resolução: 4K Ultra HD",
+      "Smart WiFi",
+      "Sintonizador digital",
+      "Memória: 1GB RAM / 8GB ROM",
+      "Sistema: Android 12"
+    ],
+    "sizes": [
+      "55\""
+    ],
+    "colors": [],
+    "marca": "Xion",
+    "inStock": true,
+    "subtitle": "Tela grande em 4K para a sala",
+    "addedAt": "2026-09-30"
+  }
+]

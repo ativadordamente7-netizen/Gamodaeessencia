@@ -1,0 +1,868 @@
+[
+  {
+    "id": "pijama-xadrez",
+    "name": "Conjunto Pijama Xadrez",
+    "subtitle": "Conforto com estampa xadrez",
+    "description": "Conjunto em malha canelada, macio e leve, com estampa xadrez delicada. Perfeito para noites aconchegantes e para ficar em casa com estilo.",
+    "category": "pijamas",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [],
+    "details": [
+      "Tecido de malha canelada, macio e leve.",
+      "Tamanhos: P/M e G/GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "pijama-flor",
+    "name": "Conjunto Pijama de Flor",
+    "subtitle": "Conforto com estampa floral",
+    "description": "Conjunto em malha canelada, macio e leve, com estampa floral delicada. Perfeito para noites aconchegantes e para ficar em casa com estilo.",
+    "category": "pijamas",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [],
+    "details": [
+      "Tecido de malha canelada, macio e leve.",
+      "Tamanhos: P/M e G/GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "pijama-coracao",
+    "name": "Conjunto Pijama de Coração",
+    "subtitle": "Conforto com estampa de corações",
+    "description": "Conjunto em malha canelada, macio e leve, com estampa de corações delicada. Perfeito para noites aconchegantes e para ficar em casa com estilo.",
+    "category": "pijamas",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [],
+    "details": [
+      "Tecido de malha canelada, macio e leve.",
+      "Tamanhos: P/M e G/GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "pijama-borboleta",
+    "name": "Conjunto Pijama de Borboleta",
+    "subtitle": "Conforto com estampa de borboletas",
+    "description": "Conjunto em malha canelada, macio e leve, com estampa de borboletas delicada. Perfeito para noites aconchegantes e para ficar em casa com estilo.",
+    "category": "pijamas",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [],
+    "details": [
+      "Tecido de malha canelada, macio e leve.",
+      "Tamanhos: P/M e G/GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "pijama-cereja",
+    "name": "Conjunto Pijama de Cereja",
+    "subtitle": "Conforto com estampa de cerejas",
+    "description": "Conjunto em malha canelada, macio e leve, com estampa de cerejas delicada. Perfeito para noites aconchegantes e para ficar em casa com estilo.",
+    "category": "pijamas",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [],
+    "details": [
+      "Tecido de malha canelada, macio e leve.",
+      "Tamanhos: P/M e G/GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "pijama-cetim-victorias-secret",
+    "name": "Conjunto Pijama Victoria's Secret",
+    "subtitle": "Cetim com toque sofisticado",
+    "description": "Conjunto em cetim com caimento fluido e brilho suave. Elegância para dormir e para relaxar em casa.",
+    "category": "pijamas",
+    "marca": "Victoria's Secret",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [],
+    "details": [
+      "Tecido: cetim",
+      "Tamanhos: P/M e G/GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "pijama-americano-curto",
+    "name": "Pijama Americano Curto",
+    "subtitle": "Clássico e confortável",
+    "description": "O pijama americano de botões em versão curta, com modelagem confortável. Disponível em vários modelos; a numeração varia por estampa.",
+    "category": "pijamas",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [],
+    "details": [
+      "Tamanhos: P, M, G e GG (consulte por modelo)"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "conjunto-alo",
+    "name": "Conjunto Alo",
+    "subtitle": "Para treinar com estilo",
+    "description": "Conjunto em poliamida com elastano, que acompanha o movimento e veste bem do treino ao café pós-academia.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [],
+    "details": [
+      "Tecido: poliamida com elastano",
+      "Tamanhos: P/M e G/GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "conjunto-alo-lancamento",
+    "name": "Conjunto Alo (lançamento)",
+    "subtitle": "Compressão e conforto",
+    "description": "Lançamento em 75% poliamida e 25% elastano, com toque macio e ótima sustentação. Para quem leva o treino a sério sem abrir mão do visual.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "colors": [],
+    "details": [
+      "Tecido: 75% poliamida, 25% elastano",
+      "Tamanhos: P, M e G"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "camiseta-alo",
+    "name": "Camiseta Alo",
+    "subtitle": "Leve e confortável",
+    "description": "Camiseta em 88% poliamida e 12% elastano, leve e com caimento confortável. Ideal para treinar ou para o dia a dia.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [],
+    "details": [
+      "Tecido: 88% poliamida, 12% elastano",
+      "Tamanhos: P, M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "camiseta-diesel",
+    "name": "Camiseta Diesel Malha Egípcia",
+    "subtitle": "Malha egípcia com estampa em relevo",
+    "description": "Camiseta em malha egípcia com estampa em gel alto relevo. Toque macio e visual marcante para o dia a dia.",
+    "category": "camisetas",
+    "marca": "Diesel",
+    "publico": "masculino",
+    "image": "",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [],
+    "details": [
+      "Marca: Diesel",
+      "Malha egípcia",
+      "Estampa em gel alto relevo",
+      "Tamanhos: P, M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "camiseta-lacoste",
+    "name": "Camiseta Lacoste Malha Egípcia",
+    "subtitle": "Malha egípcia com estampa em relevo",
+    "description": "Camiseta em malha egípcia com estampa em gel alto relevo. Toque macio e visual marcante para o dia a dia.",
+    "category": "camisetas",
+    "marca": "Lacoste",
+    "publico": "masculino",
+    "image": "",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [],
+    "details": [
+      "Marca: Lacoste",
+      "Malha egípcia",
+      "Estampa em gel alto relevo",
+      "Tamanhos: P, M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "camiseta-boss",
+    "name": "Camiseta Boss Malha Egípcia",
+    "subtitle": "Malha egípcia com estampa em relevo",
+    "description": "Camiseta em malha egípcia com estampa em gel alto relevo. Toque macio e visual marcante para o dia a dia.",
+    "category": "camisetas",
+    "marca": "Boss",
+    "publico": "masculino",
+    "image": "",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [],
+    "details": [
+      "Marca: Boss",
+      "Malha egípcia",
+      "Estampa em gel alto relevo",
+      "Tamanhos: P, M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "locao-angel-200ml",
+    "name": "Loção Corporal Angel 200 ml",
+    "subtitle": "Hidratação com perfume marcante",
+    "description": "Loção corporal de textura leve e rápida absorção, que deixa a pele macia e perfumada.",
+    "category": "essencia",
+    "marca": "Angel",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "200 ml"
+    ],
+    "colors": [],
+    "details": [
+      "Volume: 200 ml"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "body-splash-victorias-secret",
+    "name": "Body Splash Victoria's Secret",
+    "subtitle": "Frescor para a pele",
+    "description": "Body splash com fragrâncias leves e marcantes, perfeito para quem ama sensação de verão na pele. Versões com e sem brilho.",
+    "category": "essencia",
+    "marca": "Victoria's Secret",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "Único"
+    ],
+    "colors": [],
+    "details": [
+      "Versões: com brilho e sem brilho",
+      "Consulte as fragrâncias disponíveis"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "puma-suede-xl",
+    "name": "Puma Suede XL",
+    "subtitle": "O clássico em proporção XL",
+    "description": "Silhueta clássica da Puma em versão XL, com cadarço largo e visual robusto.",
+    "category": "tenis",
+    "marca": "Puma",
+    "publico": "unissex",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "details": [
+      "Numeração: 34 ao 43"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "adidas-campus-preto",
+    "name": "Adidas Campus Preto",
+    "subtitle": "O Campus em preto",
+    "description": "Visual retrô e versátil em preto, que combina com tudo.",
+    "category": "tenis",
+    "marca": "Adidas",
+    "publico": "unissex",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "details": [
+      "Numeração: 34 ao 43"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "adidas-campus-off-bordo",
+    "name": "Adidas Campus Off/Bordô",
+    "subtitle": "Tons da estação",
+    "description": "Off white com detalhes bordô, uma combinação elegante para o outono e inverno.",
+    "category": "tenis",
+    "marca": "Adidas",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Off white/bordô",
+        "hex": "#7B2C3B"
+      }
+    ],
+    "details": [
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "louis-vuitton-skate",
+    "name": "Louis Vuitton Skate",
+    "subtitle": "Skate com assinatura de luxo",
+    "description": "Tênis estilo skate em preto e branco, com volume e acabamento marcante.",
+    "category": "tenis",
+    "marca": "Louis Vuitton",
+    "publico": "unissex",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Preto/branco",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "details": [
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "adidas-samba-baby",
+    "name": "Samba Baby",
+    "subtitle": "O Samba para os pequenos",
+    "description": "O queridinho Samba em versão infantil, para os pequenos combinarem com a família.",
+    "category": "tenis",
+    "marca": "Adidas",
+    "publico": "unissex",
+    "image": "",
+    "sizes": [
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25"
+    ],
+    "colors": [],
+    "details": [
+      "Numeração infantil: 18 ao 25"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "new-balance-9060-novas-cores",
+    "name": "New Balance 9060 (novas cores)",
+    "subtitle": "Novas combinações do 9060",
+    "description": "As novas cores do 9060: off white com bordô e creme com gelo.",
+    "category": "tenis",
+    "marca": "New Balance",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Off white/bordô",
+        "hex": "#7B2C3B"
+      },
+      {
+        "name": "Creme/gelo",
+        "hex": "#EDE6D6"
+      }
+    ],
+    "details": [
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "new-balance-elite",
+    "name": "New Balance Elite",
+    "subtitle": "Esportivo com cores marcantes",
+    "description": "Visual esportivo com camadas e combinações de cor marcantes. Castanho com off white (34 ao 39) ou preto com laranja e off white (38 ao 43).",
+    "category": "tenis",
+    "marca": "New Balance",
+    "publico": "unissex",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Castanho/off white",
+        "hex": "#8B5A2B"
+      },
+      {
+        "name": "Preto/laranja/off white",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "details": [
+      "Castanho/off white: 34 ao 39",
+      "Preto/laranja/off white: 38 ao 43"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "nike-air-force-renda",
+    "name": "Nike Air Force Renda",
+    "subtitle": "O clássico com renda",
+    "description": "O Air Force 1 branco com detalhe em renda, romântico e moderno.",
+    "category": "tenis",
+    "marca": "Nike",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Branco/renda",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "details": [
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "puma-palermo-cinza-gelo",
+    "name": "Puma Palermo Cinza/Gelo",
+    "subtitle": "Nova cor do Palermo",
+    "description": "O Palermo em cinza com gelo, discreto e elegante.",
+    "category": "tenis",
+    "marca": "Puma",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Cinza/gelo",
+        "hex": "#B9BCC0"
+      }
+    ],
+    "details": [
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "papete-gucci",
+    "name": "Papete Gucci",
+    "subtitle": "Sofisticação para os dias quentes",
+    "description": "Papete com assinatura de grife, confortável e elegante para o calor. Vários modelos.",
+    "category": "chinelos",
+    "marca": "Gucci",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [],
+    "details": [
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "chinelo-gucci",
+    "name": "Chinelo Gucci",
+    "subtitle": "Luxo no dia a dia",
+    "description": "Chinelo com assinatura de grife para quem quer conforto com estilo.",
+    "category": "chinelos",
+    "marca": "Gucci",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [],
+    "details": [
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "papete-louis-vuitton",
+    "name": "Papete Louis Vuitton",
+    "subtitle": "Lançamento de grife",
+    "description": "Papete com design de grife, lançamento da temporada.",
+    "category": "chinelos",
+    "marca": "Louis Vuitton",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [],
+    "details": [
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "papete-schutz",
+    "name": "Papete Schutz",
+    "subtitle": "Elegância brasileira",
+    "description": "Papete Schutz com design feminino e confortável.",
+    "category": "chinelos",
+    "marca": "Schutz",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [],
+    "details": [
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "chinelo-nike-eva",
+    "name": "Chinelo Nike EVA",
+    "subtitle": "Leve e confortável",
+    "description": "Chinelo em EVA, leve e macio, para o dia a dia e o pós-treino.",
+    "category": "chinelos",
+    "marca": "Nike",
+    "publico": "masculino",
+    "image": "",
+    "sizes": [
+      "37/38",
+      "39/40",
+      "41/42",
+      "43/44"
+    ],
+    "colors": [],
+    "details": [
+      "Numeração: 37/38 ao 43/44"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "slide-alo-eva",
+    "name": "Slide Alo EVA",
+    "subtitle": "Conforto pós-treino",
+    "description": "Slide em EVA com pisada macia, ideal para depois do treino.",
+    "category": "chinelos",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "",
+    "sizes": [
+      "33/34",
+      "35/36",
+      "37/38",
+      "39/40"
+    ],
+    "colors": [],
+    "details": [
+      "Numeração: 33/34 ao 39/40"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "slide-mizuno-eva",
+    "name": "Slide Mizuno EVA",
+    "subtitle": "Leveza para o dia a dia",
+    "description": "Slide em EVA da Mizuno, leve e confortável.",
+    "category": "chinelos",
+    "marca": "Mizuno",
+    "publico": "masculino",
+    "image": "",
+    "sizes": [
+      "37/38",
+      "39/40",
+      "41/42",
+      "43/44"
+    ],
+    "colors": [],
+    "details": [
+      "Numeração: 37/38 ao 43/44"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "slide-nike-offcourt",
+    "name": "Slide Nike Offcourt",
+    "subtitle": "Acompanha caixa",
+    "description": "Slide Nike Offcourt com palmilha macia. Acompanha caixa.",
+    "category": "chinelos",
+    "marca": "Nike",
+    "publico": "masculino",
+    "image": "",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [],
+    "details": [
+      "Numeração: 38 ao 43",
+      "Acompanha caixa"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "bone-country",
+    "name": "Boné Country",
+    "subtitle": "Estilo country",
+    "description": "Boné estilo country para completar o visual.",
+    "category": "acessorios",
+    "marca": "GA",
+    "publico": "unissex",
+    "image": "",
+    "sizes": [
+      "Único"
+    ],
+    "colors": [],
+    "details": [
+      "Tamanho único (ajustável)"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  },
+  {
+    "id": "bone",
+    "name": "Bonés",
+    "subtitle": "Vários modelos",
+    "description": "Bonés em vários modelos e cores. Consulte os disponíveis pelo WhatsApp.",
+    "category": "acessorios",
+    "marca": "GA",
+    "publico": "unissex",
+    "image": "",
+    "sizes": [
+      "Único"
+    ],
+    "colors": [],
+    "details": [
+      "Tamanho único (ajustável)"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": ""
+  }
+]

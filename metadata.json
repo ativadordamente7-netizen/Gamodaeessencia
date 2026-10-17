@@ -1,0 +1,6 @@
+{
+  "name": "GA Moda & Essência",
+  "description": "Landing page moderna e vitrine unissex para a loja GA Moda & Essência com botão direto de pedido via WhatsApp (54 99438-5335) e catálogo de produtos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
