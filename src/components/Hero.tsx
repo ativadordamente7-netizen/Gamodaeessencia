@@ -75,7 +75,7 @@ export const Hero: React.FC<HeroProps> = ({ whatsappNumber }) => {
             </h1>
 
             <p className="ga-rise mt-6 text-[#F7F3ED]/80 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed">
-              Tênis e moda com curadoria da GA, com fotos reais de cada peça. Escolha na vitrine e fale com a gente: confirmamos cor, numeração e disponibilidade pelo WhatsApp.
+              Tênis, moda e linha fitness com curadoria da GA, com novidades toda semana. Escolha na vitrine e fale com a gente: confirmamos cor, numeração e disponibilidade pelo WhatsApp.
             </p>
 
             <div className="ga-hero-in mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3" style={{ animationDelay: '.7s' }}>

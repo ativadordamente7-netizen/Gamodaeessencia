@@ -1,5 +1,7 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
+import produtos from '../src/data/produtos.json' with { type: 'json' };
+const TOTAL = (produtos as { inStock?: boolean }[]).filter((p) => p.inStock !== false).length;
 
 const erros = (page: import('@playwright/test').Page) => {
   const lista: string[] = [];
@@ -12,7 +14,7 @@ test('página inicial carrega o topo e a vitrine sem erros', async ({ page }) =>
   const e = erros(page);
   await page.goto('/');
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Estilo selecionado');
-  await expect(page.locator('#vitrine article')).toHaveCount(24);
+  await expect(page.locator('#vitrine article')).toHaveCount(TOTAL);
   expect(e).toEqual([]);
 });
 
@@ -27,7 +29,7 @@ test('filtro por marca responde na hora', async ({ page }) => {
   await page.getByRole('group', { name: 'Filtrar por marca' }).getByRole('button', { name: 'Vans' }).click();
   const n = await page.locator('#vitrine article').count();
   expect(n).toBeGreaterThan(0);
-  expect(n).toBeLessThan(24);
+  expect(n).toBeLessThan(TOTAL);
 });
 
 test('página do produto: WhatsApp leva modelo, cor, numeração e link', async ({ page }) => {

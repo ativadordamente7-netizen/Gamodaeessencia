@@ -188,7 +188,7 @@ const Conteudo: React.FC<Props & { product: Product }> = ({ product, whatsappNum
             )}
 
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-stone-700">
-              <li className="rounded-xl bg-[#EFE8DD] px-3 py-2.5">📷 Fotos reais do produto</li>
+              <li className="rounded-xl bg-[#EFE8DD] px-3 py-2.5">📷 Mais fotos e vídeos pelo WhatsApp</li>
               <li className="rounded-xl bg-[#EFE8DD] px-3 py-2.5">💬 Atendimento por pessoa, no WhatsApp</li>
             </ul>
           </div>

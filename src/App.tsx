@@ -249,7 +249,7 @@ export default function App() {
 function ListagemSeo({ titulo, rota }: { titulo?: string; rota: string }) {
   useSeo({
     title: titulo,
-    description: titulo ? `${titulo} na GA Moda & Essência: fotos reais, novidades toda semana e atendimento pelo WhatsApp.` : undefined,
+    description: titulo ? `${titulo} na GA Moda & Essência: curadoria, novidades toda semana e atendimento pelo WhatsApp.` : undefined,
     path: rota ? `/${rota}` : '/',
     jsonLd: rota ? undefined : LOJA_JSONLD,
   });

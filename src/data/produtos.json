@@ -1,5 +1,354 @@
 [
   {
+    "id": "conjunto-alo-canelado",
+    "name": "Conjunto Alo Canelado",
+    "subtitle": "Top e shorts em 6 cores",
+    "description": "Conjunto canelado com top de alças e shorts de cintura alta, com acabamento em contraste. Confortável para treinar e lindo para o dia a dia, em seis cores.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-canelado-azul-marinho.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-canelado-azul-marinho.webp",
+      "/produtos/conjunto-alo-canelado-azul-claro.webp",
+      "/produtos/conjunto-alo-canelado-vermelho.webp",
+      "/produtos/conjunto-alo-canelado-rosa.webp",
+      "/produtos/conjunto-alo-canelado-verde.webp",
+      "/produtos/conjunto-alo-canelado-preto.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A44"
+      },
+      {
+        "name": "Azul claro",
+        "hex": "#A9C6E8"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#9E1B2C"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#F2C4C9"
+      },
+      {
+        "name": "Verde",
+        "hex": "#A8B89A"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Azul marinho": "/produtos/conjunto-alo-canelado-azul-marinho.webp",
+      "Azul claro": "/produtos/conjunto-alo-canelado-azul-claro.webp",
+      "Vermelho": "/produtos/conjunto-alo-canelado-vermelho.webp",
+      "Rosa": "/produtos/conjunto-alo-canelado-rosa.webp",
+      "Verde": "/produtos/conjunto-alo-canelado-verde.webp",
+      "Preto": "/produtos/conjunto-alo-canelado-preto.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Tecido canelado",
+      "Tamanhos: P/M e G/GG (preto somente G/GG)",
+      "Público: Feminino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-17",
+    "sizesByColor": {
+      "Azul marinho": [
+        "P/M",
+        "G/GG"
+      ],
+      "Azul claro": [
+        "P/M",
+        "G/GG"
+      ],
+      "Vermelho": [
+        "P/M",
+        "G/GG"
+      ],
+      "Rosa": [
+        "P/M",
+        "G/GG"
+      ],
+      "Verde": [
+        "P/M",
+        "G/GG"
+      ],
+      "Preto": [
+        "G/GG"
+      ]
+    }
+  },
+  {
+    "id": "macacao-alo-canelado",
+    "name": "Macacão Alo Canelado",
+    "subtitle": "Uma peça, look completo",
+    "description": "Macacão canelado com decote arredondado e acabamento em contraste. Modela o corpo com conforto e resolve o look de treino em uma peça só.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/macacao-alo-canelado-off-white.webp",
+    "gallery": [
+      "/produtos/macacao-alo-canelado-off-white.webp",
+      "/produtos/macacao-alo-canelado-azul-marinho.webp",
+      "/produtos/macacao-alo-canelado-marrom.webp",
+      "/produtos/macacao-alo-canelado-preto.webp",
+      "/produtos/macacao-alo-canelado-cinza.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Off white",
+        "hex": "#EFE6CF"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A44"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#5D4037"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#6E6E6E"
+      }
+    ],
+    "colorImages": {
+      "Off white": "/produtos/macacao-alo-canelado-off-white.webp",
+      "Azul marinho": "/produtos/macacao-alo-canelado-azul-marinho.webp",
+      "Marrom": "/produtos/macacao-alo-canelado-marrom.webp",
+      "Preto": "/produtos/macacao-alo-canelado-preto.webp",
+      "Cinza": "/produtos/macacao-alo-canelado-cinza.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Tecido canelado",
+      "Tamanhos: P/M e G/GG (consulte por cor)",
+      "Público: Feminino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-17"
+  },
+  {
+    "id": "conjunto-alo-shorts",
+    "name": "Conjunto Alo Shorts Cropped",
+    "subtitle": "Top + shorts com forro interno",
+    "description": "Top com faixa elástica e shorts de cós elástico com shorts interno, em poliamida. Leve, fresco e perfeito para corrida, academia ou passeio.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-shorts-marrom.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-shorts-marrom.webp",
+      "/produtos/conjunto-alo-shorts-cinza.webp",
+      "/produtos/conjunto-alo-shorts-azul-marinho.webp",
+      "/produtos/conjunto-alo-shorts-preto.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Marrom",
+        "hex": "#5D4037"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#A7A7A2"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A44"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Marrom": "/produtos/conjunto-alo-shorts-marrom.webp",
+      "Cinza": "/produtos/conjunto-alo-shorts-cinza.webp",
+      "Azul marinho": "/produtos/conjunto-alo-shorts-azul-marinho.webp",
+      "Preto": "/produtos/conjunto-alo-shorts-preto.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Tecido: poliamida",
+      "Shorts com forro interno",
+      "Tamanhos: P/M e G/GG",
+      "Público: Feminino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-17"
+  },
+  {
+    "id": "conjunto-alo-suplex",
+    "name": "Conjunto Alo Suplex",
+    "subtitle": "Legging e top para treinar",
+    "description": "Conjunto em suplex com elastano: legging e top que acompanham cada movimento. Ideal para academia.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-suplex-cinza.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-suplex-cinza.webp"
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "colors": [
+      {
+        "name": "Cinza",
+        "hex": "#8A8A88"
+      }
+    ],
+    "colorImages": {
+      "Cinza": "/produtos/conjunto-alo-suplex-cinza.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Tecido: suplex com elastano",
+      "Tamanhos: P ao G",
+      "Poucas unidades: confirme pelo WhatsApp",
+      "Público: Feminino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-17"
+  },
+  {
+    "id": "meia-alo",
+    "name": "Meia Alo",
+    "subtitle": "O detalhe que completa o look",
+    "description": "Meia esportiva com logo em destaque, em algodão com elastano para conforto o dia todo. Vendida por unidade.",
+    "category": "acessorios",
+    "marca": "Alo",
+    "publico": "unissex",
+    "image": "/produtos/meia-alo-branca.webp",
+    "gallery": [
+      "/produtos/meia-alo-branca.webp",
+      "/produtos/meia-alo-preta.webp",
+      "/produtos/meia-alo-cinza.webp",
+      "/produtos/meia-alo-branca-2.webp",
+      "/produtos/meia-alo-preta-2.webp"
+    ],
+    "sizes": [
+      "35 ao 40"
+    ],
+    "colors": [
+      {
+        "name": "Branca",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#A7A7A2"
+      }
+    ],
+    "colorImages": {
+      "Branca": "/produtos/meia-alo-branca.webp",
+      "Preta": "/produtos/meia-alo-preta.webp",
+      "Cinza": "/produtos/meia-alo-cinza.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Composição: 50% algodão, 40% poliéster, 10% elastano",
+      "Tamanho: 35 ao 40",
+      "Vendida por unidade"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-17"
+  },
+  {
+    "id": "sapatenis-tommy",
+    "name": "Sapatênis Tommy",
+    "subtitle": "Clássico com a faixa da marca",
+    "description": "Sapatênis de linhas limpas com a faixa característica da Tommy na lateral. Elegante para o trabalho e versátil para o fim de semana.",
+    "category": "tenis",
+    "marca": "Tommy Hilfiger",
+    "publico": "masculino",
+    "image": "/produtos/sapatenis-tommy-branco.webp",
+    "gallery": [
+      "/produtos/sapatenis-tommy-branco.webp",
+      "/produtos/sapatenis-tommy-preto.webp",
+      "/produtos/sapatenis-tommy-marinho.webp"
+    ],
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Marinho",
+        "hex": "#1F2A44"
+      }
+    ],
+    "colorImages": {
+      "Branco": "/produtos/sapatenis-tommy-branco.webp",
+      "Preto": "/produtos/sapatenis-tommy-preto.webp",
+      "Marinho": "/produtos/sapatenis-tommy-marinho.webp"
+    },
+    "details": [
+      "Marca: Tommy Hilfiger",
+      "Forro confortável",
+      "Solado emborrachado",
+      "Cadarço de algodão",
+      "Branco: 38, 39 e 40 · Preto: 38, 39 e 41 · Marinho: 39 e 41",
+      "Público: Masculino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-17",
+    "sizesByColor": {
+      "Branco": [
+        "38",
+        "39",
+        "40"
+      ],
+      "Preto": [
+        "38",
+        "39",
+        "41"
+      ],
+      "Marinho": [
+        "39",
+        "41"
+      ]
+    }
+  },
+  {
     "id": "tommy-hilfiger",
     "name": "Tênis Tommy Hilfiger",
     "category": "tenis",
@@ -7,13 +356,14 @@
     "gallery": [
       "/produtos/tommy-hilfiger-off-white.webp",
       "/produtos/tommy-hilfiger-caramelo.webp",
-      "/produtos/tommy-hilfiger-preto.webp"
+      "/produtos/tommy-hilfiger-preto.webp",
+      "/produtos/tommy-hilfiger-cinza.webp"
     ],
-    "description": "Linhas limpas, detalhe listrado na lateral e um visual que vai do jeans ao look mais arrumado. Disponível em off white, caramelo e preto, para quem gosta de elegância sem esforço.",
+    "description": "Linhas limpas, detalhe listrado na lateral e um visual que vai do jeans ao look mais arrumado. Disponível em off white, caramelo, preto e cinza, para quem gosta de elegância sem esforço.",
     "details": [
       "Marca: Tommy Hilfiger",
       "Modelo: Tênis Tommy Hilfiger",
-      "Cores: Off white, Caramelo, Preto",
+      "Cores: Off white, Caramelo, Preto, Cinza",
       "Numeração: 38 ao 43",
       "Público: Masculino"
     ],
@@ -37,6 +387,10 @@
       {
         "name": "Preto",
         "hex": "#1C1C1C"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#B9BCC0"
       }
     ],
     "sizesByColor": {
@@ -63,18 +417,26 @@
         "41",
         "42",
         "43"
+      ],
+      "Cinza": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
       ]
     },
     "colorImages": {
       "Off white": "/produtos/tommy-hilfiger-off-white.webp",
       "Caramelo": "/produtos/tommy-hilfiger-caramelo.webp",
-      "Preto": "/produtos/tommy-hilfiger-preto.webp"
+      "Preto": "/produtos/tommy-hilfiger-preto.webp",
+      "Cinza": "/produtos/tommy-hilfiger-cinza.webp"
     },
     "marca": "Tommy Hilfiger",
     "publico": "masculino",
     "inStock": true,
     "subtitle": "Clássico casual com a assinatura listrada",
-    "addedAt": "2026-09-30"
+    "addedAt": "2026-10-17"
   },
   {
     "id": "hugo-boss-sapatenis",

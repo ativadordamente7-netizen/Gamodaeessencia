@@ -17,8 +17,8 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ whatsappNumber }) =>
     },
     {
       icon: <Sparkles className="w-6 h-6 text-[#D8B98A]" />,
-      title: 'Fotos reais',
-      desc: 'As fotos são dos próprios produtos, tiradas na loja. Quer ver de outro ângulo? É só pedir no WhatsApp.'
+      title: 'Mais fotos no WhatsApp',
+      desc: 'Quer ver um modelo de outro ângulo ou confirmar um detalhe? Pede no WhatsApp que a gente mostra.'
     },
     {
       icon: <MessageCircle className="w-6 h-6 text-[#25D366]" />,
