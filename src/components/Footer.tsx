@@ -42,7 +42,7 @@ export const Footer: React.FC<FooterProps> = ({ whatsappNumber }) => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href={whatsappUrl}
+                href={whatsappUrl} data-origem="rodape"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 bg-stone-800 hover:bg-[#25D366] text-stone-200 hover:text-white rounded-full transition border border-stone-700"
@@ -60,13 +60,22 @@ export const Footer: React.FC<FooterProps> = ({ whatsappNumber }) => {
             </h2>
             <ul className="space-y-2 text-xs font-medium text-stone-300">
               <li>
-                <a href="#vitrine" className="hover:text-[#D8B98A] transition">Vitrine de Produtos</a>
+                <a href="/#vitrine" className="hover:text-[#D8B98A] transition">Vitrine de Produtos</a>
               </li>
               
               
               
               <li>
-                <a href="#sobre" className="hover:text-[#D8B98A] transition">Sobre a GA Moda & Essência</a>
+                <a href="/#sobre" className="hover:text-[#D8B98A] transition">Sobre a GA Moda & Essência</a>
+              </li>
+              <li>
+                <a href="/trocas-e-devolucoes" className="hover:text-[#D8B98A] transition">Trocas e devoluções (7 dias)</a>
+              </li>
+              <li>
+                <a href="/entregas" className="hover:text-[#D8B98A] transition">Entregas e frete</a>
+              </li>
+              <li>
+                <a href="/privacidade" className="hover:text-[#D8B98A] transition">Privacidade</a>
               </li>
             </ul>
           </div>
@@ -92,7 +101,7 @@ export const Footer: React.FC<FooterProps> = ({ whatsappNumber }) => {
             </div>
 
             <a
-              href={whatsappUrl}
+              href={whatsappUrl} data-origem="rodape"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-[#0F7A40] hover:bg-[#0B6334] text-white font-bold text-xs py-3 px-4 rounded-full transition flex items-center justify-center gap-2 shadow-xs mt-2"

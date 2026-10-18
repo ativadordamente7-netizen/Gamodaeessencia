@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ArrowLeft, Check, Heart, MessageCircle, Share2, ShoppingBag } from 'lucide-react';
 import { Product, ProductSize } from '../types';
@@ -9,6 +9,7 @@ import { useSeo } from '../utils/seo';
 import { ProductExperience } from './experience/ProductExperience';
 import { ProductCard } from './ProductCard';
 import { Reveal } from './Reveal';
+import { registrar } from '../utils/medicao';
 
 interface Props {
   whatsappNumber: string;
@@ -51,6 +52,8 @@ const Conteudo: React.FC<Props & { product: Product }> = ({ product, whatsappNum
   const publico = product.publico ? PUBLICO_LABEL[product.publico] : undefined;
   const whatsapp = createProductWhatsAppLink(whatsappNumber, product, tamanhoFinal, cor);
 
+  useEffect(() => { registrar('produto_visto', { produto: product.id }); }, [product.id]);
+
   const relacionados = useMemo(
     () => PRODUCTS_DATA.filter((p) => p.id !== product.id && p.category === product.category).slice(0, 4),
     [product]
@@ -88,7 +91,7 @@ const Conteudo: React.FC<Props & { product: Product }> = ({ product, whatsappNum
   };
 
   const adicionar = () => {
-    if (!tamanhoFinal) { setAviso('Escolha a numeração para adicionar à lista.'); return; }
+    if (!tamanhoFinal) { setAviso('Escolha a numeração para adicionar à sacola.'); return; }
     onAddToCart(product, tamanhoFinal, cor || 'Única');
     setAdicionado(true);
     setTimeout(() => setAdicionado(false), 2000);
@@ -157,13 +160,13 @@ const Conteudo: React.FC<Props & { product: Product }> = ({ product, whatsappNum
             )}
 
             <div className="hidden lg:flex flex-col gap-2.5">
-              <a href={whatsapp} target="_blank" rel="noopener noreferrer" className="ga-press ga-cta-whats">
-                <MessageCircle className="w-5 h-5" aria-hidden="true" /> Consultar este modelo no WhatsApp
+              <a href={whatsapp} target="_blank" rel="noopener noreferrer" data-origem="produto" data-produto={product.id} className="ga-press ga-cta-whats tracking-wide">
+                <MessageCircle className="w-5 h-5" aria-hidden="true" /> QUERO ESSE PRODUTO
               </a>
               <div className="grid grid-cols-2 gap-2.5">
                 <button type="button" onClick={adicionar} className="ga-press ga-cta-sec">
                   {adicionado ? <Check className="w-4 h-4 text-emerald-600" aria-hidden="true" /> : <ShoppingBag className="w-4 h-4" aria-hidden="true" />}
-                  {adicionado ? 'Na lista!' : 'Adicionar à lista'}
+                  {adicionado ? 'Na sacola!' : 'Adicionar à sacola'}
                 </button>
                 <button type="button" onClick={compartilhar} className="ga-press ga-cta-sec">
                   <Share2 className="w-4 h-4" aria-hidden="true" /> Compartilhar
@@ -221,11 +224,11 @@ const Conteudo: React.FC<Props & { product: Product }> = ({ product, whatsappNum
         <button type="button" onClick={compartilhar} aria-label="Compartilhar produto" className="ga-press shrink-0 w-12 h-12 rounded-full border border-[#E6DCCB] bg-white flex items-center justify-center">
           <Share2 className="w-5 h-5 text-[#242322]" aria-hidden="true" />
         </button>
-        <button type="button" onClick={adicionar} aria-label="Adicionar à lista de pedidos" className="ga-press shrink-0 w-12 h-12 rounded-full border border-[#E6DCCB] bg-white flex items-center justify-center">
+        <button type="button" onClick={adicionar} aria-label="Adicionar à sacola de interesses" className="ga-press shrink-0 w-12 h-12 rounded-full border border-[#E6DCCB] bg-white flex items-center justify-center">
           {adicionado ? <Check className="w-5 h-5 text-emerald-600" aria-hidden="true" /> : <ShoppingBag className="w-5 h-5 text-[#242322]" aria-hidden="true" />}
         </button>
-        <a href={whatsapp} target="_blank" rel="noopener noreferrer" className="ga-press ga-cta-whats flex-1">
-          <MessageCircle className="w-5 h-5" aria-hidden="true" /> Consultar no WhatsApp
+        <a href={whatsapp} target="_blank" rel="noopener noreferrer" data-origem="produto-barra" data-produto={product.id} className="ga-press ga-cta-whats flex-1 tracking-wide">
+          <MessageCircle className="w-5 h-5" aria-hidden="true" /> QUERO ESSE PRODUTO
         </a>
       </div>
     </article>

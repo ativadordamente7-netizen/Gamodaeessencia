@@ -13,7 +13,7 @@ const erros = (page: import('@playwright/test').Page) => {
 test('página inicial carrega o topo e a vitrine sem erros', async ({ page }) => {
   const e = erros(page);
   await page.goto('/');
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('Estilo selecionado');
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Sua essência');
   await expect(page.locator('#vitrine article')).toHaveCount(TOTAL);
   expect(e).toEqual([]);
 });
@@ -40,8 +40,10 @@ test('página do produto: WhatsApp leva modelo, cor, numeração e link', async 
   await page.getByRole('button', { name: 'Branco/azul', exact: true }).click();
   await page.getByRole('button', { name: '38', exact: true }).click();
   // botão principal: no computador fica ao lado da foto; no celular, na barra fixa do rodapé
-  const href = await page.getByRole('link', { name: /^Consultar (este modelo )?no WhatsApp$/ }).locator('visible=true').first().getAttribute('href');
+  const href = await page.getByRole('link', { name: /QUERO ESSE PRODUTO/i }).locator('visible=true').first().getAttribute('href');
   const msg = decodeURIComponent(href!.split('text=')[1]);
+  expect(msg).toContain('Gostei deste produto');
+  expect(msg).toContain('Link:');
   expect(msg).toContain('New Balance 9060');
   expect(msg).toContain('Branco/azul');
   expect(msg).toContain('38');
@@ -106,3 +108,39 @@ for (const rota of ['/', '/produto/nike-dunk-low']) {
     expect(graves.map((v) => `${v.id}: ${v.nodes.map((n) => n.target).join(' | ')}`)).toEqual([]);
   });
 }
+
+test('sacola de interesses envia a lista com links pelo WhatsApp', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Adicionar Nike Dunk Low à sacola de interesses' }).click();
+  const sacola = page.getByRole('dialog', { name: /Sacola de interesses/ });
+  if (!(await sacola.isVisible())) await page.getByRole('button', { name: /Sacola de interesses/ }).locator('visible=true').first().click();
+  await expect(sacola).toBeVisible();
+  await expect(sacola).toContainText('Isso não é uma compra');
+  const href = await sacola.getByRole('link', { name: /Enviar minha lista/ }).getAttribute('href');
+  const msg = decodeURIComponent(href!.split('text=')[1]);
+  expect(msg).toContain('Nike Dunk Low');
+  expect(msg).toContain('/produto/nike-dunk-low');
+  await page.keyboard.press('Escape');
+  await expect(sacola).toBeHidden();
+});
+
+for (const [rota, texto] of [
+  ['/trocas-e-devolucoes', 'Garantia de 7 dias para troca'],
+  ['/entregas', 'Onde atendemos'],
+  ['/privacidade', 'O site não pede seus dados'],
+]) {
+  test(`página institucional ${rota}`, async ({ page }) => {
+    const e = erros(page);
+    await page.goto(rota);
+    await expect(page.getByRole('heading', { level: 2, name: texto })).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Falar com um consultor' })).toBeVisible();
+    expect(e).toEqual([]);
+  });
+}
+
+test('cabeçalhos de segurança estão ativos', async ({ request }) => {
+  const r = await request.get('/');
+  const h = r.headers();
+  expect(h['content-security-policy']).toContain("frame-ancestors 'none'");
+  expect(h['x-content-type-options']).toBe('nosniff');
+});

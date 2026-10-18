@@ -193,3 +193,8 @@
   .ga-card { transform: none !important; }
   .ga-skeleton { animation: none; }
 }
+
+/* Sacola de interesses entra pela direita */
+.ga-sacola-in { animation: gaSacola .35s var(--ease-ga) both; }
+@keyframes gaSacola { from { transform: translateX(100%); } to { transform: none; } }
+@media (prefers-reduced-motion: reduce) { .ga-sacola-in { animation: none; } }

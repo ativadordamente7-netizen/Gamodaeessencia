@@ -63,7 +63,7 @@ export const Navbar: React.FC<NavbarProps> = ({
       <div className="bg-[#242322] text-[#F7F3ED] py-1.5 px-4 text-xs font-medium text-center flex items-center justify-center gap-2 tracking-wide">
         <Sparkles className="w-3.5 h-3.5 text-[#D8B98A]" aria-hidden="true" />
         <span>Atendimento pelo WhatsApp: <strong>{formatPhoneDisplay(whatsappNumber)}</strong></span>
-        <span className="hidden md:inline text-white/70">• Novidades toda semana</span>
+        <span className="hidden md:inline text-white/70">• Atendimento online · Troca em até 7 dias</span>
       </div>
 
       {/* Main Navigation Bar */}
@@ -202,8 +202,8 @@ export const Navbar: React.FC<NavbarProps> = ({
             <button
               onClick={onOpenCart}
               className="relative p-2 text-[#242322] hover:text-[#D8B98A] hover:bg-white/80 rounded-full transition"
-              title="Lista de Pedidos"
-              aria-label={`Lista de pedidos (${cartCount} itens)`}
+              title="Sacola de interesses"
+              aria-label={`Sacola de interesses (${cartCount} itens)`}
             >
               <ShoppingBag className="w-5 h-5" />
               {cartCount > 0 && (
@@ -215,7 +215,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
             {/* WhatsApp Header CTA Button */}
             <a
-              href={generalWhatsAppUrl}
+              href={generalWhatsAppUrl} data-origem="topo"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden lg:inline-flex items-center gap-2 bg-[#0F7A40] hover:bg-[#0B6334] text-white font-medium text-xs sm:text-sm px-4 py-2.5 rounded-full shadow-sm hover:shadow-md transition duration-200 group shrink-0"
@@ -284,7 +284,7 @@ export const Navbar: React.FC<NavbarProps> = ({
 
           <div className="pt-2 border-t border-stone-100 flex flex-col gap-2">
             <a
-              href={generalWhatsAppUrl}
+              href={generalWhatsAppUrl} data-origem="topo"
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-[#0F7A40] hover:bg-[#0B6334] text-white font-medium text-sm py-2.5 px-4 rounded-xl flex items-center justify-center gap-2 shadow-sm"

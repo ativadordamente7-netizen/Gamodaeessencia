@@ -70,8 +70,8 @@ export const Hero: React.FC<HeroProps> = ({ whatsappNumber }) => {
             </p>
 
             <h1 id="hero-titulo" className="ga-rise mt-4 font-serif text-[2.6rem] leading-[1.02] sm:text-6xl lg:text-7xl font-semibold tracking-tight">
-              Estilo selecionado,
-              <span className="block italic font-normal text-[#D8B98A]">toda semana.</span>
+              Seu estilo. Sua identidade.
+              <span className="block italic font-normal text-[#D8B98A]">Sua essência.</span>
             </h1>
 
             <p className="ga-rise mt-6 text-[#F7F3ED]/80 text-base sm:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed">
@@ -80,15 +80,15 @@ export const Hero: React.FC<HeroProps> = ({ whatsappNumber }) => {
 
             <div className="ga-hero-in mt-8 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3" style={{ animationDelay: '.7s' }}>
               <a href="#vitrine" className="ga-press w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full bg-[#D8B98A] hover:bg-[#E4C99E] px-8 py-4 text-sm font-semibold text-[#242322]">
-                Explorar a coleção <ArrowDown className="w-4 h-4" aria-hidden="true" />
+                Explorar coleção <ArrowDown className="w-4 h-4" aria-hidden="true" />
               </a>
               <a
-                href={whatsappUrl}
+                href={whatsappUrl} data-origem="hero"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ga-press w-full sm:w-auto inline-flex items-center justify-center gap-2 rounded-full border border-white/25 hover:border-white/60 px-8 py-4 text-sm font-semibold text-white"
               >
-                <MessageCircle className="w-5 h-5 text-[#25D366]" aria-hidden="true" /> Atendimento no WhatsApp
+                <MessageCircle className="w-5 h-5 text-[#25D366]" aria-hidden="true" /> Falar com um consultor
               </a>
             </div>
 

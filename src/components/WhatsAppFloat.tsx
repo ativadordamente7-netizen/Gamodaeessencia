@@ -36,7 +36,7 @@ export const WhatsAppFloat: React.FC<WhatsAppFloatProps> = ({ whatsappNumber }) 
 
       {/* Floating Button with Pulse Effect */}
       <a
-        href={whatsappUrl}
+        href={whatsappUrl} data-origem="flutuante"
         target="_blank"
         rel="noopener noreferrer"
         className="group relative bg-emerald-500 hover:bg-emerald-400 text-white p-4 rounded-full shadow-2xl shadow-emerald-950/80 transition-all duration-300 hover:scale-110 flex items-center justify-center border-2 border-emerald-300/40"

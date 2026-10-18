@@ -46,33 +46,29 @@ export function createProductWhatsAppLink(
   selectedSize?: string,
   selectedColor?: string
 ): string {
-  const linhas = [
-    'Olá! Vi no site da GA Moda & Essência e tenho interesse neste modelo:',
-    '',
-    `🛍️ *${product.name}*`,
-  ];
-  if (product.colors.length) linhas.push(`🎨 Cor: ${selectedColor || 'a definir'}`);
-  if (product.sizes.length > 1) linhas.push(`📏 Numeração/tamanho: ${selectedSize || 'a definir'}`);
-  linhas.push(`🔗 ${productUrl(product)}`, '', 'Pode me passar valor e disponibilidade? ✨');
+  const linhas = ['Olá! Gostei deste produto da GA Moda & Essência:', '', `Produto: ${product.name}`];
+  if (product.colors.length) linhas.push(`Cor: ${selectedColor || 'a definir'}`);
+  if (product.sizes.length > 1) linhas.push(`Tamanho: ${selectedSize || 'a definir'}`);
+  linhas.push(`Link: ${productUrl(product)}`, '', 'Gostaria de confirmar o valor, a disponibilidade e as condições de entrega.');
   return buildWhatsAppUrl(phoneNumber, linhas.join('\n'));
 }
 
-export function createCartWhatsAppLink(
-  phoneNumber: string,
-  cartItems: CartItem[]
-): string {
-  const itemsFormatted = cartItems.map((item, index) => {
-    return `${index + 1}. *${item.product.name}*
-   - Numeração/tamanho: ${item.selectedSize}${item.product.colors.length ? ` | Cor: ${item.selectedColor}` : ''}
-   - Quantidade: ${item.quantity}`;
-  }).join('\n\n');
-
-  const text = `Olá! Selecionei as seguintes peças na GA Moda & Essência e gostaria de consultar valores e finalizar meu pedido:
-
-${itemsFormatted}
-
-Poderiam me passar o orçamento total com frete e as formas de pagamento disponíveis? 🛍️✨`;
-
+/** Mensagem da sacola de interesses: lista clara para o vendedor (não é um pedido fechado). */
+export function createCartWhatsAppLink(phoneNumber: string, cartItems: CartItem[]): string {
+  const itens = cartItems.map((item, i) => {
+    const l = [`${i + 1}. ${item.product.name}`];
+    if (item.product.colors.length) l.push(`   Cor: ${item.selectedColor}`);
+    if (item.product.sizes.length > 1) l.push(`   Tamanho: ${item.selectedSize}`);
+    if (item.quantity > 1) l.push(`   Quantidade: ${item.quantity}`);
+    l.push(`   Link: ${productUrl(item.product)}`);
+    return l.join('\n');
+  });
+  const text = [
+    'Olá! Separei estes produtos na GA Moda & Essência:',
+    '',
+    ...itens,
+    '',
+    'Gostaria de confirmar valores, disponibilidade e as condições de entrega para a minha cidade.',
+  ].join('\n');
   return buildWhatsAppUrl(phoneNumber, text);
 }
-

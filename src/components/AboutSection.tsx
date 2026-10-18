@@ -56,7 +56,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ whatsappNumber }) =>
               Aqui você é atendido direto, pelo WhatsApp, por gente de verdade: tire dúvidas de medida, cor e disponibilidade antes de pedir. Loja da Serra Gaúcha.
             </p>
             <a
-              href={whatsappUrl}
+              href={whatsappUrl} data-origem="sobre"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#0F7A40] hover:bg-[#0B6334] text-white font-bold text-sm py-3.5 px-7 rounded-full transition shadow-sm"
@@ -86,7 +86,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ whatsappNumber }) =>
 
             <div className="pt-2">
               <a
-                href={whatsappUrl}
+                href={whatsappUrl} data-origem="sobre"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#0F7A40] hover:bg-[#0B6334] text-white font-bold text-xs py-3 px-6 rounded-full transition shadow-sm"

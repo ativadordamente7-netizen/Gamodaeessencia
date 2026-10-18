@@ -41,7 +41,8 @@ Para tirar um produto do site, apague o bloco dele ou mude `"inStock"` para `fal
 - Não mostrar preços. Todo pedido vai para o WhatsApp.
 - Usar só fotos reais dos produtos. O tratamento melhora luz e enquadramento, mas não altera o produto.
 - Não usar depoimentos inventados. Quando houver depoimentos reais de clientes, com autorização deles, eles podem entrar.
-- Não escrever "original", "garantia" ou "frete grátis" sem confirmar antes.
+- Garantia confirmada pela loja: **troca em até 7 dias**. Não escrever "original", "frete grátis", prazo de entrega ou transportadora sem confirmar antes.
+- Todo botão do WhatsApp leva `data-origem` (ex.: `card`, `produto`, `sacola`) para a medição saber de onde veio o clique.
 
 ## Publicar
 O Netlify está ligado ao GitHub (`ativadordamente7-netizen/Gamodaeessencia`).

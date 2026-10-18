@@ -167,7 +167,7 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
                   ))}
                 </div>
                 {avisoTamanho && (
-                  <p role="alert" className="text-xs text-rose-700 mt-2">Escolha a numeração para adicionar à lista.</p>
+                  <p role="alert" className="text-xs text-rose-700 mt-2">Escolha a numeração para adicionar à sacola.</p>
                 )}
                 <p className="text-[11px] text-stone-600 mt-2">Em dúvida sobre a numeração? Pergunte no WhatsApp antes de fechar.</p>
               </fieldset>
@@ -184,14 +184,14 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
           </div>
 
           <div className="mt-6 pt-4 border-t border-[#E6DCCB] space-y-2.5">
-            <a
+            <a data-origem="modal" data-produto={product.id}
               href={whatsAppUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="w-full bg-[#0F7A40] hover:bg-[#0B6334] text-white font-bold text-sm py-3.5 px-4 rounded-full transition flex items-center justify-center gap-2"
             >
               <MessageCircle className="w-5 h-5" aria-hidden="true" />
-              Consultar valor no WhatsApp
+              QUERO ESSE PRODUTO
             </a>
             <button
               type="button"
@@ -199,9 +199,9 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
               className="w-full bg-[#242322] hover:bg-black text-[#F7F3ED] font-semibold text-sm py-3.5 px-4 rounded-full transition flex items-center justify-center gap-2"
             >
               {addedSuccess ? (
-                <><Check className="w-4 h-4 text-emerald-400" aria-hidden="true" /><span role="status">Adicionado à lista!</span></>
+                <><Check className="w-4 h-4 text-emerald-400" aria-hidden="true" /><span role="status">Adicionado à sacola!</span></>
               ) : (
-                <><ShoppingBag className="w-4 h-4 text-[#D8B98A]" aria-hidden="true" />Adicionar à lista de pedidos</>
+                <><ShoppingBag className="w-4 h-4 text-[#D8B98A]" aria-hidden="true" />Adicionar à sacola de interesses</>
               )}
             </button>
             <button

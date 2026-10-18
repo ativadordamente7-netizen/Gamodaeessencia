@@ -12,7 +12,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ whatsappNumber }) => {
   const faqs = [
     {
       question: 'Como faço meu pedido?',
-      answer: 'Escolha o produto na vitrine, selecione a cor e a numeração e clique em "Pedir no WhatsApp". A mensagem já vai com o modelo, a cor e a numeração escolhidos.'
+      answer: 'Escolha o produto na vitrine, selecione a cor e a numeração e toque em "Quero esse produto". A mensagem já vai pronta com o modelo, a cor, a numeração e o link. Se quiser vários produtos, junte na sacola de interesses e envie a lista de uma vez.'
     },
     {
       question: 'Quais são as formas de pagamento?',
@@ -20,7 +20,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ whatsappNumber }) => {
     },
     {
       question: 'Como funciona a entrega?',
-      answer: 'O prazo e o valor do envio são informados no atendimento, de acordo com a sua região.'
+      answer: 'Atendemos Canela, Gramado e região e estamos estruturando os envios para outras cidades do Brasil. O valor do frete e o prazo são informados no atendimento, de acordo com o seu CEP.'
     },
     {
       question: 'Como escolher a numeração?',
@@ -28,7 +28,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ whatsappNumber }) => {
     },
     {
       question: 'E se não servir? Posso trocar?',
-      answer: 'As condições de troca são informadas no atendimento. Seus direitos de consumidor seguem o Código de Defesa do Consumidor.'
+      answer: 'Sim. Você tem garantia de 7 dias, a partir do recebimento, para pedir a troca pelo WhatsApp. Veja os detalhes na página Trocas e devoluções.'
     },
     {
       question: 'Posso tirar dúvidas sobre a linha ou a procedência de um modelo?',
@@ -86,7 +86,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ whatsappNumber }) => {
         <div className="mt-10 text-center frosted-glass p-6 sm:p-8 rounded-3xl border border-white/80 space-y-3 shadow-sm">
           <p className="text-xs text-stone-700 font-medium">Ainda tem alguma dúvida específica?</p>
           <a
-            href={whatsappUrl}
+            href={whatsappUrl} data-origem="faq"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-[#0F7A40] hover:bg-[#0B6334] text-white font-bold text-xs py-3 px-6 rounded-full transition shadow-sm"

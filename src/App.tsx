@@ -11,8 +11,10 @@ import { CategoryNav } from './components/CategoryNav';
 import { DEFAULT_WHATSAPP_NUMBER } from './utils/whatsapp';
 import { CATEGORIAS } from './data/categorias';
 import { ProductPage } from './components/ProductPage';
+import { PaginaInstitucional, PAGINAS } from './components/PaginaInstitucional';
 import { Reveal } from './components/Reveal';
 import { useSeo, LOJA_JSONLD } from './utils/seo';
+import { registrar } from './utils/medicao';
 
 import { Navbar } from './components/Navbar';
 import { PromoMarquee } from './components/PromoMarquee';
@@ -58,6 +60,7 @@ export default function App() {
   const rota = pathname.replace(/^\/|\/$/g, '');
   const isHome = rota === '';
   const isProduto = rota.startsWith('produto/');
+  const isInstitucional = rota in PAGINAS;
   const visibleProducts =
     rota === 'feminino' || rota === 'masculino'
       ? PRODUCTS_DATA.filter((p) => p.publico === rota || p.publico === 'unissex')
@@ -105,6 +108,7 @@ export default function App() {
     size: ProductSize,
     color: string
   ) => {
+    registrar('sacola_adicionar', { produto: product.id });
     setCartItems((prev) => {
       const existingIndex = prev.findIndex(
         (item) =>
@@ -178,7 +182,9 @@ export default function App() {
       <PromoMarquee whatsappNumber={whatsappNumber} />
 
       <main id="conteudo">
-      {isProduto ? (
+      {isInstitucional ? (
+        <PaginaInstitucional slug={rota} whatsappNumber={whatsappNumber} />
+      ) : isProduto ? (
         <ProductPage
           whatsappNumber={whatsappNumber}
           wishlistIds={wishlistIds}

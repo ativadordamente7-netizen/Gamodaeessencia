@@ -160,6 +160,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
         <div className="mt-auto pt-3 flex items-center gap-2">
           <a
             href={directWhatsAppUrl}
+            data-origem="card"
+            data-produto={product.id}
             target="_blank"
             rel="noopener noreferrer"
             className="ga-press flex-1 bg-[#242322] hover:bg-black text-[#F7F3ED] font-semibold text-xs sm:text-sm py-2.5 px-3 rounded-full transition flex items-center justify-center gap-1.5"
@@ -172,8 +174,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({
             type="button"
             onClick={() => onAddToCart(product)}
             className="ga-press shrink-0 w-10 h-10 rounded-full border border-[#D8B98A] text-[#7A5530] hover:bg-[#D8B98A]/20 transition flex items-center justify-center"
-            aria-label={`Adicionar ${product.name} à lista de pedidos`}
-            title="Adicionar à lista"
+            aria-label={`Adicionar ${product.name} à sacola de interesses`}
+            title="Adicionar à sacola"
           >
             <Plus className="w-4 h-4" aria-hidden="true" />
           </button>
