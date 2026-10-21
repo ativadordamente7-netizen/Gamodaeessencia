@@ -37,6 +37,8 @@ export interface Product {
   featured?: boolean;
   marca?: string;
   publico?: 'feminino' | 'masculino' | 'unissex';
+  /** Nome do seletor de variação quando não é cor (ex.: Fragrância, Estampa, Modelo). Padrão: Cor */
+  rotuloCor?: string;
   sizesByColor?: Record<string, string[]>;
   colorImages?: Record<string, string>;
   /** Giro 360° real: sequência de fotos do mesmo produto em ângulos em volta (mín. 12, ideal 24–36). */
