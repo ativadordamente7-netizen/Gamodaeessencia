@@ -121,7 +121,7 @@ const Conteudo: React.FC<Props & { product: Product }> = ({ product, whatsappNum
 
             {product.colors.length > 0 && (
               <fieldset>
-                <legend className="text-xs font-semibold text-[#242322] mb-2">Cor: <span className="text-[#7A5530]">{cor}</span></legend>
+                <legend className="text-xs font-semibold text-[#242322] mb-2">{product.rotuloCor ?? 'Cor'}: <span className="text-[#7A5530]">{cor}</span></legend>
                 <div className="flex flex-wrap gap-2">
                   {product.colors.map((c) => (
                     <button

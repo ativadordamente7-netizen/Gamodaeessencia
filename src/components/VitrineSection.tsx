@@ -24,7 +24,10 @@ const normalizeStr = (str: string) =>
 const categorySynonyms: Partial<Record<CategoryType, string[]>> = {
   tenis: ['tenis', 'sapatenis', 'sneaker', 'calcado'],
   eletronicos: ['eletronico', 'tv', 'smart tv', 'televisao', 'tecnologia'],
-  essencia: ['perfume', 'fragrancia', 'essencia'],
+  essencia: ['perfume', 'fragrancia', 'essencia', 'body splash', 'hidratante', 'locao', 'shampoo', 'cabelo', 'kit'],
+  conjuntos: ['conjunto', 'bermuda', 'roupa', 'jeans'],
+  chinelos: ['chinelo', 'papete', 'sandalia', 'slide'],
+  acessorios: ['cuia', 'chimarrao', 'bone', 'meia'],
 };
 
 const chip = (ativo: boolean) =>

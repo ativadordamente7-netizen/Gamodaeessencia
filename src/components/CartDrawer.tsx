@@ -111,7 +111,7 @@ const Sacola: React.FC<CartDrawerProps> = ({ cartItems, whatsappNumber, onClose,
                       </button>
                     </div>
                     <p className="text-xs text-stone-600 mt-1">
-                      {item.product.colors.length > 0 && <>Cor: <strong className="text-[#242322]">{item.selectedColor}</strong></>}
+                      {item.product.colors.length > 0 && <>{item.product.rotuloCor ?? 'Cor'}: <strong className="text-[#242322]">{item.selectedColor}</strong></>}
                       {item.product.sizes.length > 1 && <> · Tamanho: <strong className="text-[#242322]">{item.selectedSize}</strong></>}
                     </p>
                     {(item.selectedSize === 'a definir' || item.selectedColor === 'a definir') && (
