@@ -322,27 +322,6 @@
     "_postadoNoGrupo": ""
   },
   {
-    "id": "body-splash-victorias-secret",
-    "name": "Body Splash Victoria's Secret",
-    "subtitle": "Frescor para a pele",
-    "description": "Body splash com fragrâncias leves e marcantes, perfeito para quem ama sensação de verão na pele. Versões com e sem brilho.",
-    "category": "essencia",
-    "marca": "Victoria's Secret",
-    "publico": "feminino",
-    "image": "",
-    "sizes": [
-      "Único"
-    ],
-    "colors": [],
-    "details": [
-      "Versões: com brilho e sem brilho",
-      "Consulte as fragrâncias disponíveis"
-    ],
-    "inStock": true,
-    "addedAt": "",
-    "_postadoNoGrupo": ""
-  },
-  {
     "id": "puma-suede-xl",
     "name": "Puma Suede XL",
     "subtitle": "O clássico em proporção XL",
@@ -706,31 +685,6 @@
     "_postadoNoGrupo": ""
   },
   {
-    "id": "papete-schutz",
-    "name": "Papete Schutz",
-    "subtitle": "Elegância brasileira",
-    "description": "Papete Schutz com design feminino e confortável.",
-    "category": "chinelos",
-    "marca": "Schutz",
-    "publico": "feminino",
-    "image": "",
-    "sizes": [
-      "34",
-      "35",
-      "36",
-      "37",
-      "38",
-      "39"
-    ],
-    "colors": [],
-    "details": [
-      "Numeração: 34 ao 39"
-    ],
-    "inStock": true,
-    "addedAt": "",
-    "_postadoNoGrupo": ""
-  },
-  {
     "id": "chinelo-nike-eva",
     "name": "Chinelo Nike EVA",
     "subtitle": "Leve e confortável",
@@ -864,5 +818,29 @@
     "inStock": true,
     "addedAt": "",
     "_postadoNoGrupo": ""
+  },
+  {
+    "id": "iphones-lacrados",
+    "name": "iPhones lacrados",
+    "subtitle": "iPhone 15 ao 18 Pro Max",
+    "description": "iPhones lacrados com garantia Apple de 1 ano. Consulte modelos, cores e condições pelo WhatsApp.",
+    "category": "eletronicos",
+    "marca": "Apple",
+    "publico": "unissex",
+    "image": "",
+    "sizes": [
+      "128GB",
+      "256GB",
+      "512GB"
+    ],
+    "colors": [],
+    "details": [
+      "Modelos: iPhone 15, 16, 17, 17 Pro, 17 Pro Max, 18 Pro e 18 Pro Max",
+      "Lacrados, com garantia Apple de 1 ano",
+      "Falta: fotos dos aparelhos (a lista do grupo tem preços e não pode ir para o site)"
+    ],
+    "inStock": true,
+    "addedAt": "",
+    "_postadoNoGrupo": "2026-10-19"
   }
 ]
