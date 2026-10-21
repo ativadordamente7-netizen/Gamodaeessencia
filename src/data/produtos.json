@@ -1,5 +1,1618 @@
 [
   {
+    "id": "nike-air-max-90",
+    "name": "Nike Air Max 90",
+    "subtitle": "O clássico da bolha de ar, em duas cores",
+    "description": "O Air Max 90 tem a bolha de ar aparente no calcanhar e o recorte esportivo que nunca sai de moda. Vai bem com jeans, bermuda ou look de treino.",
+    "category": "tenis",
+    "marca": "Nike",
+    "publico": "unissex",
+    "colors": [
+      {
+        "name": "Azul/grafite",
+        "hex": "#3A6EA5"
+      },
+      {
+        "name": "Preto/branco",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Azul/grafite": "/produtos/nike-air-max-90-azul-grafite.webp",
+      "Preto/branco": "/produtos/nike-air-max-90-preto-branco.webp"
+    },
+    "gallery": [
+      "/produtos/nike-air-max-90-azul-grafite.webp",
+      "/produtos/nike-air-max-90-preto-branco.webp",
+      "/produtos/nike-air-max-90-azul-grafite-2.webp",
+      "/produtos/nike-air-max-90-azul-grafite-3.webp",
+      "/produtos/nike-air-max-90-preto-branco-2.webp",
+      "/produtos/nike-air-max-90-preto-branco-3.webp"
+    ],
+    "image": "/produtos/nike-air-max-90-azul-grafite.webp",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "sizesByColor": {
+      "Azul/grafite": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    "details": [
+      "Marca: Nike",
+      "Modelo: Air Max 90",
+      "Numeração: 34 ao 43 (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-20"
+  },
+  {
+    "id": "nike-court-borough-low",
+    "name": "Nike Court Borough Low",
+    "subtitle": "Cano baixo, visual retrô, seis cores",
+    "description": "Tênis de cano baixo com inspiração no basquete dos anos 80: cabedal limpo, swoosh em destaque e sola de borracha. Fácil de combinar no dia a dia.",
+    "category": "tenis",
+    "marca": "Nike",
+    "publico": "unissex",
+    "colors": [
+      {
+        "name": "Preto/branco",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Manteiga/dourado",
+        "hex": "#EDE3C8"
+      },
+      {
+        "name": "Marrom/nude",
+        "hex": "#5D4037"
+      },
+      {
+        "name": "Bordô/cinza/branco",
+        "hex": "#7B1E2E"
+      },
+      {
+        "name": "Branco/azul/verde",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "colorImages": {
+      "Preto/branco": "/produtos/nike-court-borough-low-preto-branco.webp",
+      "Manteiga/dourado": "/produtos/nike-court-borough-low-manteiga-dourado.webp",
+      "Marrom/nude": "/produtos/nike-court-borough-low-marrom-nude.webp",
+      "Bordô/cinza/branco": "/produtos/nike-court-borough-low-bordo-cinza-branco.webp",
+      "Branco/azul/verde": "/produtos/nike-court-borough-low-branco-azul-verde.webp"
+    },
+    "gallery": [
+      "/produtos/nike-court-borough-low-preto-branco.webp",
+      "/produtos/nike-court-borough-low-manteiga-dourado.webp",
+      "/produtos/nike-court-borough-low-marrom-nude.webp",
+      "/produtos/nike-court-borough-low-bordo-cinza-branco.webp",
+      "/produtos/nike-court-borough-low-branco-azul-verde.webp",
+      "/produtos/nike-court-borough-low-preto-branco-2.webp",
+      "/produtos/nike-court-borough-low-preto-branco-3.webp",
+      "/produtos/nike-court-borough-low-preto-branco-4.webp",
+      "/produtos/nike-court-borough-low-preto-branco-5.webp",
+      "/produtos/nike-court-borough-low-manteiga-dourado-2.webp",
+      "/produtos/nike-court-borough-low-manteiga-dourado-3.webp",
+      "/produtos/nike-court-borough-low-marrom-nude-2.webp"
+    ],
+    "image": "/produtos/nike-court-borough-low-preto-branco.webp",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "sizesByColor": {
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Manteiga/dourado": [
+        "34",
+        "35",
+        "36",
+        "38"
+      ],
+      "Marrom/nude": [
+        "34",
+        "36"
+      ],
+      "Bordô/cinza/branco": [
+        "40",
+        "41"
+      ],
+      "Branco/azul/verde": [
+        "34",
+        "35",
+        "37",
+        "38"
+      ]
+    },
+    "details": [
+      "Marca: Nike",
+      "Modelo: Court Borough Low",
+      "Numeração varia por cor"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-20"
+  },
+  {
+    "id": "air-jordan-1-mid",
+    "name": "Jordan 1 Mid",
+    "subtitle": "A botinha mais desejada, em cinco versões",
+    "description": "O cano médio que virou ícone do streetwear. Versões em verniz, couro e camurça, das cores clássicas às mais delicadas. Confirme a sua numeração pelo WhatsApp.",
+    "category": "tenis",
+    "marca": "Nike",
+    "publico": "unissex",
+    "rotuloCor": "Versão",
+    "colors": [
+      {
+        "name": "Off verniz/taupe",
+        "hex": "#B8A493"
+      },
+      {
+        "name": "Off white/flamingo",
+        "hex": "#F2C4C9"
+      },
+      {
+        "name": "Chicago manteiga/azul bebê",
+        "hex": "#BFD7EA"
+      },
+      {
+        "name": "Chicago preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Paris napolitano",
+        "hex": "#E8B9B5"
+      }
+    ],
+    "colorImages": {
+      "Off verniz/taupe": "/produtos/air-jordan-1-mid-off-verniz-taupe.webp",
+      "Off white/flamingo": "/produtos/air-jordan-1-mid-off-white-flamingo.webp",
+      "Chicago manteiga/azul bebê": "/produtos/air-jordan-1-mid-chicago-manteiga-azul-bebe.webp",
+      "Chicago preto": "/produtos/air-jordan-1-mid-chicago-preto.webp",
+      "Paris napolitano": "/produtos/air-jordan-1-mid-paris-napolitano.webp"
+    },
+    "gallery": [
+      "/produtos/air-jordan-1-mid-off-verniz-taupe.webp",
+      "/produtos/air-jordan-1-mid-off-white-flamingo.webp",
+      "/produtos/air-jordan-1-mid-chicago-manteiga-azul-bebe.webp",
+      "/produtos/air-jordan-1-mid-chicago-preto.webp",
+      "/produtos/air-jordan-1-mid-paris-napolitano.webp",
+      "/produtos/air-jordan-1-mid-paris-napolitano-2.webp",
+      "/produtos/air-jordan-1-mid-paris-napolitano-3.webp"
+    ],
+    "image": "/produtos/air-jordan-1-mid-off-verniz-taupe.webp",
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "sizesByColor": {
+      "Off verniz/taupe": [
+        "36",
+        "37",
+        "39"
+      ],
+      "Off white/flamingo": [
+        "37",
+        "38"
+      ],
+      "Chicago manteiga/azul bebê": [
+        "37",
+        "38",
+        "39"
+      ],
+      "Chicago preto": [
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
+      "Paris napolitano": [
+        "38",
+        "39"
+      ]
+    },
+    "details": [
+      "Marca: Jordan (Nike)",
+      "Cano médio",
+      "Numeração varia por cor"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-20"
+  },
+  {
+    "id": "new-balance-204",
+    "name": "New Balance 204",
+    "subtitle": "Leve, retrô e delicado",
+    "description": "Tênis de linhas retrô com tons suaves de off white e rosé. Confortável e fácil de usar com calça, saia ou vestido.",
+    "category": "tenis",
+    "marca": "New Balance",
+    "publico": "feminino",
+    "colors": [
+      {
+        "name": "Off white/rosé",
+        "hex": "#F3E3DE"
+      }
+    ],
+    "colorImages": {
+      "Off white/rosé": "/produtos/new-balance-204-off-white-rose.webp"
+    },
+    "gallery": [
+      "/produtos/new-balance-204-off-white-rose.webp"
+    ],
+    "image": "/produtos/new-balance-204-off-white-rose.webp",
+    "sizes": [
+      "35",
+      "36",
+      "38",
+      "39"
+    ],
+    "sizesByColor": {
+      "Off white/rosé": [
+        "35",
+        "36",
+        "38",
+        "39"
+      ]
+    },
+    "details": [
+      "Marca: New Balance",
+      "Modelo: 204",
+      "Cor: off white/rosé",
+      "Numeração: 35, 36, 38 e 39"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-20"
+  },
+  {
+    "id": "papete-laco-plataforma",
+    "name": "Papete Laço Plataforma",
+    "subtitle": "Laço macio e sola alta",
+    "description": "Papete de sola plataforma com tiras em laço, confortável e muito estilosa. Combina com looks de verão, do jeans ao vestido.",
+    "category": "chinelos",
+    "publico": "feminino",
+    "colors": [
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Bege",
+        "hex": "#E3D7C3"
+      },
+      {
+        "name": "Off white cetim",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preta estampada",
+        "hex": "#2B2622"
+      }
+    ],
+    "colorImages": {
+      "Preta": "/produtos/papete-laco-plataforma-preta.webp",
+      "Bege": "/produtos/papete-laco-plataforma-bege.webp",
+      "Off white cetim": "/produtos/papete-laco-plataforma-off-white-cetim.webp",
+      "Preta estampada": "/produtos/papete-laco-plataforma-preta-estampada.webp"
+    },
+    "gallery": [
+      "/produtos/papete-laco-plataforma-preta.webp",
+      "/produtos/papete-laco-plataforma-bege.webp",
+      "/produtos/papete-laco-plataforma-off-white-cetim.webp",
+      "/produtos/papete-laco-plataforma-preta-estampada.webp",
+      "/produtos/papete-laco-plataforma-preta-2.webp",
+      "/produtos/papete-laco-plataforma-preta-3.webp",
+      "/produtos/papete-laco-plataforma-bege-2.webp"
+    ],
+    "image": "/produtos/papete-laco-plataforma-preta.webp",
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "sizesByColor": {
+      "Preta": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Bege": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Off white cetim": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Preta estampada": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "details": [
+      "Sola plataforma",
+      "Tiras em laço",
+      "Numeração: 34 ao 39 (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "papete-spikes",
+    "name": "Papete com Spikes",
+    "subtitle": "Brilho de tachas para o verão",
+    "description": "Papete com tiras acolchoadas e aplicação de tachas douradas. Um toque de brilho para o look de verão.",
+    "category": "chinelos",
+    "publico": "feminino",
+    "colors": [
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Caramelo (de dedo)",
+        "hex": "#C49A5A"
+      },
+      {
+        "name": "Off white",
+        "hex": "#F1E9DA"
+      }
+    ],
+    "colorImages": {
+      "Preta": "/produtos/papete-spikes-preta.webp",
+      "Caramelo (de dedo)": "/produtos/papete-spikes-caramelo-de-dedo.webp",
+      "Off white": "/produtos/papete-spikes-off-white.webp"
+    },
+    "gallery": [
+      "/produtos/papete-spikes-preta.webp",
+      "/produtos/papete-spikes-caramelo-de-dedo.webp",
+      "/produtos/papete-spikes-off-white.webp"
+    ],
+    "image": "/produtos/papete-spikes-preta.webp",
+    "sizes": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "sizesByColor": {
+      "Preta": [
+        "35",
+        "36",
+        "37",
+        "38"
+      ],
+      "Caramelo (de dedo)": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Off white": [
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "details": [
+      "Aplicação de tachas",
+      "Numeração: 35 ao 39 (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "conjunto-nike-algodao",
+    "name": "Conjunto Nike",
+    "subtitle": "Camiseta e shorts no mesmo tom",
+    "description": "Conjunto de camiseta e shorts com cordão, no mesmo tom. Confortável para o dia a dia, viagem ou fim de semana.",
+    "category": "conjuntos",
+    "marca": "Nike",
+    "publico": "masculino",
+    "colors": [
+      {
+        "name": "Verde",
+        "hex": "#9DAA82"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Cáqui",
+        "hex": "#B5A982"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "colorImages": {
+      "Verde": "/produtos/conjunto-nike-algodao-verde.webp",
+      "Preto": "/produtos/conjunto-nike-algodao-preto.webp",
+      "Cáqui": "/produtos/conjunto-nike-algodao-caqui.webp",
+      "Branco": "/produtos/conjunto-nike-algodao-branco.webp"
+    },
+    "gallery": [
+      "/produtos/conjunto-nike-algodao-verde.webp",
+      "/produtos/conjunto-nike-algodao-preto.webp",
+      "/produtos/conjunto-nike-algodao-caqui.webp",
+      "/produtos/conjunto-nike-algodao-branco.webp"
+    ],
+    "image": "/produtos/conjunto-nike-algodao-verde.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesByColor": {
+      "Verde": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preto": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Cáqui": [
+        "P",
+        "M"
+      ],
+      "Branco": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "details": [
+      "Marca: Nike",
+      "Camiseta + shorts",
+      "Tamanhos: P, M, G e GG (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "conjunto-zara-texturizado",
+    "name": "Conjunto Zara Texturizado",
+    "subtitle": "Camisa e bermuda em tecido texturizado",
+    "description": "Camisa de botão e bermuda com cordão em tecido texturizado. Visual arrumado e leve, perfeito para o verão e para viajar.",
+    "category": "conjuntos",
+    "marca": "Zara",
+    "publico": "masculino",
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Verde",
+        "hex": "#8FA27D"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A44"
+      },
+      {
+        "name": "Bordô",
+        "hex": "#5A2328"
+      },
+      {
+        "name": "Bege",
+        "hex": "#C8B49A"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "colorImages": {
+      "Preto": "/produtos/conjunto-zara-texturizado-preto.webp",
+      "Verde": "/produtos/conjunto-zara-texturizado-verde.webp",
+      "Azul marinho": "/produtos/conjunto-zara-texturizado-azul-marinho.webp",
+      "Bordô": "/produtos/conjunto-zara-texturizado-bordo.webp",
+      "Bege": "/produtos/conjunto-zara-texturizado-bege.webp",
+      "Branco": "/produtos/conjunto-zara-texturizado-branco.webp"
+    },
+    "gallery": [
+      "/produtos/conjunto-zara-texturizado-preto.webp",
+      "/produtos/conjunto-zara-texturizado-verde.webp",
+      "/produtos/conjunto-zara-texturizado-azul-marinho.webp",
+      "/produtos/conjunto-zara-texturizado-bordo.webp",
+      "/produtos/conjunto-zara-texturizado-bege.webp",
+      "/produtos/conjunto-zara-texturizado-branco.webp"
+    ],
+    "image": "/produtos/conjunto-zara-texturizado-preto.webp",
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesByColor": {
+      "Preto": [
+        "P",
+        "M",
+        "G"
+      ],
+      "Verde": [
+        "P",
+        "M",
+        "G"
+      ],
+      "Azul marinho": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Bordô": [
+        "P",
+        "G",
+        "GG"
+      ],
+      "Bege": [
+        "P",
+        "M",
+        "G"
+      ],
+      "Branco": [
+        "P",
+        "M",
+        "G"
+      ]
+    },
+    "details": [
+      "Marca: Zara",
+      "Tecido texturizado",
+      "Camisa + bermuda",
+      "Tamanhos variam por cor"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "bermuda-jeans-jogador",
+    "name": "Bermuda Jeans Jogador",
+    "subtitle": "Jeans estonado com cordão colorido",
+    "description": "Bermuda jeans com lavagem estonada, puídos e cordão de amarrar em cor de destaque. Estilo jogador, para usar com camiseta ou camisa.",
+    "category": "conjuntos",
+    "publico": "masculino",
+    "rotuloCor": "Modelo",
+    "colors": [
+      {
+        "name": "Cinza com cordão marinho",
+        "hex": "#8E9196"
+      },
+      {
+        "name": "Cinza claro com cordão branco",
+        "hex": "#A9ABAE"
+      },
+      {
+        "name": "Escura com cordão laranja",
+        "hex": "#2F3640"
+      },
+      {
+        "name": "Clara com cordão vermelho",
+        "hex": "#AFC4D6"
+      },
+      {
+        "name": "Preta estonada",
+        "hex": "#3A3A3C"
+      },
+      {
+        "name": "Preta",
+        "hex": "#232325"
+      }
+    ],
+    "colorImages": {
+      "Cinza com cordão marinho": "/produtos/bermuda-jeans-jogador-cinza-com-cordao-marinho.webp",
+      "Cinza claro com cordão branco": "/produtos/bermuda-jeans-jogador-cinza-claro-com-cordao-branco.webp",
+      "Escura com cordão laranja": "/produtos/bermuda-jeans-jogador-escura-com-cordao-laranja.webp",
+      "Clara com cordão vermelho": "/produtos/bermuda-jeans-jogador-clara-com-cordao-vermelho.webp",
+      "Preta estonada": "/produtos/bermuda-jeans-jogador-preta-estonada.webp",
+      "Preta": "/produtos/bermuda-jeans-jogador-preta.webp"
+    },
+    "gallery": [
+      "/produtos/bermuda-jeans-jogador-cinza-com-cordao-marinho.webp",
+      "/produtos/bermuda-jeans-jogador-cinza-claro-com-cordao-branco.webp",
+      "/produtos/bermuda-jeans-jogador-escura-com-cordao-laranja.webp",
+      "/produtos/bermuda-jeans-jogador-clara-com-cordao-vermelho.webp",
+      "/produtos/bermuda-jeans-jogador-preta-estonada.webp",
+      "/produtos/bermuda-jeans-jogador-preta.webp"
+    ],
+    "image": "/produtos/bermuda-jeans-jogador-cinza-com-cordao-marinho.webp",
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "43",
+      "44",
+      "48"
+    ],
+    "sizesByColor": {
+      "Cinza com cordão marinho": [
+        "38",
+        "42",
+        "44",
+        "48"
+      ],
+      "Cinza claro com cordão branco": [
+        "36",
+        "42",
+        "44",
+        "48"
+      ],
+      "Escura com cordão laranja": [
+        "36",
+        "38",
+        "42",
+        "48"
+      ],
+      "Clara com cordão vermelho": [
+        "43",
+        "44"
+      ],
+      "Preta estonada": [
+        "38",
+        "42"
+      ],
+      "Preta": [
+        "40",
+        "42",
+        "44"
+      ]
+    },
+    "details": [
+      "Jeans estonado",
+      "Cordão de amarrar",
+      "Numeração varia por modelo"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "bermuda-jeans-quiksilver",
+    "name": "Bermuda Jeans Quiksilver",
+    "subtitle": "Jeans clássico, do claro ao escuro",
+    "description": "Bermuda jeans masculina de corte reto, com detalhe da marca no bolso traseiro. Sete lavagens, da mais clara à mais escura.",
+    "category": "conjuntos",
+    "marca": "Quiksilver",
+    "publico": "masculino",
+    "rotuloCor": "Modelo",
+    "colors": [
+      {
+        "name": "Azul escura (1969)",
+        "hex": "#2B4C8C"
+      },
+      {
+        "name": "Azul escura (onda)",
+        "hex": "#2A4A88"
+      },
+      {
+        "name": "Azul escura (assinatura)",
+        "hex": "#2D4F8E"
+      },
+      {
+        "name": "Azul clara",
+        "hex": "#A9C6E8"
+      },
+      {
+        "name": "Azul clara (bordado)",
+        "hex": "#B3CDE8"
+      },
+      {
+        "name": "Azul clara (logo vermelho)",
+        "hex": "#AFC9E6"
+      },
+      {
+        "name": "Azul média",
+        "hex": "#7FA3C9"
+      }
+    ],
+    "colorImages": {
+      "Azul escura (1969)": "/produtos/bermuda-jeans-quiksilver-azul-escura-1969.webp",
+      "Azul escura (onda)": "/produtos/bermuda-jeans-quiksilver-azul-escura-onda.webp",
+      "Azul escura (assinatura)": "/produtos/bermuda-jeans-quiksilver-azul-escura-assinatura.webp",
+      "Azul clara": "/produtos/bermuda-jeans-quiksilver-azul-clara.webp",
+      "Azul clara (bordado)": "/produtos/bermuda-jeans-quiksilver-azul-clara-bordado.webp",
+      "Azul clara (logo vermelho)": "/produtos/bermuda-jeans-quiksilver-azul-clara-logo-vermelho.webp",
+      "Azul média": "/produtos/bermuda-jeans-quiksilver-azul-media.webp"
+    },
+    "gallery": [
+      "/produtos/bermuda-jeans-quiksilver-azul-escura-1969.webp",
+      "/produtos/bermuda-jeans-quiksilver-azul-escura-onda.webp",
+      "/produtos/bermuda-jeans-quiksilver-azul-escura-assinatura.webp",
+      "/produtos/bermuda-jeans-quiksilver-azul-clara.webp",
+      "/produtos/bermuda-jeans-quiksilver-azul-clara-bordado.webp",
+      "/produtos/bermuda-jeans-quiksilver-azul-clara-logo-vermelho.webp",
+      "/produtos/bermuda-jeans-quiksilver-azul-media.webp"
+    ],
+    "image": "/produtos/bermuda-jeans-quiksilver-azul-escura-1969.webp",
+    "sizes": [
+      "38",
+      "40",
+      "42",
+      "44",
+      "46",
+      "48"
+    ],
+    "sizesByColor": {
+      "Azul escura (1969)": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "Azul escura (onda)": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "Azul escura (assinatura)": [
+        "40",
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "Azul clara": [
+        "38",
+        "42",
+        "44",
+        "48"
+      ],
+      "Azul clara (bordado)": [
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "Azul clara (logo vermelho)": [
+        "38",
+        "40",
+        "46"
+      ],
+      "Azul média": [
+        "40",
+        "44",
+        "46",
+        "48"
+      ]
+    },
+    "details": [
+      "Marca: Quiksilver",
+      "Bermuda jeans masculina",
+      "Numeração varia por modelo"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "camiseta-oversized-basquete",
+    "name": "Camiseta Oversized Bulls",
+    "subtitle": "Estampas do basquete, modelagem larga",
+    "description": "Camiseta oversized com estampas inspiradas no basquete. Caimento largo e moderno, para quem curte streetwear.",
+    "category": "camisetas",
+    "publico": "masculino",
+    "rotuloCor": "Estampa",
+    "colors": [
+      {
+        "name": "Preta NBA",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Preta 23",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Vermelha NBA",
+        "hex": "#B3202A"
+      },
+      {
+        "name": "Off white 23",
+        "hex": "#EFE8DA"
+      },
+      {
+        "name": "Preta arremesso",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Off white Bulls",
+        "hex": "#EFE8DA"
+      },
+      {
+        "name": "Preta fotos",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Preta Bulls",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Preta NBA": "/produtos/camiseta-oversized-basquete-preta-nba.webp",
+      "Preta 23": "/produtos/camiseta-oversized-basquete-preta-23.webp",
+      "Vermelha NBA": "/produtos/camiseta-oversized-basquete-vermelha-nba.webp",
+      "Off white 23": "/produtos/camiseta-oversized-basquete-off-white-23.webp",
+      "Preta arremesso": "/produtos/camiseta-oversized-basquete-preta-arremesso.webp",
+      "Off white Bulls": "/produtos/camiseta-oversized-basquete-off-white-bulls.webp",
+      "Preta fotos": "/produtos/camiseta-oversized-basquete-preta-fotos.webp",
+      "Preta Bulls": "/produtos/camiseta-oversized-basquete-preta-bulls.webp"
+    },
+    "gallery": [
+      "/produtos/camiseta-oversized-basquete-preta-nba.webp",
+      "/produtos/camiseta-oversized-basquete-preta-23.webp",
+      "/produtos/camiseta-oversized-basquete-vermelha-nba.webp",
+      "/produtos/camiseta-oversized-basquete-off-white-23.webp",
+      "/produtos/camiseta-oversized-basquete-preta-arremesso.webp",
+      "/produtos/camiseta-oversized-basquete-off-white-bulls.webp",
+      "/produtos/camiseta-oversized-basquete-preta-fotos.webp",
+      "/produtos/camiseta-oversized-basquete-preta-bulls.webp"
+    ],
+    "image": "/produtos/camiseta-oversized-basquete-preta-nba.webp",
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesByColor": {
+      "Preta NBA": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta 23": [
+        "G",
+        "GG"
+      ],
+      "Vermelha NBA": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white 23": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta arremesso": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white Bulls": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta fotos": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preta Bulls": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "details": [
+      "Modelagem oversized",
+      "Tamanhos: M, G e GG (consulte a estampa)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "camiseta-tommy-relevo",
+    "name": "Camiseta Tommy Hilfiger",
+    "subtitle": "Básica premium com estampa em relevo",
+    "description": "Camiseta em malha 50.1 de alta gramatura, com estampa em gel com relevo e modelagem nova, de ótimo caimento. Básica, elegante e fácil de combinar.",
+    "category": "camisetas",
+    "marca": "Tommy Hilfiger",
+    "publico": "masculino",
+    "gallery": [
+      "/produtos/camiseta-tommy-relevo-1.webp",
+      "/produtos/camiseta-tommy-relevo-2.webp",
+      "/produtos/camiseta-tommy-relevo-3.webp"
+    ],
+    "image": "/produtos/camiseta-tommy-relevo-1.webp",
+    "colors": [
+      {
+        "name": "Vermelho",
+        "hex": "#B3202A"
+      },
+      {
+        "name": "Off white",
+        "hex": "#EFE8DA"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#6E6E6E"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "sizesByColor": {
+      "Vermelho": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Off white": [
+        "M",
+        "GG"
+      ],
+      "Cinza": [
+        "M"
+      ],
+      "Preto": [
+        "M"
+      ],
+      "Branco": [
+        "P",
+        "M",
+        "GG"
+      ]
+    },
+    "details": [
+      "Marca: Tommy Hilfiger",
+      "Malha 50.1 de alta gramatura",
+      "Estampa em gel com relevo",
+      "Vermelho: M, G e GG · Off white: M e GG · Cinza: M · Preto: M · Branco: P, M e GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "cuia-chimarrao",
+    "name": "Cuia de Chimarrão",
+    "subtitle": "Tradição gaúcha, pronta entrega",
+    "description": "Cuia de porongo para o chimarrão de todo dia, em quatro acabamentos. Um presente com a cara da Serra Gaúcha.",
+    "category": "acessorios",
+    "publico": "unissex",
+    "rotuloCor": "Acabamento",
+    "colors": [
+      {
+        "name": "Capa de couro preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Escura com capa preta",
+        "hex": "#2B2622"
+      },
+      {
+        "name": "Com base de metal",
+        "hex": "#8B5A2B"
+      },
+      {
+        "name": "Capa de couro marrom com brasão",
+        "hex": "#6B3E26"
+      }
+    ],
+    "colorImages": {
+      "Capa de couro preta": "/produtos/cuia-chimarrao-capa-de-couro-preta.webp",
+      "Escura com capa preta": "/produtos/cuia-chimarrao-escura-com-capa-preta.webp",
+      "Com base de metal": "/produtos/cuia-chimarrao-com-base-de-metal.webp",
+      "Capa de couro marrom com brasão": "/produtos/cuia-chimarrao-capa-de-couro-marrom-com-brasao.webp"
+    },
+    "gallery": [
+      "/produtos/cuia-chimarrao-capa-de-couro-preta.webp",
+      "/produtos/cuia-chimarrao-escura-com-capa-preta.webp",
+      "/produtos/cuia-chimarrao-com-base-de-metal.webp",
+      "/produtos/cuia-chimarrao-capa-de-couro-marrom-com-brasao.webp"
+    ],
+    "image": "/produtos/cuia-chimarrao-capa-de-couro-preta.webp",
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Cuia de porongo",
+      "Quatro acabamentos"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "body-splash-victorias-secret",
+    "name": "Body Splash Victoria's Secret",
+    "subtitle": "15 fragrâncias, 250 ml",
+    "description": "Body splash de fragrância leve e marcante, perfeito para quem ama sensação de verão na pele. Escolha a sua entre 15 fragrâncias. Levando 2, tem condição especial: pergunte no WhatsApp.",
+    "category": "essencia",
+    "marca": "Victoria's Secret",
+    "publico": "feminino",
+    "rotuloCor": "Fragrância",
+    "colors": [
+      {
+        "name": "Coconut Passion Brûlée",
+        "hex": "#D9C79B"
+      },
+      {
+        "name": "Bare Vanilla Brûlée",
+        "hex": "#D8A57A"
+      },
+      {
+        "name": "Velvet Petals Brûlée",
+        "hex": "#C99A8A"
+      },
+      {
+        "name": "Angel Cake & Cream",
+        "hex": "#E6D29A"
+      },
+      {
+        "name": "Cherry Bite",
+        "hex": "#C2185B"
+      },
+      {
+        "name": "Cherry Milkshake",
+        "hex": "#E7A0A8"
+      },
+      {
+        "name": "Midnight Bloom",
+        "hex": "#3F51B5"
+      },
+      {
+        "name": "Bare Vanilla",
+        "hex": "#E3B48C"
+      },
+      {
+        "name": "Pure Seduction",
+        "hex": "#C2185B"
+      },
+      {
+        "name": "Romantic",
+        "hex": "#C62828"
+      },
+      {
+        "name": "Love Spell",
+        "hex": "#9C7FD1"
+      },
+      {
+        "name": "Aqua Kiss",
+        "hex": "#4FB3BF"
+      },
+      {
+        "name": "Amber Romance",
+        "hex": "#E39A74"
+      },
+      {
+        "name": "Coconut Passion",
+        "hex": "#D9B866"
+      },
+      {
+        "name": "Velvet Petals",
+        "hex": "#D9A3A0"
+      }
+    ],
+    "colorImages": {
+      "Coconut Passion Brûlée": "/produtos/body-splash-victorias-secret-coconut-passion-brulee.webp",
+      "Bare Vanilla Brûlée": "/produtos/body-splash-victorias-secret-bare-vanilla-brulee.webp",
+      "Velvet Petals Brûlée": "/produtos/body-splash-victorias-secret-velvet-petals-brulee.webp",
+      "Angel Cake & Cream": "/produtos/body-splash-victorias-secret-angel-cake-cream.webp",
+      "Cherry Bite": "/produtos/body-splash-victorias-secret-cherry-bite.webp",
+      "Cherry Milkshake": "/produtos/body-splash-victorias-secret-cherry-milkshake.webp",
+      "Midnight Bloom": "/produtos/body-splash-victorias-secret-midnight-bloom.webp",
+      "Bare Vanilla": "/produtos/body-splash-victorias-secret-bare-vanilla.webp",
+      "Pure Seduction": "/produtos/body-splash-victorias-secret-pure-seduction.webp",
+      "Romantic": "/produtos/body-splash-victorias-secret-romantic.webp",
+      "Love Spell": "/produtos/body-splash-victorias-secret-love-spell.webp",
+      "Aqua Kiss": "/produtos/body-splash-victorias-secret-aqua-kiss.webp",
+      "Amber Romance": "/produtos/body-splash-victorias-secret-amber-romance.webp",
+      "Coconut Passion": "/produtos/body-splash-victorias-secret-coconut-passion.webp",
+      "Velvet Petals": "/produtos/body-splash-victorias-secret-velvet-petals.webp"
+    },
+    "gallery": [
+      "/produtos/body-splash-victorias-secret-coconut-passion-brulee.webp",
+      "/produtos/body-splash-victorias-secret-bare-vanilla-brulee.webp",
+      "/produtos/body-splash-victorias-secret-velvet-petals-brulee.webp",
+      "/produtos/body-splash-victorias-secret-angel-cake-cream.webp",
+      "/produtos/body-splash-victorias-secret-cherry-bite.webp",
+      "/produtos/body-splash-victorias-secret-cherry-milkshake.webp",
+      "/produtos/body-splash-victorias-secret-midnight-bloom.webp",
+      "/produtos/body-splash-victorias-secret-bare-vanilla.webp",
+      "/produtos/body-splash-victorias-secret-pure-seduction.webp",
+      "/produtos/body-splash-victorias-secret-romantic.webp",
+      "/produtos/body-splash-victorias-secret-love-spell.webp",
+      "/produtos/body-splash-victorias-secret-aqua-kiss.webp",
+      "/produtos/body-splash-victorias-secret-amber-romance.webp",
+      "/produtos/body-splash-victorias-secret-coconut-passion.webp",
+      "/produtos/body-splash-victorias-secret-velvet-petals.webp"
+    ],
+    "image": "/produtos/body-splash-victorias-secret-coconut-passion-brulee.webp",
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Marca: Victoria's Secret",
+      "Fragrance mist 250 ml",
+      "Também na versão com brilho (Shimmer)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "body-splash-victorias-secret-shimmer",
+    "name": "Body Splash Victoria's Secret Shimmer",
+    "subtitle": "Com brilho, 250 ml",
+    "description": "A versão com brilho do body splash: perfuma e deixa um brilho suave na pele. Quatro fragrâncias.",
+    "category": "essencia",
+    "marca": "Victoria's Secret",
+    "publico": "feminino",
+    "rotuloCor": "Fragrância",
+    "colors": [
+      {
+        "name": "Pure Seduction Shimmer",
+        "hex": "#E04F8E"
+      },
+      {
+        "name": "Bare Vanilla Shimmer",
+        "hex": "#D8B48A"
+      },
+      {
+        "name": "Temptation Shimmer",
+        "hex": "#E8857A"
+      },
+      {
+        "name": "Coconut Passion Shimmer",
+        "hex": "#E3D3A0"
+      }
+    ],
+    "colorImages": {
+      "Pure Seduction Shimmer": "/produtos/body-splash-victorias-secret-shimmer-pure-seduction-shimmer.webp",
+      "Bare Vanilla Shimmer": "/produtos/body-splash-victorias-secret-shimmer-bare-vanilla-shimmer.webp",
+      "Temptation Shimmer": "/produtos/body-splash-victorias-secret-shimmer-temptation-shimmer.webp",
+      "Coconut Passion Shimmer": "/produtos/body-splash-victorias-secret-shimmer-coconut-passion-shimmer.webp"
+    },
+    "gallery": [
+      "/produtos/body-splash-victorias-secret-shimmer-pure-seduction-shimmer.webp",
+      "/produtos/body-splash-victorias-secret-shimmer-bare-vanilla-shimmer.webp",
+      "/produtos/body-splash-victorias-secret-shimmer-temptation-shimmer.webp",
+      "/produtos/body-splash-victorias-secret-shimmer-coconut-passion-shimmer.webp"
+    ],
+    "image": "/produtos/body-splash-victorias-secret-shimmer-pure-seduction-shimmer.webp",
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Marca: Victoria's Secret",
+      "Fragrance mist com brilho, 250 ml"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "locao-corporal-victorias-secret",
+    "name": "Loção Corporal Victoria's Secret",
+    "subtitle": "Hidratante perfumado, 236 ml",
+    "description": "Loção hidratante perfumada que deixa a pele macia e cheirosa. Combine com o body splash da mesma fragrância. Levando 2, tem condição especial: pergunte no WhatsApp.",
+    "category": "essencia",
+    "marca": "Victoria's Secret",
+    "publico": "feminino",
+    "rotuloCor": "Fragrância",
+    "colors": [
+      {
+        "name": "Coconut Passion Brûlée",
+        "hex": "#D9C79B"
+      },
+      {
+        "name": "Velvet Petals Brûlée",
+        "hex": "#C99A8A"
+      },
+      {
+        "name": "Angel Cake & Cream",
+        "hex": "#E6D29A"
+      },
+      {
+        "name": "Coconut Passion",
+        "hex": "#D9B866"
+      },
+      {
+        "name": "Bare Vanilla Brûlée",
+        "hex": "#D8A57A"
+      },
+      {
+        "name": "Velvet Petals Bliss",
+        "hex": "#9FC3D6"
+      },
+      {
+        "name": "Love Spell Brûlée",
+        "hex": "#9C7FD1"
+      },
+      {
+        "name": "Bare Vanilla",
+        "hex": "#E3B48C"
+      },
+      {
+        "name": "Romantic",
+        "hex": "#C62828"
+      },
+      {
+        "name": "Pure Seduction",
+        "hex": "#C2185B"
+      },
+      {
+        "name": "Aqua Kiss",
+        "hex": "#4FB3BF"
+      },
+      {
+        "name": "Amber Romance",
+        "hex": "#E39A74"
+      },
+      {
+        "name": "Midnight Bloom",
+        "hex": "#3F51B5"
+      },
+      {
+        "name": "Love Spell",
+        "hex": "#9C7FD1"
+      },
+      {
+        "name": "Velvet Petals",
+        "hex": "#D9A3A0"
+      },
+      {
+        "name": "Temptation Shimmer",
+        "hex": "#E8857A"
+      },
+      {
+        "name": "Pure Seduction Shimmer",
+        "hex": "#E04F8E"
+      }
+    ],
+    "colorImages": {
+      "Coconut Passion Brûlée": "/produtos/locao-corporal-victorias-secret-coconut-passion-brulee.webp",
+      "Velvet Petals Brûlée": "/produtos/locao-corporal-victorias-secret-velvet-petals-brulee.webp",
+      "Angel Cake & Cream": "/produtos/locao-corporal-victorias-secret-angel-cake-cream.webp",
+      "Coconut Passion": "/produtos/locao-corporal-victorias-secret-coconut-passion.webp",
+      "Bare Vanilla Brûlée": "/produtos/locao-corporal-victorias-secret-bare-vanilla-brulee.webp",
+      "Velvet Petals Bliss": "/produtos/locao-corporal-victorias-secret-velvet-petals-bliss.webp",
+      "Love Spell Brûlée": "/produtos/locao-corporal-victorias-secret-love-spell-brulee.webp",
+      "Bare Vanilla": "/produtos/locao-corporal-victorias-secret-bare-vanilla.webp",
+      "Romantic": "/produtos/locao-corporal-victorias-secret-romantic.webp",
+      "Pure Seduction": "/produtos/locao-corporal-victorias-secret-pure-seduction.webp",
+      "Aqua Kiss": "/produtos/locao-corporal-victorias-secret-aqua-kiss.webp",
+      "Amber Romance": "/produtos/locao-corporal-victorias-secret-amber-romance.webp",
+      "Midnight Bloom": "/produtos/locao-corporal-victorias-secret-midnight-bloom.webp",
+      "Love Spell": "/produtos/locao-corporal-victorias-secret-love-spell.webp",
+      "Velvet Petals": "/produtos/locao-corporal-victorias-secret-velvet-petals.webp",
+      "Temptation Shimmer": "/produtos/locao-corporal-victorias-secret-temptation-shimmer.webp",
+      "Pure Seduction Shimmer": "/produtos/locao-corporal-victorias-secret-pure-seduction-shimmer.webp"
+    },
+    "gallery": [
+      "/produtos/locao-corporal-victorias-secret-coconut-passion-brulee.webp",
+      "/produtos/locao-corporal-victorias-secret-velvet-petals-brulee.webp",
+      "/produtos/locao-corporal-victorias-secret-angel-cake-cream.webp",
+      "/produtos/locao-corporal-victorias-secret-coconut-passion.webp",
+      "/produtos/locao-corporal-victorias-secret-bare-vanilla-brulee.webp",
+      "/produtos/locao-corporal-victorias-secret-velvet-petals-bliss.webp",
+      "/produtos/locao-corporal-victorias-secret-love-spell-brulee.webp",
+      "/produtos/locao-corporal-victorias-secret-bare-vanilla.webp",
+      "/produtos/locao-corporal-victorias-secret-romantic.webp",
+      "/produtos/locao-corporal-victorias-secret-pure-seduction.webp",
+      "/produtos/locao-corporal-victorias-secret-aqua-kiss.webp",
+      "/produtos/locao-corporal-victorias-secret-amber-romance.webp",
+      "/produtos/locao-corporal-victorias-secret-midnight-bloom.webp",
+      "/produtos/locao-corporal-victorias-secret-love-spell.webp",
+      "/produtos/locao-corporal-victorias-secret-velvet-petals.webp",
+      "/produtos/locao-corporal-victorias-secret-temptation-shimmer.webp",
+      "/produtos/locao-corporal-victorias-secret-pure-seduction-shimmer.webp"
+    ],
+    "image": "/produtos/locao-corporal-victorias-secret-coconut-passion-brulee.webp",
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Marca: Victoria's Secret",
+      "Fragrance lotion 236 ml",
+      "Também na versão com brilho (Shimmer)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "wella-invigo-nutri-enrich",
+    "name": "Shampoo Wella Invigo Nutri-Enrich 1L",
+    "subtitle": "Nutrição intensa para cabelos secos",
+    "description": "Shampoo de nutrição intensa para cabelos secos e sem vida. Limpa suavemente enquanto devolve maciez, brilho e hidratação.",
+    "category": "essencia",
+    "marca": "Wella Professionals",
+    "publico": "unissex",
+    "rotuloCor": "Produto",
+    "colors": [
+      {
+        "name": "Shampoo 1L",
+        "hex": "#F28C50"
+      }
+    ],
+    "colorImages": {
+      "Shampoo 1L": "/produtos/wella-invigo-nutri-enrich-shampoo-1l.webp"
+    },
+    "gallery": [
+      "/produtos/wella-invigo-nutri-enrich-shampoo-1l.webp"
+    ],
+    "image": "/produtos/wella-invigo-nutri-enrich-shampoo-1l.webp",
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Marca: Wella Professionals",
+      "Linha Invigo Nutri-Enrich",
+      "Embalagem de 1 litro"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "fino-premium-touch",
+    "name": "Linha Fino Premium Touch",
+    "subtitle": "Shampoo, condicionador e óleo",
+    "description": "A linha japonesa queridinha para cabelos macios e alinhados: shampoo que limpa e deixa o cabelo macio, condicionador que desembaraça e hidrata, e óleo que controla o frizz e dá brilho.",
+    "category": "essencia",
+    "marca": "Fino",
+    "publico": "unissex",
+    "rotuloCor": "Produto",
+    "colors": [
+      {
+        "name": "Shampoo 550 ml",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Condicionador 550 ml",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Óleo 70 ml",
+        "hex": "#C62828"
+      }
+    ],
+    "colorImages": {
+      "Shampoo 550 ml": "/produtos/fino-premium-touch-shampoo-550-ml.webp",
+      "Condicionador 550 ml": "/produtos/fino-premium-touch-condicionador-550-ml.webp",
+      "Óleo 70 ml": "/produtos/fino-premium-touch-oleo-70-ml.webp"
+    },
+    "gallery": [
+      "/produtos/fino-premium-touch-shampoo-550-ml.webp",
+      "/produtos/fino-premium-touch-condicionador-550-ml.webp",
+      "/produtos/fino-premium-touch-oleo-70-ml.webp"
+    ],
+    "image": "/produtos/fino-premium-touch-shampoo-550-ml.webp",
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Marca: Fino (Shiseido)",
+      "Shampoo 550 ml",
+      "Condicionador 550 ml",
+      "Óleo 70 ml"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "kit-vvlove-4-em-1",
+    "name": "Kit V.V.Love 4 em 1",
+    "subtitle": "Perfume, splash, loção e shower gel",
+    "description": "Kit completo de presente. Velvet Mango: manga cremosa e frutas tropicais com baunilha e musk. Eyad: amadeirado e sensual, com âmbar, baunilha e especiarias.",
+    "category": "essencia",
+    "marca": "V.V.Love",
+    "publico": "feminino",
+    "rotuloCor": "Fragrância",
+    "colors": [
+      {
+        "name": "Velvet Mango",
+        "hex": "#E8B23A"
+      },
+      {
+        "name": "Eyad",
+        "hex": "#8B5A2B"
+      }
+    ],
+    "colorImages": {
+      "Velvet Mango": "/produtos/kit-vvlove-4-em-1-velvet-mango.webp",
+      "Eyad": "/produtos/kit-vvlove-4-em-1-eyad.webp"
+    },
+    "gallery": [
+      "/produtos/kit-vvlove-4-em-1-velvet-mango.webp",
+      "/produtos/kit-vvlove-4-em-1-eyad.webp",
+      "/produtos/kit-vvlove-4-em-1-velvet-mango-2.webp",
+      "/produtos/kit-vvlove-4-em-1-velvet-mango-3.webp",
+      "/produtos/kit-vvlove-4-em-1-eyad-2.webp",
+      "/produtos/kit-vvlove-4-em-1-eyad-3.webp"
+    ],
+    "image": "/produtos/kit-vvlove-4-em-1-velvet-mango.webp",
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Marca: V.V.Love",
+      "Velvet Mango: perfume + body splash + loção + shower gel",
+      "Eyad: 2 perfumes + loção + shower gel",
+      "Embalagem de presente"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
+    "id": "kit-vvlove-2-em-1",
+    "name": "Kit V.V.Love 2 em 1",
+    "subtitle": "Perfume + loção da mesma fragrância",
+    "description": "Perfume e loção hidratante da mesma fragrância, em embalagem de presente pronta para presentear. Fragrâncias de inspiração árabe, intensas e marcantes. Produto contratipo (fragrância inspirada).",
+    "category": "essencia",
+    "marca": "V.V.Love",
+    "publico": "unissex",
+    "rotuloCor": "Versão",
+    "colors": [
+      {
+        "name": "Imperial Crest",
+        "hex": "#C9CDD2"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#8E1B24"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Duban Oud Twist",
+        "hex": "#6B3E26"
+      },
+      {
+        "name": "Doce (sorvete)",
+        "hex": "#7FC6E8"
+      },
+      {
+        "name": "Preto e dourado",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Dourado",
+        "hex": "#C9A55A"
+      },
+      {
+        "name": "Prata",
+        "hex": "#A7A7A2"
+      },
+      {
+        "name": "Rosé",
+        "hex": "#E6C1B5"
+      },
+      {
+        "name": "Kisass",
+        "hex": "#F2C4C9"
+      }
+    ],
+    "colorImages": {
+      "Imperial Crest": "/produtos/kit-vvlove-2-em-1-imperial-crest.webp",
+      "Vermelho": "/produtos/kit-vvlove-2-em-1-vermelho.webp",
+      "Branco": "/produtos/kit-vvlove-2-em-1-branco.webp",
+      "Duban Oud Twist": "/produtos/kit-vvlove-2-em-1-duban-oud-twist.webp",
+      "Doce (sorvete)": "/produtos/kit-vvlove-2-em-1-doce-sorvete.webp",
+      "Preto e dourado": "/produtos/kit-vvlove-2-em-1-preto-e-dourado.webp",
+      "Dourado": "/produtos/kit-vvlove-2-em-1-dourado.webp",
+      "Prata": "/produtos/kit-vvlove-2-em-1-prata.webp",
+      "Rosé": "/produtos/kit-vvlove-2-em-1-rose.webp",
+      "Kisass": "/produtos/kit-vvlove-2-em-1-kisass.webp"
+    },
+    "gallery": [
+      "/produtos/kit-vvlove-2-em-1-imperial-crest.webp",
+      "/produtos/kit-vvlove-2-em-1-vermelho.webp",
+      "/produtos/kit-vvlove-2-em-1-branco.webp",
+      "/produtos/kit-vvlove-2-em-1-duban-oud-twist.webp",
+      "/produtos/kit-vvlove-2-em-1-doce-sorvete.webp",
+      "/produtos/kit-vvlove-2-em-1-preto-e-dourado.webp",
+      "/produtos/kit-vvlove-2-em-1-dourado.webp",
+      "/produtos/kit-vvlove-2-em-1-prata.webp",
+      "/produtos/kit-vvlove-2-em-1-rose.webp",
+      "/produtos/kit-vvlove-2-em-1-kisass.webp"
+    ],
+    "image": "/produtos/kit-vvlove-2-em-1-imperial-crest.webp",
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Marca: V.V.Love",
+      "Perfume + loção",
+      "Contratipo (fragrância inspirada)",
+      "Embalagem de presente",
+      "10 versões"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-19"
+  },
+  {
     "id": "conjunto-alo-canelado",
     "name": "Conjunto Alo Canelado",
     "subtitle": "Top e shorts em 6 cores",

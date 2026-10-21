@@ -125,7 +125,7 @@ const ModalConteudo: React.FC<ProductModalProps & { product: Product }> = ({
             {product.colors.length > 0 && (
               <fieldset className="mt-5">
                 <legend className="text-xs font-semibold text-[#242322] mb-2">
-                  Cor: <span className="text-[#7A5530] font-bold">{selectedColor}</span>
+                  {product.rotuloCor ?? 'Cor'}: <span className="text-[#7A5530] font-bold">{selectedColor}</span>
                 </legend>
                 <div className="flex flex-wrap gap-2">
                   {product.colors.map((color) => (

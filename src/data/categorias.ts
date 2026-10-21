@@ -7,6 +7,7 @@ export const CATEGORIAS: { id: CategoryType; rota: string; label: string }[] = [
   { id: 'pijamas', rota: 'pijamas', label: 'Pijamas' },
   { id: 'fitness', rota: 'fitness', label: 'Fitness' },
   { id: 'camisetas', rota: 'camisetas', label: 'Camisetas' },
+  { id: 'conjuntos', rota: 'conjuntos-e-bermudas', label: 'Conjuntos e bermudas' },
   { id: 'essencia', rota: 'perfumaria', label: 'Perfumaria e corpo' },
   { id: 'acessorios', rota: 'acessorios', label: 'Bonés e acessórios' },
   { id: 'eletronicos', rota: 'eletronicos', label: 'Eletrônicos' },
