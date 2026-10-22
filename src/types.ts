@@ -12,6 +12,7 @@ export type CategoryType =
   | 'pijamas'
   | 'fitness'
   | 'camisetas'
+  | 'calcas'
   | 'eletronicos';
 
 export type ProductSize = string;
