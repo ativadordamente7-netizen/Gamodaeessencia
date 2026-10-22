@@ -25,9 +25,13 @@ const categorySynonyms: Partial<Record<CategoryType, string[]>> = {
   tenis: ['tenis', 'sapatenis', 'sneaker', 'calcado'],
   eletronicos: ['eletronico', 'tv', 'smart tv', 'televisao', 'tecnologia'],
   essencia: ['perfume', 'fragrancia', 'essencia', 'body splash', 'hidratante', 'locao', 'shampoo', 'cabelo', 'kit'],
-  conjuntos: ['conjunto', 'bermuda', 'roupa', 'jeans'],
+  conjuntos: ['conjunto', 'bermuda', 'roupa', 'renda'],
+  calcas: ['calca', 'jeans', 'wide leg', 'skinny', 'mom', 'baggy', 'linho'],
+  camisetas: ['camiseta', 'camisa', 'polo', 'blusa'],
+  pijamas: ['pijama', 'pijama americano', 'plus size'],
+  fitness: ['fitness', 'academia', 'legging', 'macacao', 'treino', 'alo'],
   chinelos: ['chinelo', 'papete', 'sandalia', 'slide'],
-  acessorios: ['cuia', 'chimarrao', 'bone', 'meia'],
+  acessorios: ['cuia', 'chimarrao', 'bone', 'meia', 'mala', 'bolsa'],
 };
 
 const chip = (ativo: boolean) =>
