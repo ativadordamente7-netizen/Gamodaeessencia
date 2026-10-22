@@ -1,5 +1,63 @@
 [
   {
+    "id": "polo-gucci-elastano",
+    "name": "Camisa Polo Gucci Elastano",
+    "subtitle": "Malha super premium com elastano",
+    "description": "Polo em malha super premium com elastano, gola creme com listras em vermelho e verde e logo bordado no peito. Elegante para o dia a dia na Serra e para ocasiões especiais.",
+    "category": "camisetas",
+    "marca": "Gucci",
+    "publico": "masculino",
+    "image": "/produtos/polo-gucci-elastano-vermelha.webp",
+    "gallery": [
+      "/produtos/polo-gucci-elastano-vermelha.webp",
+      "/produtos/polo-gucci-elastano-colecao.webp",
+      "/produtos/polo-gucci-elastano-azul-marinho.webp"
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Vermelha",
+        "hex": "#B3202A"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A55"
+      },
+      {
+        "name": "Branca",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Off white",
+        "hex": "#EDE6D6"
+      }
+    ],
+    "colorImages": {
+      "Vermelha": "/produtos/polo-gucci-elastano-vermelha.webp",
+      "Azul marinho": "/produtos/polo-gucci-elastano-azul-marinho.webp",
+      "Branca": "/produtos/polo-gucci-elastano-colecao.webp",
+      "Preta": "/produtos/polo-gucci-elastano-colecao.webp",
+      "Off white": "/produtos/polo-gucci-elastano-colecao.webp"
+    },
+    "details": [
+      "Marca: Gucci",
+      "Malha com elastano",
+      "Cores: vermelha, azul marinho, branca, preta e off white",
+      "Tamanhos: P, M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-22"
+  },
+  {
     "id": "pijama-americano-curto-plus",
     "name": "Pijama Americano Curto Plus",
     "subtitle": "Plus size, 12 estampas",
