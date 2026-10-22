@@ -132,29 +132,6 @@
     "_postadoNoGrupo": ""
   },
   {
-    "id": "pijama-americano-curto",
-    "name": "Pijama Americano Curto",
-    "subtitle": "Clássico e confortável",
-    "description": "O pijama americano de botões em versão curta, com modelagem confortável. Disponível em vários modelos; a numeração varia por estampa.",
-    "category": "pijamas",
-    "marca": "GA",
-    "publico": "feminino",
-    "image": "",
-    "sizes": [
-      "P",
-      "M",
-      "G",
-      "GG"
-    ],
-    "colors": [],
-    "details": [
-      "Tamanhos: P, M, G e GG (consulte por modelo)"
-    ],
-    "inStock": true,
-    "addedAt": "",
-    "_postadoNoGrupo": ""
-  },
-  {
     "id": "conjunto-alo",
     "name": "Conjunto Alo",
     "subtitle": "Para treinar com estilo",
@@ -171,29 +148,6 @@
     "details": [
       "Tecido: poliamida com elastano",
       "Tamanhos: P/M e G/GG"
-    ],
-    "inStock": true,
-    "addedAt": "",
-    "_postadoNoGrupo": ""
-  },
-  {
-    "id": "conjunto-alo-lancamento",
-    "name": "Conjunto Alo (lançamento)",
-    "subtitle": "Compressão e conforto",
-    "description": "Lançamento em 75% poliamida e 25% elastano, com toque macio e ótima sustentação. Para quem leva o treino a sério sem abrir mão do visual.",
-    "category": "fitness",
-    "marca": "Alo",
-    "publico": "feminino",
-    "image": "",
-    "sizes": [
-      "P",
-      "M",
-      "G"
-    ],
-    "colors": [],
-    "details": [
-      "Tecido: 75% poliamida, 25% elastano",
-      "Tamanhos: P, M e G"
     ],
     "inStock": true,
     "addedAt": "",

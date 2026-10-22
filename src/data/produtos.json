@@ -1,5 +1,2084 @@
 [
   {
+    "id": "pijama-americano-curto-plus",
+    "name": "Pijama Americano Curto Plus",
+    "subtitle": "Plus size, 12 estampas",
+    "description": "Pijama americano curto de botões, em tecido de ótima qualidade e super confortável. Grade plus size, do G1 ao G3.",
+    "category": "pijamas",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "/produtos/pijama-americano-curto-plus-branco-estampado.webp",
+    "gallery": [
+      "/produtos/pijama-americano-curto-plus-branco-estampado.webp",
+      "/produtos/pijama-americano-curto-plus-cinza-com-lacos.webp",
+      "/produtos/pijama-americano-curto-plus-lilas-estampado.webp",
+      "/produtos/pijama-americano-curto-plus-bege-estampado.webp",
+      "/produtos/pijama-americano-curto-plus-pessego-estampado.webp",
+      "/produtos/pijama-americano-curto-plus-azul-tiffany-estampado.webp",
+      "/produtos/pijama-americano-curto-plus-lilas-de-bolinhas.webp",
+      "/produtos/pijama-americano-curto-plus-azul-claro-de-bolinhas.webp",
+      "/produtos/pijama-americano-curto-plus-rosa-estampado.webp",
+      "/produtos/pijama-americano-curto-plus-pessego-floral.webp",
+      "/produtos/pijama-americano-curto-plus-off-white-estampado.webp",
+      "/produtos/pijama-americano-curto-plus-pink-estampado.webp"
+    ],
+    "sizes": [
+      "G1",
+      "G2",
+      "G3"
+    ],
+    "colors": [
+      {
+        "name": "Branco estampado",
+        "hex": "#F1ECE4"
+      },
+      {
+        "name": "Cinza com laços",
+        "hex": "#9A9A9A"
+      },
+      {
+        "name": "Lilás estampado",
+        "hex": "#C9A0D8"
+      },
+      {
+        "name": "Bege estampado",
+        "hex": "#E9D9C2"
+      },
+      {
+        "name": "Pêssego estampado",
+        "hex": "#F2C7B0"
+      },
+      {
+        "name": "Azul tiffany estampado",
+        "hex": "#5CC3C5"
+      },
+      {
+        "name": "Lilás de bolinhas",
+        "hex": "#B9A3DA"
+      },
+      {
+        "name": "Azul claro de bolinhas",
+        "hex": "#A9CDEB"
+      },
+      {
+        "name": "Rosa estampado",
+        "hex": "#EFA7BE"
+      },
+      {
+        "name": "Pêssego floral",
+        "hex": "#F4C3A8"
+      },
+      {
+        "name": "Off white estampado",
+        "hex": "#F3EDE6"
+      },
+      {
+        "name": "Pink estampado",
+        "hex": "#E8619A"
+      }
+    ],
+    "colorImages": {
+      "Branco estampado": "/produtos/pijama-americano-curto-plus-branco-estampado.webp",
+      "Cinza com laços": "/produtos/pijama-americano-curto-plus-cinza-com-lacos.webp",
+      "Lilás estampado": "/produtos/pijama-americano-curto-plus-lilas-estampado.webp",
+      "Bege estampado": "/produtos/pijama-americano-curto-plus-bege-estampado.webp",
+      "Pêssego estampado": "/produtos/pijama-americano-curto-plus-pessego-estampado.webp",
+      "Azul tiffany estampado": "/produtos/pijama-americano-curto-plus-azul-tiffany-estampado.webp",
+      "Lilás de bolinhas": "/produtos/pijama-americano-curto-plus-lilas-de-bolinhas.webp",
+      "Azul claro de bolinhas": "/produtos/pijama-americano-curto-plus-azul-claro-de-bolinhas.webp",
+      "Rosa estampado": "/produtos/pijama-americano-curto-plus-rosa-estampado.webp",
+      "Pêssego floral": "/produtos/pijama-americano-curto-plus-pessego-floral.webp",
+      "Off white estampado": "/produtos/pijama-americano-curto-plus-off-white-estampado.webp",
+      "Pink estampado": "/produtos/pijama-americano-curto-plus-pink-estampado.webp"
+    },
+    "sizesByColor": {
+      "Lilás de bolinhas": [
+        "G1",
+        "G3"
+      ],
+      "Azul claro de bolinhas": [
+        "G3"
+      ],
+      "Rosa estampado": [
+        "G3"
+      ],
+      "Pêssego floral": [
+        "G3"
+      ],
+      "Off white estampado": [
+        "G1"
+      ],
+      "Pink estampado": [
+        "G1",
+        "G2",
+        "G3"
+      ]
+    },
+    "rotuloCor": "Estampa",
+    "details": [
+      "Camisa de botões + short",
+      "Tamanhos: G1, G2 e G3 (varia por estampa)",
+      "Confirme a numeração da estampa no WhatsApp"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "pijama-americano-curto",
+    "name": "Pijama Americano Curto",
+    "subtitle": "Clássico de botões, 14 modelos",
+    "description": "Pijama americano curto de botões, em tecido de ótima qualidade e super confortável. Modelos lisos e estampados; a numeração varia por modelo.",
+    "category": "pijamas",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "/produtos/pijama-americano-curto-vinho-estampado.webp",
+    "gallery": [
+      "/produtos/pijama-americano-curto-vinho-estampado.webp",
+      "/produtos/pijama-americano-curto-azul-marinho-liso.webp",
+      "/produtos/pijama-americano-curto-preto-liso.webp",
+      "/produtos/pijama-americano-curto-pink-liso.webp",
+      "/produtos/pijama-americano-curto-salmao-estampado.webp",
+      "/produtos/pijama-americano-curto-pink-com-vivo.webp",
+      "/produtos/pijama-americano-curto-azul-claro-estampado.webp",
+      "/produtos/pijama-americano-curto-rosa-estampado.webp",
+      "/produtos/pijama-americano-curto-branco-com-manchas-verdes.webp",
+      "/produtos/pijama-americano-curto-rosa-listrado.webp",
+      "/produtos/pijama-americano-curto-caramelo-estampado.webp",
+      "/produtos/pijama-americano-curto-preto-estampado.webp",
+      "/produtos/pijama-americano-curto-pink-estampado.webp",
+      "/produtos/pijama-americano-curto-vermelho-estampado.webp"
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Vinho estampado",
+        "hex": "#8E1B3A"
+      },
+      {
+        "name": "Azul marinho liso",
+        "hex": "#1F2A55"
+      },
+      {
+        "name": "Preto liso",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Pink liso",
+        "hex": "#D6337A"
+      },
+      {
+        "name": "Salmão estampado",
+        "hex": "#F2A07B"
+      },
+      {
+        "name": "Pink com vivo",
+        "hex": "#E8559A"
+      },
+      {
+        "name": "Azul claro estampado",
+        "hex": "#7CC6E4"
+      },
+      {
+        "name": "Rosa estampado",
+        "hex": "#F1A9B4"
+      },
+      {
+        "name": "Branco com manchas verdes",
+        "hex": "#EEF0EA"
+      },
+      {
+        "name": "Rosa listrado",
+        "hex": "#F0A6CF"
+      },
+      {
+        "name": "Caramelo estampado",
+        "hex": "#B08A6A"
+      },
+      {
+        "name": "Preto estampado",
+        "hex": "#1E2433"
+      },
+      {
+        "name": "Pink estampado",
+        "hex": "#E85C9C"
+      },
+      {
+        "name": "Vermelho estampado",
+        "hex": "#C0182B"
+      }
+    ],
+    "colorImages": {
+      "Vinho estampado": "/produtos/pijama-americano-curto-vinho-estampado.webp",
+      "Azul marinho liso": "/produtos/pijama-americano-curto-azul-marinho-liso.webp",
+      "Preto liso": "/produtos/pijama-americano-curto-preto-liso.webp",
+      "Pink liso": "/produtos/pijama-americano-curto-pink-liso.webp",
+      "Salmão estampado": "/produtos/pijama-americano-curto-salmao-estampado.webp",
+      "Pink com vivo": "/produtos/pijama-americano-curto-pink-com-vivo.webp",
+      "Azul claro estampado": "/produtos/pijama-americano-curto-azul-claro-estampado.webp",
+      "Rosa estampado": "/produtos/pijama-americano-curto-rosa-estampado.webp",
+      "Branco com manchas verdes": "/produtos/pijama-americano-curto-branco-com-manchas-verdes.webp",
+      "Rosa listrado": "/produtos/pijama-americano-curto-rosa-listrado.webp",
+      "Caramelo estampado": "/produtos/pijama-americano-curto-caramelo-estampado.webp",
+      "Preto estampado": "/produtos/pijama-americano-curto-preto-estampado.webp",
+      "Pink estampado": "/produtos/pijama-americano-curto-pink-estampado.webp",
+      "Vermelho estampado": "/produtos/pijama-americano-curto-vermelho-estampado.webp"
+    },
+    "sizesByColor": {
+      "Vinho estampado": [
+        "P"
+      ],
+      "Azul marinho liso": [
+        "P",
+        "GG"
+      ],
+      "Preto liso": [
+        "P",
+        "GG"
+      ],
+      "Pink liso": [
+        "P",
+        "GG"
+      ],
+      "Salmão estampado": [
+        "P"
+      ],
+      "Pink com vivo": [
+        "P",
+        "G"
+      ],
+      "Azul claro estampado": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Rosa estampado": [
+        "P",
+        "M",
+        "G",
+        "GG"
+      ],
+      "Branco com manchas verdes": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Rosa listrado": [
+        "G",
+        "GG"
+      ],
+      "Caramelo estampado": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preto estampado": [
+        "P",
+        "G",
+        "GG"
+      ],
+      "Pink estampado": [
+        "P",
+        "G",
+        "GG"
+      ],
+      "Vermelho estampado": [
+        "P"
+      ]
+    },
+    "rotuloCor": "Estampa",
+    "details": [
+      "Camisa de botões + short",
+      "Tamanhos: P ao GG (varia por modelo)",
+      "Confirme a numeração do modelo no WhatsApp"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-legging-vivo",
+    "name": "Conjunto Alo Legging com Vivo",
+    "subtitle": "Poliamida com elastano, não marca",
+    "description": "Top e legging em poliamida com elastano, com vivos contrastantes. Tecido importado que não marca e acompanha cada movimento.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-legging-vivo-marrom.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-legging-vivo-marrom.webp",
+      "/produtos/conjunto-alo-legging-vivo-roxo.webp",
+      "/produtos/conjunto-alo-legging-vivo-rosa.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Marrom",
+        "hex": "#5A3A2C"
+      },
+      {
+        "name": "Roxo",
+        "hex": "#5B2E7A"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#EBA3C4"
+      }
+    ],
+    "colorImages": {
+      "Marrom": "/produtos/conjunto-alo-legging-vivo-marrom.webp",
+      "Roxo": "/produtos/conjunto-alo-legging-vivo-roxo.webp",
+      "Rosa": "/produtos/conjunto-alo-legging-vivo-rosa.webp"
+    },
+    "sizesByColor": {
+      "Marrom": [
+        "P/M",
+        "G/GG"
+      ],
+      "Roxo": [
+        "P/M",
+        "G/GG"
+      ],
+      "Rosa": [
+        "G/GG"
+      ]
+    },
+    "details": [
+      "Marca: Alo",
+      "Tecido: poliamida com elastano",
+      "Importado, não marca",
+      "Tamanhos: P/M e G/GG (rosa só G/GG)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-legging-liso",
+    "name": "Conjunto Alo Legging Liso",
+    "subtitle": "Poliamida com elastano, importado",
+    "description": "Top e legging lisos em poliamida com elastano, tecido importado. Visual limpo para treinar ou usar no dia a dia.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-legging-liso-marrom.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-legging-liso-marrom.webp",
+      "/produtos/conjunto-alo-legging-liso-marrom-2.webp",
+      "/produtos/conjunto-alo-legging-liso-preto.webp",
+      "/produtos/conjunto-alo-legging-liso-bege.webp",
+      "/produtos/conjunto-alo-legging-liso-rose.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Marrom",
+        "hex": "#6A4130"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Bege",
+        "hex": "#DCD3C4"
+      },
+      {
+        "name": "Rosê",
+        "hex": "#B06F6F"
+      }
+    ],
+    "colorImages": {
+      "Marrom": "/produtos/conjunto-alo-legging-liso-marrom.webp",
+      "Preto": "/produtos/conjunto-alo-legging-liso-preto.webp",
+      "Bege": "/produtos/conjunto-alo-legging-liso-bege.webp",
+      "Rosê": "/produtos/conjunto-alo-legging-liso-rose.webp"
+    },
+    "sizesByColor": {
+      "Marrom": [
+        "P/M",
+        "G/GG"
+      ],
+      "Preto": [
+        "G/GG"
+      ],
+      "Bege": [
+        "G/GG"
+      ],
+      "Rosê": [
+        "G/GG"
+      ]
+    },
+    "details": [
+      "Marca: Alo",
+      "Tecido: poliamida com elastano",
+      "Importado",
+      "Tamanhos: P/M e G/GG (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-legging-canelado",
+    "name": "Conjunto Alo Legging Canelado",
+    "subtitle": "Canelado premium, 6 cores",
+    "description": "Top e legging em tecido canelado premium. Modela bem o corpo e vai do treino ao café pós-academia.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-legging-canelado-preto.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-legging-canelado-preto.webp",
+      "/produtos/conjunto-alo-legging-canelado-azul-marinho.webp",
+      "/produtos/conjunto-alo-legging-canelado-marrom.webp",
+      "/produtos/conjunto-alo-legging-canelado-cinza.webp",
+      "/produtos/conjunto-alo-legging-canelado-caramelo.webp",
+      "/produtos/conjunto-alo-legging-canelado-vinho.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A44"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#5A3A2C"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#6E6E6E"
+      },
+      {
+        "name": "Caramelo",
+        "hex": "#9C6B48"
+      },
+      {
+        "name": "Vinho",
+        "hex": "#6E1C2A"
+      }
+    ],
+    "colorImages": {
+      "Preto": "/produtos/conjunto-alo-legging-canelado-preto.webp",
+      "Azul marinho": "/produtos/conjunto-alo-legging-canelado-azul-marinho.webp",
+      "Marrom": "/produtos/conjunto-alo-legging-canelado-marrom.webp",
+      "Cinza": "/produtos/conjunto-alo-legging-canelado-cinza.webp",
+      "Caramelo": "/produtos/conjunto-alo-legging-canelado-caramelo.webp",
+      "Vinho": "/produtos/conjunto-alo-legging-canelado-vinho.webp"
+    },
+    "sizesByColor": {
+      "Preto": [
+        "P/M",
+        "G/GG"
+      ],
+      "Azul marinho": [
+        "P/M",
+        "G/GG"
+      ],
+      "Marrom": [
+        "P/M",
+        "G/GG"
+      ],
+      "Cinza": [
+        "P/M",
+        "G/GG"
+      ],
+      "Caramelo": [
+        "P/M",
+        "G/GG"
+      ],
+      "Vinho": [
+        "G/GG"
+      ]
+    },
+    "details": [
+      "Marca: Alo",
+      "Tecido canelado premium",
+      "Tamanhos: P/M e G/GG (vinho só G/GG)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-shorts-vivo",
+    "name": "Conjunto Alo Shorts com Vivo",
+    "subtitle": "Poliamida canelada importada",
+    "description": "Top e shorts em poliamida canelada importada, com vivos contrastantes. Confortável para treinar e bonito no dia a dia.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-shorts-vivo-preto.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-shorts-vivo-preto.webp",
+      "/produtos/conjunto-alo-shorts-vivo-cinza.webp",
+      "/produtos/conjunto-alo-shorts-vivo-bege.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#6E6E6E"
+      },
+      {
+        "name": "Bege",
+        "hex": "#C7A98A"
+      }
+    ],
+    "colorImages": {
+      "Preto": "/produtos/conjunto-alo-shorts-vivo-preto.webp",
+      "Cinza": "/produtos/conjunto-alo-shorts-vivo-cinza.webp",
+      "Bege": "/produtos/conjunto-alo-shorts-vivo-bege.webp"
+    },
+    "sizesByColor": {
+      "Preto": [
+        "P/M",
+        "G/GG"
+      ],
+      "Cinza": [
+        "P/M",
+        "G/GG"
+      ],
+      "Bege": [
+        "P/M",
+        "G/GG"
+      ]
+    },
+    "details": [
+      "Marca: Alo",
+      "Poliamida canelada, importada",
+      "Tamanhos: P/M e G/GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-alcas-contraste",
+    "name": "Conjunto Alo Alças Contrastantes",
+    "subtitle": "Canelado com elastano, 8 cores",
+    "description": "Top de alças contrastantes e shorts, em tecido canelado importado com elastano. Oito cores para montar o look de treino.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-alcas-contraste-verde-salvia.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-alcas-contraste-verde-salvia.webp",
+      "/produtos/conjunto-alo-alcas-contraste-rosa.webp",
+      "/produtos/conjunto-alo-alcas-contraste-verde-oliva.webp",
+      "/produtos/conjunto-alo-alcas-contraste-caqui.webp",
+      "/produtos/conjunto-alo-alcas-contraste-amarelo.webp",
+      "/produtos/conjunto-alo-alcas-contraste-verde-petroleo.webp",
+      "/produtos/conjunto-alo-alcas-contraste-roxo.webp",
+      "/produtos/conjunto-alo-alcas-contraste-azul-royal.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Verde sálvia",
+        "hex": "#A8B89A"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#EFA3C3"
+      },
+      {
+        "name": "Verde oliva",
+        "hex": "#5E6B3E"
+      },
+      {
+        "name": "Cáqui",
+        "hex": "#8F8463"
+      },
+      {
+        "name": "Amarelo",
+        "hex": "#EDE7A0"
+      },
+      {
+        "name": "Verde petróleo",
+        "hex": "#1F4A4F"
+      },
+      {
+        "name": "Roxo",
+        "hex": "#5B2A55"
+      },
+      {
+        "name": "Azul royal",
+        "hex": "#1F48B8"
+      }
+    ],
+    "colorImages": {
+      "Verde sálvia": "/produtos/conjunto-alo-alcas-contraste-verde-salvia.webp",
+      "Rosa": "/produtos/conjunto-alo-alcas-contraste-rosa.webp",
+      "Verde oliva": "/produtos/conjunto-alo-alcas-contraste-verde-oliva.webp",
+      "Cáqui": "/produtos/conjunto-alo-alcas-contraste-caqui.webp",
+      "Amarelo": "/produtos/conjunto-alo-alcas-contraste-amarelo.webp",
+      "Verde petróleo": "/produtos/conjunto-alo-alcas-contraste-verde-petroleo.webp",
+      "Roxo": "/produtos/conjunto-alo-alcas-contraste-roxo.webp",
+      "Azul royal": "/produtos/conjunto-alo-alcas-contraste-azul-royal.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Canelado com elastano, importado",
+      "Tamanhos: P/M e G/GG (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "macacao-alo-flare",
+    "name": "Macacão Alo Flare",
+    "subtitle": "Macacão longo com vivos, 7 cores",
+    "description": "Macacão longo com perna flare e vivos contrastantes, em tecido canelado com elastano. Peça única que resolve o look.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/macacao-alo-flare-vinho.webp",
+    "gallery": [
+      "/produtos/macacao-alo-flare-vinho.webp",
+      "/produtos/macacao-alo-flare-azul-marinho.webp",
+      "/produtos/macacao-alo-flare-chumbo.webp",
+      "/produtos/macacao-alo-flare-verde-petroleo.webp",
+      "/produtos/macacao-alo-flare-marrom.webp",
+      "/produtos/macacao-alo-flare-rosa.webp",
+      "/produtos/macacao-alo-flare-preto.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Vinho",
+        "hex": "#6E1C2A"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A55"
+      },
+      {
+        "name": "Chumbo",
+        "hex": "#3C3C3C"
+      },
+      {
+        "name": "Verde petróleo",
+        "hex": "#1F4A3F"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#5A3A2C"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#EBB3C0"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Vinho": "/produtos/macacao-alo-flare-vinho.webp",
+      "Azul marinho": "/produtos/macacao-alo-flare-azul-marinho.webp",
+      "Chumbo": "/produtos/macacao-alo-flare-chumbo.webp",
+      "Verde petróleo": "/produtos/macacao-alo-flare-verde-petroleo.webp",
+      "Marrom": "/produtos/macacao-alo-flare-marrom.webp",
+      "Rosa": "/produtos/macacao-alo-flare-rosa.webp",
+      "Preto": "/produtos/macacao-alo-flare-preto.webp"
+    },
+    "sizesByColor": {
+      "Vinho": [
+        "G/GG"
+      ],
+      "Azul marinho": [
+        "G/GG"
+      ],
+      "Chumbo": [
+        "G/GG"
+      ],
+      "Verde petróleo": [
+        "G/GG"
+      ],
+      "Marrom": [
+        "G/GG"
+      ],
+      "Rosa": [
+        "G/GG"
+      ],
+      "Preto": [
+        "P/M",
+        "G/GG"
+      ]
+    },
+    "details": [
+      "Marca: Alo",
+      "Canelado com elastano, importado",
+      "Perna flare",
+      "Tamanhos: G/GG (preto também P/M)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-calca-flare",
+    "name": "Conjunto Alo Calça Flare",
+    "subtitle": "Top e calça flare com vivos",
+    "description": "Top e calça flare com vivos contrastantes, em tecido canelado com elastano. Confortável e elegante, do treino à rua.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-calca-flare-preto.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-calca-flare-preto.webp",
+      "/produtos/conjunto-alo-calca-flare-marrom.webp",
+      "/produtos/conjunto-alo-calca-flare-azul.webp",
+      "/produtos/conjunto-alo-calca-flare-rosa.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#5A3A2C"
+      },
+      {
+        "name": "Azul",
+        "hex": "#4C6A9A"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#EBB3C0"
+      }
+    ],
+    "colorImages": {
+      "Preto": "/produtos/conjunto-alo-calca-flare-preto.webp",
+      "Marrom": "/produtos/conjunto-alo-calca-flare-marrom.webp",
+      "Azul": "/produtos/conjunto-alo-calca-flare-azul.webp",
+      "Rosa": "/produtos/conjunto-alo-calca-flare-rosa.webp"
+    },
+    "sizesByColor": {
+      "Preto": [
+        "G/GG"
+      ],
+      "Marrom": [
+        "G/GG"
+      ],
+      "Azul": [
+        "G/GG"
+      ],
+      "Rosa": [
+        "P/M",
+        "G/GG"
+      ]
+    },
+    "details": [
+      "Marca: Alo",
+      "Canelado com elastano, importado",
+      "Tamanhos: G/GG (rosa também P/M)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-saia",
+    "name": "Conjunto Alo Saia e Cropped",
+    "subtitle": "Suplex premium com shorts interno",
+    "description": "Saia lisa e cropped de alça dupla, em suplex premium que não marca e não fica transparente. A saia tem shorts interno.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-saia-amarelo.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-saia-amarelo.webp",
+      "/produtos/conjunto-alo-saia-preto.webp",
+      "/produtos/conjunto-alo-saia-branco.webp",
+      "/produtos/conjunto-alo-saia-rosa.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Amarelo",
+        "hex": "#F1E7A6"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#F2C4D0"
+      }
+    ],
+    "colorImages": {
+      "Amarelo": "/produtos/conjunto-alo-saia-amarelo.webp",
+      "Preto": "/produtos/conjunto-alo-saia-preto.webp",
+      "Branco": "/produtos/conjunto-alo-saia-branco.webp",
+      "Rosa": "/produtos/conjunto-alo-saia-rosa.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Suplex premium",
+      "Não marca e não fica transparente",
+      "Saia com shorts interno, alça dupla",
+      "Tamanhos: P/M e G/GG (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-bojo",
+    "name": "Conjunto Alo com Bojo",
+    "subtitle": "Tecido leve, top com bojo",
+    "description": "Top com bojo e shorts com vivos contrastantes, em tecido leve (não é canelado).",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-bojo-preto.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-bojo-preto.webp",
+      "/produtos/conjunto-alo-bojo-vinho.webp",
+      "/produtos/conjunto-alo-bojo-azul-claro.webp",
+      "/produtos/conjunto-alo-bojo-azul-marinho.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Vinho",
+        "hex": "#6E1C2A"
+      },
+      {
+        "name": "Azul claro",
+        "hex": "#9CC4E8"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A55"
+      }
+    ],
+    "colorImages": {
+      "Preto": "/produtos/conjunto-alo-bojo-preto.webp",
+      "Vinho": "/produtos/conjunto-alo-bojo-vinho.webp",
+      "Azul claro": "/produtos/conjunto-alo-bojo-azul-claro.webp",
+      "Azul marinho": "/produtos/conjunto-alo-bojo-azul-marinho.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Top com bojo",
+      "Tecido leve, não canelado",
+      "Tamanhos: P/M e G/GG (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-lancamento",
+    "name": "Conjunto Alo Lançamento",
+    "subtitle": "75% poliamida e 25% elastano",
+    "description": "Top e legging em 75% poliamida e 25% elastano, com toque macio e ótima sustentação. Seis cores.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-lancamento-preto.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-lancamento-preto.webp",
+      "/produtos/conjunto-alo-lancamento-azul.webp",
+      "/produtos/conjunto-alo-lancamento-bege.webp",
+      "/produtos/conjunto-alo-lancamento-lilas.webp",
+      "/produtos/conjunto-alo-lancamento-azul-marinho.webp",
+      "/produtos/conjunto-alo-lancamento-taupe.webp"
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Azul",
+        "hex": "#5C9AE0"
+      },
+      {
+        "name": "Bege",
+        "hex": "#DCCDB0"
+      },
+      {
+        "name": "Lilás",
+        "hex": "#B79AD6"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A55"
+      },
+      {
+        "name": "Taupe",
+        "hex": "#A89582"
+      }
+    ],
+    "colorImages": {
+      "Preto": "/produtos/conjunto-alo-lancamento-preto.webp",
+      "Azul": "/produtos/conjunto-alo-lancamento-azul.webp",
+      "Bege": "/produtos/conjunto-alo-lancamento-bege.webp",
+      "Lilás": "/produtos/conjunto-alo-lancamento-lilas.webp",
+      "Azul marinho": "/produtos/conjunto-alo-lancamento-azul-marinho.webp",
+      "Taupe": "/produtos/conjunto-alo-lancamento-taupe.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Tecido: 75% poliamida, 25% elastano",
+      "Tamanhos: P, M e G"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-alo-cropped-shorts",
+    "name": "Conjunto Alo Cropped e Shorts",
+    "subtitle": "Poliamida com elastano, 5 cores",
+    "description": "Cropped de manga curta e shorts em poliamida com elastano. Conforto para treinar e para o dia a dia.",
+    "category": "fitness",
+    "marca": "Alo",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-alo-cropped-shorts-marrom.webp",
+    "gallery": [
+      "/produtos/conjunto-alo-cropped-shorts-marrom.webp",
+      "/produtos/conjunto-alo-cropped-shorts-azul-claro.webp",
+      "/produtos/conjunto-alo-cropped-shorts-cinza-gelo.webp",
+      "/produtos/conjunto-alo-cropped-shorts-amarelo.webp",
+      "/produtos/conjunto-alo-cropped-shorts-rosa.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "colors": [
+      {
+        "name": "Marrom",
+        "hex": "#4A2C24"
+      },
+      {
+        "name": "Azul claro",
+        "hex": "#8DB8E8"
+      },
+      {
+        "name": "Cinza gelo",
+        "hex": "#CFD6CF"
+      },
+      {
+        "name": "Amarelo",
+        "hex": "#F0E39A"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#F2C4D0"
+      }
+    ],
+    "colorImages": {
+      "Marrom": "/produtos/conjunto-alo-cropped-shorts-marrom.webp",
+      "Azul claro": "/produtos/conjunto-alo-cropped-shorts-azul-claro.webp",
+      "Cinza gelo": "/produtos/conjunto-alo-cropped-shorts-cinza-gelo.webp",
+      "Amarelo": "/produtos/conjunto-alo-cropped-shorts-amarelo.webp",
+      "Rosa": "/produtos/conjunto-alo-cropped-shorts-rosa.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Tecido: poliamida com elastano",
+      "Tamanhos: P/M e G/GG (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "calca-pimenta",
+    "name": "Calça Jeans Pimenta",
+    "subtitle": "Linha premium, 24 modelos",
+    "description": "Calças jeans da linha premium: skinny, mom, baggy e wide leg, em várias lavagens. Cada modelo tem a sua numeração; escolha o modelo e confirme o tamanho no WhatsApp.",
+    "category": "calcas",
+    "marca": "Sal e Pimenta",
+    "publico": "feminino",
+    "image": "/produtos/calca-pimenta-01-skinny-azul-medio-bolso-bordado.webp",
+    "gallery": [
+      "/produtos/calca-pimenta-01-skinny-azul-medio-bolso-bordado.webp",
+      "/produtos/calca-pimenta-02-skinny-azul-medio.webp",
+      "/produtos/calca-pimenta-03-skinny-azul-claro.webp",
+      "/produtos/calca-pimenta-04-skinny-azul-medio-puida.webp",
+      "/produtos/calca-pimenta-05-skinny-azul-escuro.webp",
+      "/produtos/calca-pimenta-06-skinny-azul-medio-bolso-bordado-ii.webp",
+      "/produtos/calca-pimenta-07-skinny-azul-escuro-ii.webp",
+      "/produtos/calca-pimenta-08-skinny-azul-medio-bolso-bordado-iii.webp",
+      "/produtos/calca-pimenta-09-skinny-azul-claro-bolso-bordado.webp",
+      "/produtos/calca-pimenta-10-mom-azul-claro-destroyed.webp",
+      "/produtos/calca-pimenta-11-baggy-azul-medio-com-brilho.webp",
+      "/produtos/calca-pimenta-12-mom-azul-claro-estonada.webp",
+      "/produtos/calca-pimenta-13-wide-leg-azul-escuro-com-brilho.webp",
+      "/produtos/calca-pimenta-14-baggy-preta.webp",
+      "/produtos/calca-pimenta-15-baggy-cinza.webp",
+      "/produtos/calca-pimenta-16-baggy-azul-destroyed.webp",
+      "/produtos/calca-pimenta-17-baggy-azul-claro-com-brilho.webp",
+      "/produtos/calca-pimenta-18-mom-azul-medio.webp",
+      "/produtos/calca-pimenta-19-skinny-azul-medio-bordado-rosa.webp",
+      "/produtos/calca-pimenta-20-skinny-azul-claro-estonada.webp",
+      "/produtos/calca-pimenta-21-skinny-azul-claro-bordado-amarelo.webp",
+      "/produtos/calca-pimenta-22-skinny-azul-claro-bordado-dourado.webp",
+      "/produtos/calca-pimenta-23-skinny-azul-medio-bordado-rosa-ii.webp",
+      "/produtos/calca-pimenta-24-skinny-azul-claro-puida.webp"
+    ],
+    "sizes": [
+      "34",
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      {
+        "name": "01 · Skinny azul médio, bolso bordado",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "02 · Skinny azul médio",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "03 · Skinny azul claro",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "04 · Skinny azul médio, puída",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "05 · Skinny azul escuro",
+        "hex": "#22345C"
+      },
+      {
+        "name": "06 · Skinny azul médio, bolso bordado II",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "07 · Skinny azul escuro II",
+        "hex": "#22345C"
+      },
+      {
+        "name": "08 · Skinny azul médio, bolso bordado III",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "09 · Skinny azul claro, bolso bordado",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "10 · Mom azul claro destroyed",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "11 · Baggy azul médio com brilho",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "12 · Mom azul claro estonada",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "13 · Wide leg azul escuro com brilho",
+        "hex": "#22345C"
+      },
+      {
+        "name": "14 · Baggy preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "15 · Baggy cinza",
+        "hex": "#9A9A9A"
+      },
+      {
+        "name": "16 · Baggy azul destroyed",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "17 · Baggy azul claro com brilho",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "18 · Mom azul médio",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "19 · Skinny azul médio, bordado rosa",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "20 · Skinny azul claro estonada",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "21 · Skinny azul claro, bordado amarelo",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "22 · Skinny azul claro, bordado dourado",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "23 · Skinny azul médio, bordado rosa II",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "24 · Skinny azul claro, puída",
+        "hex": "#8DB3D9"
+      }
+    ],
+    "colorImages": {
+      "01 · Skinny azul médio, bolso bordado": "/produtos/calca-pimenta-01-skinny-azul-medio-bolso-bordado.webp",
+      "02 · Skinny azul médio": "/produtos/calca-pimenta-02-skinny-azul-medio.webp",
+      "03 · Skinny azul claro": "/produtos/calca-pimenta-03-skinny-azul-claro.webp",
+      "04 · Skinny azul médio, puída": "/produtos/calca-pimenta-04-skinny-azul-medio-puida.webp",
+      "05 · Skinny azul escuro": "/produtos/calca-pimenta-05-skinny-azul-escuro.webp",
+      "06 · Skinny azul médio, bolso bordado II": "/produtos/calca-pimenta-06-skinny-azul-medio-bolso-bordado-ii.webp",
+      "07 · Skinny azul escuro II": "/produtos/calca-pimenta-07-skinny-azul-escuro-ii.webp",
+      "08 · Skinny azul médio, bolso bordado III": "/produtos/calca-pimenta-08-skinny-azul-medio-bolso-bordado-iii.webp",
+      "09 · Skinny azul claro, bolso bordado": "/produtos/calca-pimenta-09-skinny-azul-claro-bolso-bordado.webp",
+      "10 · Mom azul claro destroyed": "/produtos/calca-pimenta-10-mom-azul-claro-destroyed.webp",
+      "11 · Baggy azul médio com brilho": "/produtos/calca-pimenta-11-baggy-azul-medio-com-brilho.webp",
+      "12 · Mom azul claro estonada": "/produtos/calca-pimenta-12-mom-azul-claro-estonada.webp",
+      "13 · Wide leg azul escuro com brilho": "/produtos/calca-pimenta-13-wide-leg-azul-escuro-com-brilho.webp",
+      "14 · Baggy preta": "/produtos/calca-pimenta-14-baggy-preta.webp",
+      "15 · Baggy cinza": "/produtos/calca-pimenta-15-baggy-cinza.webp",
+      "16 · Baggy azul destroyed": "/produtos/calca-pimenta-16-baggy-azul-destroyed.webp",
+      "17 · Baggy azul claro com brilho": "/produtos/calca-pimenta-17-baggy-azul-claro-com-brilho.webp",
+      "18 · Mom azul médio": "/produtos/calca-pimenta-18-mom-azul-medio.webp",
+      "19 · Skinny azul médio, bordado rosa": "/produtos/calca-pimenta-19-skinny-azul-medio-bordado-rosa.webp",
+      "20 · Skinny azul claro estonada": "/produtos/calca-pimenta-20-skinny-azul-claro-estonada.webp",
+      "21 · Skinny azul claro, bordado amarelo": "/produtos/calca-pimenta-21-skinny-azul-claro-bordado-amarelo.webp",
+      "22 · Skinny azul claro, bordado dourado": "/produtos/calca-pimenta-22-skinny-azul-claro-bordado-dourado.webp",
+      "23 · Skinny azul médio, bordado rosa II": "/produtos/calca-pimenta-23-skinny-azul-medio-bordado-rosa-ii.webp",
+      "24 · Skinny azul claro, puída": "/produtos/calca-pimenta-24-skinny-azul-claro-puida.webp"
+    },
+    "sizesByColor": {
+      "01 · Skinny azul médio, bolso bordado": [
+        "34",
+        "36",
+        "40",
+        "44"
+      ],
+      "02 · Skinny azul médio": [
+        "34",
+        "36",
+        "38"
+      ],
+      "03 · Skinny azul claro": [
+        "34",
+        "38",
+        "40",
+        "44"
+      ],
+      "04 · Skinny azul médio, puída": [
+        "34",
+        "36",
+        "38",
+        "44"
+      ],
+      "05 · Skinny azul escuro": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "06 · Skinny azul médio, bolso bordado II": [
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "07 · Skinny azul escuro II": [
+        "34"
+      ],
+      "08 · Skinny azul médio, bolso bordado III": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "09 · Skinny azul claro, bolso bordado": [
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "10 · Mom azul claro destroyed": [
+        "34",
+        "36"
+      ],
+      "11 · Baggy azul médio com brilho": [
+        "36"
+      ],
+      "12 · Mom azul claro estonada": [
+        "34",
+        "36",
+        "38",
+        "42"
+      ],
+      "13 · Wide leg azul escuro com brilho": [
+        "34",
+        "36"
+      ],
+      "14 · Baggy preta": [
+        "36",
+        "38",
+        "40",
+        "44"
+      ],
+      "15 · Baggy cinza": [
+        "36",
+        "38",
+        "40",
+        "44"
+      ],
+      "16 · Baggy azul destroyed": [
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "17 · Baggy azul claro com brilho": [
+        "34",
+        "36",
+        "38"
+      ],
+      "18 · Mom azul médio": [
+        "34",
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "19 · Skinny azul médio, bordado rosa": [
+        "36"
+      ],
+      "20 · Skinny azul claro estonada": [
+        "34",
+        "38"
+      ],
+      "21 · Skinny azul claro, bordado amarelo": [
+        "34",
+        "36"
+      ],
+      "22 · Skinny azul claro, bordado dourado": [
+        "34",
+        "38"
+      ],
+      "23 · Skinny azul médio, bordado rosa II": [
+        "36"
+      ],
+      "24 · Skinny azul claro, puída": [
+        "36"
+      ]
+    },
+    "rotuloCor": "Modelo",
+    "details": [
+      "Marca: Sal e Pimenta",
+      "Linha premium",
+      "Numeração do 34 ao 44 (varia por modelo)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "calca-wide-leg-pegvest",
+    "name": "Calça Wide Leg PegVest",
+    "subtitle": "Linha premium, 10 modelos",
+    "description": "Calças wide leg da linha premium, em jeans e em cores lisas. Cada modelo tem a sua numeração; escolha o modelo e confirme o tamanho no WhatsApp.",
+    "category": "calcas",
+    "marca": "PegVest",
+    "publico": "feminino",
+    "image": "/produtos/calca-wide-leg-pegvest-01-wide-leg-bege.webp",
+    "gallery": [
+      "/produtos/calca-wide-leg-pegvest-01-wide-leg-bege.webp",
+      "/produtos/calca-wide-leg-pegvest-02-wide-leg-jeans-azul-escuro.webp",
+      "/produtos/calca-wide-leg-pegvest-03-wide-leg-off-white.webp",
+      "/produtos/calca-wide-leg-pegvest-04-wide-leg-cinza-claro.webp",
+      "/produtos/calca-wide-leg-pegvest-05-wide-leg-preta.webp",
+      "/produtos/calca-wide-leg-pegvest-06-wide-leg-jeans-azul-claro-estonada.webp",
+      "/produtos/calca-wide-leg-pegvest-07-wide-leg-jeans-azul-medio.webp",
+      "/produtos/calca-wide-leg-pegvest-08-wide-leg-jeans-azul-claro.webp",
+      "/produtos/calca-wide-leg-pegvest-09-wide-leg-cinza-escuro.webp",
+      "/produtos/calca-wide-leg-pegvest-10-wide-leg-jeans-azul-gelo.webp"
+    ],
+    "sizes": [
+      "36",
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "colors": [
+      {
+        "name": "01 · Wide leg bege",
+        "hex": "#CDB79A"
+      },
+      {
+        "name": "02 · Wide leg jeans azul escuro",
+        "hex": "#22345C"
+      },
+      {
+        "name": "03 · Wide leg off white",
+        "hex": "#EFE8DA"
+      },
+      {
+        "name": "04 · Wide leg cinza claro",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "05 · Wide leg preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "06 · Wide leg jeans azul claro estonada",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "07 · Wide leg jeans azul médio",
+        "hex": "#3F6FA8"
+      },
+      {
+        "name": "08 · Wide leg jeans azul claro",
+        "hex": "#8DB3D9"
+      },
+      {
+        "name": "09 · Wide leg cinza escuro",
+        "hex": "#22345C"
+      },
+      {
+        "name": "10 · Wide leg jeans azul gelo",
+        "hex": "#C9DCEC"
+      }
+    ],
+    "colorImages": {
+      "01 · Wide leg bege": "/produtos/calca-wide-leg-pegvest-01-wide-leg-bege.webp",
+      "02 · Wide leg jeans azul escuro": "/produtos/calca-wide-leg-pegvest-02-wide-leg-jeans-azul-escuro.webp",
+      "03 · Wide leg off white": "/produtos/calca-wide-leg-pegvest-03-wide-leg-off-white.webp",
+      "04 · Wide leg cinza claro": "/produtos/calca-wide-leg-pegvest-04-wide-leg-cinza-claro.webp",
+      "05 · Wide leg preta": "/produtos/calca-wide-leg-pegvest-05-wide-leg-preta.webp",
+      "06 · Wide leg jeans azul claro estonada": "/produtos/calca-wide-leg-pegvest-06-wide-leg-jeans-azul-claro-estonada.webp",
+      "07 · Wide leg jeans azul médio": "/produtos/calca-wide-leg-pegvest-07-wide-leg-jeans-azul-medio.webp",
+      "08 · Wide leg jeans azul claro": "/produtos/calca-wide-leg-pegvest-08-wide-leg-jeans-azul-claro.webp",
+      "09 · Wide leg cinza escuro": "/produtos/calca-wide-leg-pegvest-09-wide-leg-cinza-escuro.webp",
+      "10 · Wide leg jeans azul gelo": "/produtos/calca-wide-leg-pegvest-10-wide-leg-jeans-azul-gelo.webp"
+    },
+    "sizesByColor": {
+      "01 · Wide leg bege": [
+        "36",
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "02 · Wide leg jeans azul escuro": [
+        "36",
+        "38",
+        "40",
+        "42"
+      ],
+      "03 · Wide leg off white": [
+        "36",
+        "42",
+        "44"
+      ],
+      "04 · Wide leg cinza claro": [
+        "36",
+        "38",
+        "40",
+        "44"
+      ],
+      "05 · Wide leg preta": [
+        "36"
+      ],
+      "06 · Wide leg jeans azul claro estonada": [
+        "36",
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "07 · Wide leg jeans azul médio": [
+        "36",
+        "38",
+        "40",
+        "42",
+        "44"
+      ],
+      "08 · Wide leg jeans azul claro": [
+        "36",
+        "38"
+      ],
+      "09 · Wide leg cinza escuro": [
+        "36",
+        "38"
+      ],
+      "10 · Wide leg jeans azul gelo": [
+        "36",
+        "38",
+        "40",
+        "42",
+        "44"
+      ]
+    },
+    "rotuloCor": "Modelo",
+    "details": [
+      "Marca: PegVest",
+      "Linha premium",
+      "Numeração do 36 ao 44 (varia por modelo)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "calca-wide-leg-linho",
+    "name": "Calça Wide Leg Linho",
+    "subtitle": "Leve, respirável, cintura elástica",
+    "description": "Tecido leve e respirável com toque natural de linho, perfeito para o dia a dia. Modelagem soltinha com cintura elástica e cordão, que garante conforto sem marcar.",
+    "category": "calcas",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "/produtos/calca-wide-leg-linho-verde.webp",
+    "gallery": [
+      "/produtos/calca-wide-leg-linho-verde.webp",
+      "/produtos/calca-wide-leg-linho-preta.webp",
+      "/produtos/calca-wide-leg-linho-off-white.webp",
+      "/produtos/calca-wide-leg-linho-bege.webp"
+    ],
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Verde",
+        "hex": "#9AAA8C"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Off white",
+        "hex": "#EFE8DA"
+      },
+      {
+        "name": "Bege",
+        "hex": "#C8B49A"
+      }
+    ],
+    "colorImages": {
+      "Verde": "/produtos/calca-wide-leg-linho-verde.webp",
+      "Preta": "/produtos/calca-wide-leg-linho-preta.webp",
+      "Off white": "/produtos/calca-wide-leg-linho-off-white.webp",
+      "Bege": "/produtos/calca-wide-leg-linho-bege.webp"
+    },
+    "details": [
+      "Toque de linho",
+      "Cintura elástica com cordão",
+      "Tamanhos: M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "calca-jeans-lacoste",
+    "name": "Calça Jeans Lacoste Masculina",
+    "subtitle": "Slim, super confortável",
+    "description": "Calça jeans masculina de modelagem slim, super confortável e com acabamento premium.",
+    "category": "calcas",
+    "marca": "Lacoste",
+    "publico": "masculino",
+    "image": "/produtos/calca-jeans-lacoste-azul-escuro.webp",
+    "gallery": [
+      "/produtos/calca-jeans-lacoste-azul-escuro.webp",
+      "/produtos/calca-jeans-lacoste-azul-escuro-2.webp"
+    ],
+    "sizes": [
+      "38",
+      "40",
+      "42",
+      "44",
+      "46",
+      "48"
+    ],
+    "colors": [
+      {
+        "name": "Azul escuro",
+        "hex": "#1F2F55"
+      }
+    ],
+    "colorImages": {
+      "Azul escuro": "/produtos/calca-jeans-lacoste-azul-escuro.webp"
+    },
+    "details": [
+      "Marca: Lacoste",
+      "Modelagem slim",
+      "Numeração: 38 ao 48"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-renda-verao",
+    "name": "Conjunto Renda Verão",
+    "subtitle": "Top de renda + shorts alfaiataria",
+    "description": "Top em renda com alças e shorts de alfaiataria. Tecido leve, fresquinho e com caimento impecável.",
+    "category": "conjuntos",
+    "marca": "GA",
+    "publico": "feminino",
+    "image": "/produtos/conjunto-renda-verao-verde.webp",
+    "gallery": [
+      "/produtos/conjunto-renda-verao-verde.webp",
+      "/produtos/conjunto-renda-verao-verde-2.webp",
+      "/produtos/conjunto-renda-verao-azul.webp",
+      "/produtos/conjunto-renda-verao-branco.webp",
+      "/produtos/conjunto-renda-verao-preto.webp",
+      "/produtos/conjunto-renda-verao-rosa.webp",
+      "/produtos/conjunto-renda-verao-bege.webp"
+    ],
+    "sizes": [
+      "P/M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Verde",
+        "hex": "#B9C7B0"
+      },
+      {
+        "name": "Azul",
+        "hex": "#A9C3E6"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#F2BFD0"
+      },
+      {
+        "name": "Bege",
+        "hex": "#C9A887"
+      }
+    ],
+    "colorImages": {
+      "Verde": "/produtos/conjunto-renda-verao-verde.webp",
+      "Azul": "/produtos/conjunto-renda-verao-azul.webp",
+      "Branco": "/produtos/conjunto-renda-verao-branco.webp",
+      "Preto": "/produtos/conjunto-renda-verao-preto.webp",
+      "Rosa": "/produtos/conjunto-renda-verao-rosa.webp",
+      "Bege": "/produtos/conjunto-renda-verao-bege.webp"
+    },
+    "details": [
+      "Top em renda com alças",
+      "Shorts de alfaiataria",
+      "Tamanhos: P/M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "conjunto-masculino-alto-relevo",
+    "name": "Conjunto Masculino Alto Relevo",
+    "subtitle": "Camiseta e bermuda, qualidade premium",
+    "description": "Camiseta e bermuda no mesmo tom, em tecido com textura em alto relevo. Qualidade premium para o dia a dia.",
+    "category": "conjuntos",
+    "publico": "masculino",
+    "image": "/produtos/conjunto-masculino-alto-relevo-preto.webp",
+    "gallery": [
+      "/produtos/conjunto-masculino-alto-relevo-preto.webp",
+      "/produtos/conjunto-masculino-alto-relevo-off-white.webp"
+    ],
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Off white",
+        "hex": "#E9E1D2"
+      }
+    ],
+    "colorImages": {
+      "Preto": "/produtos/conjunto-masculino-alto-relevo-preto.webp",
+      "Off white": "/produtos/conjunto-masculino-alto-relevo-off-white.webp"
+    },
+    "details": [
+      "Camiseta + bermuda",
+      "Tecido em alto relevo",
+      "Tamanhos: M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "camisa-brooksfield-listrada",
+    "name": "Camisa Brooksfield Listrada",
+    "subtitle": "O modelo mais pedido, em cores novas",
+    "description": "Peça clássica que não sai de moda: malha confortável, listras premium e acabamento de alto padrão.",
+    "category": "camisetas",
+    "marca": "Brooksfield",
+    "publico": "masculino",
+    "image": "/produtos/camisa-brooksfield-listrada-azul.webp",
+    "gallery": [
+      "/produtos/camisa-brooksfield-listrada-azul.webp"
+    ],
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Azul",
+        "hex": "#1F2A55"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#B3202A"
+      }
+    ],
+    "colorImages": {
+      "Azul": "/produtos/camisa-brooksfield-listrada-azul.webp",
+      "Branco": "/produtos/camisa-brooksfield-listrada-azul.webp",
+      "Preto": "/produtos/camisa-brooksfield-listrada-azul.webp",
+      "Vermelho": "/produtos/camisa-brooksfield-listrada-azul.webp"
+    },
+    "sizesByColor": {
+      "Azul": [
+        "M",
+        "GG"
+      ],
+      "Branco": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Preto": [
+        "M",
+        "G",
+        "GG"
+      ],
+      "Vermelho": [
+        "M",
+        "G",
+        "GG"
+      ]
+    },
+    "details": [
+      "Marca: Brooksfield",
+      "Malha confortável, listras premium",
+      "Azul: M e GG · Branco, Preto e Vermelho: M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "polo-feminina-lacoste",
+    "name": "Camisa Polo Lacoste Feminina",
+    "subtitle": "Tecido canelado, modelagem ajustada",
+    "description": "Polo feminina em tecido canelado, com modelagem ajustada ao corpo, gola clássica e acabamento de qualidade.",
+    "category": "camisetas",
+    "marca": "Lacoste",
+    "publico": "feminino",
+    "image": "/produtos/polo-feminina-lacoste-preta.webp",
+    "gallery": [
+      "/produtos/polo-feminina-lacoste-preta.webp",
+      "/produtos/polo-feminina-lacoste-vermelha.webp",
+      "/produtos/polo-feminina-lacoste-marrom.webp"
+    ],
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Vermelha",
+        "hex": "#B3202A"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#4A2C24"
+      }
+    ],
+    "colorImages": {
+      "Preta": "/produtos/polo-feminina-lacoste-preta.webp",
+      "Vermelha": "/produtos/polo-feminina-lacoste-vermelha.webp",
+      "Marrom": "/produtos/polo-feminina-lacoste-marrom.webp"
+    },
+    "details": [
+      "Marca: Lacoste",
+      "Tecido canelado",
+      "Modelagem ajustada",
+      "Tamanhos: M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "polo-feminina-adidas",
+    "name": "Camisa Polo Adidas Feminina",
+    "subtitle": "Tecido canelado, 6 cores",
+    "description": "Polo feminina em tecido canelado, com modelagem ajustada ao corpo, gola clássica e as três listras na manga.",
+    "category": "camisetas",
+    "marca": "Adidas",
+    "publico": "feminino",
+    "image": "/produtos/polo-feminina-adidas-marrom.webp",
+    "gallery": [
+      "/produtos/polo-feminina-adidas-marrom.webp",
+      "/produtos/polo-feminina-adidas-verde.webp",
+      "/produtos/polo-feminina-adidas-preta.webp",
+      "/produtos/polo-feminina-adidas-vermelha.webp",
+      "/produtos/polo-feminina-adidas-azul-claro.webp",
+      "/produtos/polo-feminina-adidas-rosa.webp"
+    ],
+    "sizes": [
+      "M",
+      "G"
+    ],
+    "colors": [
+      {
+        "name": "Marrom",
+        "hex": "#4A2C24"
+      },
+      {
+        "name": "Verde",
+        "hex": "#3E4A2E"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Vermelha",
+        "hex": "#B3202A"
+      },
+      {
+        "name": "Azul claro",
+        "hex": "#9CC4E8"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#F0A9C4"
+      }
+    ],
+    "colorImages": {
+      "Marrom": "/produtos/polo-feminina-adidas-marrom.webp",
+      "Verde": "/produtos/polo-feminina-adidas-verde.webp",
+      "Preta": "/produtos/polo-feminina-adidas-preta.webp",
+      "Vermelha": "/produtos/polo-feminina-adidas-vermelha.webp",
+      "Azul claro": "/produtos/polo-feminina-adidas-azul-claro.webp",
+      "Rosa": "/produtos/polo-feminina-adidas-rosa.webp"
+    },
+    "details": [
+      "Marca: Adidas",
+      "Tecido canelado",
+      "Modelagem ajustada",
+      "Tamanhos: M e G"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "polo-boss-listras",
+    "name": "Camisa Polo Boss Listras",
+    "subtitle": "Malha importada, branco e preto",
+    "description": "Polo masculina em malha importada, com listras horizontais contrastantes no peito.",
+    "category": "camisetas",
+    "marca": "Boss",
+    "publico": "masculino",
+    "image": "/produtos/polo-boss-listras-branca.webp",
+    "gallery": [
+      "/produtos/polo-boss-listras-branca.webp",
+      "/produtos/polo-boss-listras-branca-2.webp",
+      "/produtos/polo-boss-listras-branca-3.webp",
+      "/produtos/polo-boss-listras-preta.webp",
+      "/produtos/polo-boss-listras-preta-2.webp"
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "colors": [
+      {
+        "name": "Branca",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Branca": "/produtos/polo-boss-listras-branca.webp",
+      "Preta": "/produtos/polo-boss-listras-preta.webp"
+    },
+    "details": [
+      "Marca: Boss",
+      "Malha importada",
+      "Tamanhos: P, M, G, GG e G1"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "polo-lacoste-relevo",
+    "name": "Camisa Polo Lacoste Relevo",
+    "subtitle": "Malha importada com jacaré em relevo",
+    "description": "Polo masculina em malha importada, com textura de jacarés em relevo por toda a peça.",
+    "category": "camisetas",
+    "marca": "Lacoste",
+    "publico": "masculino",
+    "image": "/produtos/polo-lacoste-relevo-branca.webp",
+    "gallery": [
+      "/produtos/polo-lacoste-relevo-branca.webp",
+      "/produtos/polo-lacoste-relevo-preta.webp",
+      "/produtos/polo-lacoste-relevo-preta-2.webp",
+      "/produtos/polo-lacoste-relevo-vermelha.webp",
+      "/produtos/polo-lacoste-relevo-vermelha-2.webp"
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG",
+      "G1"
+    ],
+    "colors": [
+      {
+        "name": "Branca",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Vermelha",
+        "hex": "#C0182B"
+      }
+    ],
+    "colorImages": {
+      "Branca": "/produtos/polo-lacoste-relevo-branca.webp",
+      "Preta": "/produtos/polo-lacoste-relevo-preta.webp",
+      "Vermelha": "/produtos/polo-lacoste-relevo-vermelha.webp"
+    },
+    "details": [
+      "Marca: Lacoste",
+      "Malha importada",
+      "Tamanhos: P, M, G, GG e G1"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "polo-boss-elastano",
+    "name": "Camisa Polo Boss Elastano",
+    "subtitle": "Malha super premium com elastano",
+    "description": "Polo masculina em malha super premium com elastano, com gola e punhos de vivo contrastante.",
+    "category": "camisetas",
+    "marca": "Boss",
+    "publico": "masculino",
+    "image": "/produtos/polo-boss-elastano-off-white.webp",
+    "gallery": [
+      "/produtos/polo-boss-elastano-off-white.webp",
+      "/produtos/polo-boss-elastano-azul-marinho.webp",
+      "/produtos/polo-boss-elastano-branca.webp"
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Off white",
+        "hex": "#EDE6D6"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A55"
+      },
+      {
+        "name": "Vermelha",
+        "hex": "#B3202A"
+      },
+      {
+        "name": "Branca",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Off white": "/produtos/polo-boss-elastano-off-white.webp",
+      "Azul marinho": "/produtos/polo-boss-elastano-azul-marinho.webp",
+      "Vermelha": "/produtos/polo-boss-elastano-azul-marinho.webp",
+      "Branca": "/produtos/polo-boss-elastano-branca.webp",
+      "Preta": "/produtos/polo-boss-elastano-azul-marinho.webp"
+    },
+    "details": [
+      "Marca: Boss",
+      "Malha com elastano",
+      "Tamanhos: P, M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
+    "id": "mala-t60",
+    "name": "Mala T60",
+    "subtitle": "Mala esportiva em 7 cores",
+    "description": "Mala esportiva T60, para academia, viagem ou fim de semana. Sete cores para escolher.",
+    "category": "acessorios",
+    "marca": "T60",
+    "publico": "unissex",
+    "image": "/produtos/mala-t60-preta.webp",
+    "gallery": [
+      "/produtos/mala-t60-preta.webp",
+      "/produtos/mala-t60-preta-2.webp",
+      "/produtos/mala-t60-roxo.webp",
+      "/produtos/mala-t60-rosa-pink.webp",
+      "/produtos/mala-t60-bege.webp",
+      "/produtos/mala-t60-azul.webp",
+      "/produtos/mala-t60-verde-militar.webp",
+      "/produtos/mala-t60-verde-menta.webp"
+    ],
+    "sizes": [
+      "Único"
+    ],
+    "colors": [
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Roxo",
+        "hex": "#4B1E5A"
+      },
+      {
+        "name": "Rosa pink",
+        "hex": "#E8338A"
+      },
+      {
+        "name": "Bege",
+        "hex": "#B9A48C"
+      },
+      {
+        "name": "Azul",
+        "hex": "#1F3A7A"
+      },
+      {
+        "name": "Verde militar",
+        "hex": "#4B5530"
+      },
+      {
+        "name": "Verde menta",
+        "hex": "#8FD9A8"
+      }
+    ],
+    "colorImages": {
+      "Preta": "/produtos/mala-t60-preta.webp",
+      "Roxo": "/produtos/mala-t60-roxo.webp",
+      "Rosa pink": "/produtos/mala-t60-rosa-pink.webp",
+      "Bege": "/produtos/mala-t60-bege.webp",
+      "Azul": "/produtos/mala-t60-azul.webp",
+      "Verde militar": "/produtos/mala-t60-verde-militar.webp",
+      "Verde menta": "/produtos/mala-t60-verde-menta.webp"
+    },
+    "details": [
+      "Marca: T60",
+      "7 cores"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-21"
+  },
+  {
     "id": "nike-air-max-90",
     "name": "Nike Air Max 90",
     "subtitle": "O clássico da bolha de ar, em duas cores",
@@ -1772,7 +3851,8 @@
       "/produtos/conjunto-alo-shorts-marrom.webp",
       "/produtos/conjunto-alo-shorts-cinza.webp",
       "/produtos/conjunto-alo-shorts-azul-marinho.webp",
-      "/produtos/conjunto-alo-shorts-preto.webp"
+      "/produtos/conjunto-alo-shorts-preto.webp",
+      "/produtos/conjunto-alo-shorts-branco.webp"
     ],
     "sizes": [
       "P/M",
@@ -1794,13 +3874,18 @@
       {
         "name": "Preto",
         "hex": "#1C1C1C"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
       }
     ],
     "colorImages": {
       "Marrom": "/produtos/conjunto-alo-shorts-marrom.webp",
       "Cinza": "/produtos/conjunto-alo-shorts-cinza.webp",
       "Azul marinho": "/produtos/conjunto-alo-shorts-azul-marinho.webp",
-      "Preto": "/produtos/conjunto-alo-shorts-preto.webp"
+      "Preto": "/produtos/conjunto-alo-shorts-preto.webp",
+      "Branco": "/produtos/conjunto-alo-shorts-branco.webp"
     },
     "details": [
       "Marca: Alo",
