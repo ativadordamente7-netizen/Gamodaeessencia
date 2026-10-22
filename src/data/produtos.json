@@ -1,5 +1,545 @@
 [
   {
+    "id": "tenis-polo-master-cup",
+    "name": "Tênis Polo Master Cup",
+    "subtitle": "Couro liso, sola marcante, 4 combinações",
+    "description": "Tênis casual masculino de cabedal liso, cadarço no tom e sola de borracha marcada. Vai do jeans ao look social leve, com o conforto que o dia na Serra pede.",
+    "category": "tenis",
+    "marca": "Polo Master Cup",
+    "publico": "masculino",
+    "image": "/produtos/tenis-polo-master-cup-marrom-sola-creme.webp",
+    "gallery": [
+      "/produtos/tenis-polo-master-cup-marrom-sola-creme.webp",
+      "/produtos/tenis-polo-master-cup-marrom.webp",
+      "/produtos/tenis-polo-master-cup-preto-branco.webp",
+      "/produtos/tenis-polo-master-cup-preto.webp",
+      "/produtos/tenis-polo-master-cup-detalhe.webp"
+    ],
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Marrom/sola creme",
+        "hex": "#4A2C24"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#4A2C24"
+      },
+      {
+        "name": "Preto/branco",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Marrom/sola creme": "/produtos/tenis-polo-master-cup-marrom-sola-creme.webp",
+      "Marrom": "/produtos/tenis-polo-master-cup-marrom.webp",
+      "Preto/branco": "/produtos/tenis-polo-master-cup-preto-branco.webp",
+      "Preto": "/produtos/tenis-polo-master-cup-preto.webp"
+    },
+    "details": [
+      "Modelo: Polo Master Cup",
+      "Cores: marrom com sola creme, marrom, preto com branco e preto",
+      "Numeração: 38 ao 43",
+      "Público: Masculino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-22"
+  },
+  {
+    "id": "camiseta-egipcia",
+    "name": "Camiseta Egípcia",
+    "subtitle": "Algodão egípcio, dezenas de estampas",
+    "description": "Camiseta de malha em algodão egípcio, toque macio e caimento reto. São muitas estampas e cores: escolha a sua na galeria e confirme o tamanho no WhatsApp.",
+    "category": "camisetas",
+    "marca": null,
+    "publico": "masculino",
+    "image": "/produtos/camiseta-egipcia-preta.webp",
+    "gallery": [
+      "/produtos/camiseta-egipcia-preta.webp",
+      "/produtos/camiseta-egipcia-bege.webp",
+      "/produtos/camiseta-egipcia-azul-marinho.webp",
+      "/produtos/camiseta-egipcia-vermelha.webp",
+      "/produtos/camiseta-egipcia-branca.webp",
+      "/produtos/camiseta-egipcia-roxa.webp",
+      "/produtos/camiseta-egipcia-preta-2.webp",
+      "/produtos/camiseta-egipcia-bege-2.webp",
+      "/produtos/camiseta-egipcia-azul-marinho-2.webp",
+      "/produtos/camiseta-egipcia-vermelha-2.webp",
+      "/produtos/camiseta-egipcia-branca-2.webp",
+      "/produtos/camiseta-egipcia-preta-3.webp",
+      "/produtos/camiseta-egipcia-bege-3.webp",
+      "/produtos/camiseta-egipcia-azul-marinho-3.webp",
+      "/produtos/camiseta-egipcia-vermelha-3.webp",
+      "/produtos/camiseta-egipcia-preta-4.webp",
+      "/produtos/camiseta-egipcia-bege-4.webp",
+      "/produtos/camiseta-egipcia-bege-5.webp"
+    ],
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Bege",
+        "hex": "#D8C3A5"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A55"
+      },
+      {
+        "name": "Vermelha",
+        "hex": "#B3202A"
+      },
+      {
+        "name": "Branca",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Roxa",
+        "hex": "#3B2A5A"
+      }
+    ],
+    "colorImages": {
+      "Preta": "/produtos/camiseta-egipcia-preta.webp",
+      "Bege": "/produtos/camiseta-egipcia-bege.webp",
+      "Azul marinho": "/produtos/camiseta-egipcia-azul-marinho.webp",
+      "Vermelha": "/produtos/camiseta-egipcia-vermelha.webp",
+      "Branca": "/produtos/camiseta-egipcia-branca.webp",
+      "Roxa": "/produtos/camiseta-egipcia-roxa.webp"
+    },
+    "details": [
+      "Malha em algodão egípcio",
+      "Várias estampas (veja a galeria)",
+      "Tamanhos: M, G e GG",
+      "As estampas disponíveis variam por tamanho: confirme no WhatsApp"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-22"
+  },
+  {
+    "id": "camiseta-peruana-40-1",
+    "name": "Camiseta Peruana 40.1",
+    "subtitle": "Algodão peruano fio 40.1, toque premium",
+    "description": "Camiseta em algodão peruano de fio 40.1, mais fina, macia e resistente. Estampas e bordados em várias cores, para usar sozinha ou por baixo de uma jaqueta nas noites da Serra.",
+    "category": "camisetas",
+    "marca": null,
+    "publico": "masculino",
+    "image": "/produtos/camiseta-peruana-preta.webp",
+    "gallery": [
+      "/produtos/camiseta-peruana-preta.webp",
+      "/produtos/camiseta-peruana-vermelha.webp",
+      "/produtos/camiseta-peruana-azul-marinho.webp",
+      "/produtos/camiseta-peruana-branca.webp",
+      "/produtos/camiseta-peruana-off-white.webp",
+      "/produtos/camiseta-peruana-preta-2.webp",
+      "/produtos/camiseta-peruana-vermelha-2.webp",
+      "/produtos/camiseta-peruana-azul-marinho-2.webp",
+      "/produtos/camiseta-peruana-preta-3.webp",
+      "/produtos/camiseta-peruana-preta-4.webp",
+      "/produtos/camiseta-peruana-preta-5.webp",
+      "/produtos/camiseta-peruana-colecao.webp",
+      "/produtos/camiseta-peruana-colecao-2.webp"
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "colors": [
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Vermelha",
+        "hex": "#B3202A"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A55"
+      },
+      {
+        "name": "Branca",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Off white",
+        "hex": "#EDE6D6"
+      }
+    ],
+    "colorImages": {
+      "Preta": "/produtos/camiseta-peruana-preta.webp",
+      "Vermelha": "/produtos/camiseta-peruana-vermelha.webp",
+      "Azul marinho": "/produtos/camiseta-peruana-azul-marinho.webp",
+      "Branca": "/produtos/camiseta-peruana-branca.webp",
+      "Off white": "/produtos/camiseta-peruana-off-white.webp"
+    },
+    "details": [
+      "Algodão peruano fio 40.1",
+      "Várias estampas (veja a galeria)",
+      "Tamanhos: P, M, G e GG",
+      "As estampas podem variar nos tamanhos: confirme no WhatsApp"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-22"
+  },
+  {
+    "id": "nike-dunk-low",
+    "name": "Nike Dunk Low",
+    "category": "tenis",
+    "image": "/produtos/nike-dunk-low-marrom-caramelo-preto.webp",
+    "gallery": [
+      "/produtos/nike-dunk-low-premium-branco-bege-glitter.webp",
+      "/produtos/nike-dunk-low-premium-branco-bege-glitter-2.webp",
+      "/produtos/nike-dunk-low-premium-cinza-branco.webp",
+      "/produtos/nike-dunk-low-premium-cinza-branco-2.webp",
+      "/produtos/nike-dunk-low-marrom-caramelo-preto.webp",
+      "/produtos/nike-dunk-low-marrom-caramelo-preto-2.webp",
+      "/produtos/nike-dunk-low-panda-preto-branco.webp",
+      "/produtos/nike-dunk-low-cimento-areia.webp",
+      "/produtos/nike-dunk-low-branco.webp",
+      "/produtos/nike-dunk-low-verde-branco.webp"
+    ],
+    "description": "Cano baixo, recortes sobrepostos e o swoosh em destaque. Do clássico panda preto e branco ao verde, cimento com areia e todo branco, há um Dunk para cada estilo.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike Dunk Low",
+      "Cores: Branco/bege glitter (Premium), Cinza/branco (Premium), Marrom/caramelo/preto, Panda (preto/branco), Cimento/areia, Branco, Verde/branco",
+      "Numeração: 34 ao 43",
+      "Público: Unissex"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Branco/bege glitter (Premium)",
+        "hex": "#E8DCC8"
+      },
+      {
+        "name": "Cinza/branco (Premium)",
+        "hex": "#BDBDBD"
+      },
+      {
+        "name": "Marrom/caramelo/preto",
+        "hex": "#6B4A2E"
+      },
+      {
+        "name": "Panda (preto/branco)",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Cimento/areia",
+        "hex": "#D8C3A5"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Verde/branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Cimento/areia": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Verde/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Panda (preto/branco)": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Marrom/caramelo/preto": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Cinza/branco (Premium)": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43"
+      ],
+      "Branco/bege glitter (Premium)": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Cimento/areia": "/produtos/nike-dunk-low-cimento-areia.webp",
+      "Branco": "/produtos/nike-dunk-low-branco.webp",
+      "Verde/branco": "/produtos/nike-dunk-low-verde-branco.webp",
+      "Panda (preto/branco)": "/produtos/nike-dunk-low-panda-preto-branco.webp",
+      "Marrom/caramelo/preto": "/produtos/nike-dunk-low-marrom-caramelo-preto.webp",
+      "Cinza/branco (Premium)": "/produtos/nike-dunk-low-premium-cinza-branco.webp",
+      "Branco/bege glitter (Premium)": "/produtos/nike-dunk-low-premium-branco-bege-glitter.webp"
+    },
+    "marca": "Nike",
+    "publico": "unissex",
+    "inStock": true,
+    "tag": "Unissex",
+    "subtitle": "Reposição: 3 cores novas",
+    "addedAt": "2026-10-22"
+  },
+  {
+    "id": "nike-dunk-jordan-low",
+    "name": "Nike Dunk Jordan Low",
+    "category": "tenis",
+    "image": "/produtos/nike-dunk-jordan-low-manteiga-azul-bebe.webp",
+    "gallery": [
+      "/produtos/nike-dunk-jordan-low-off-rosa-flamingo.webp",
+      "/produtos/nike-dunk-jordan-low-off-rosa-flamingo-2.webp",
+      "/produtos/nike-dunk-jordan-low-manteiga-azul-bebe.webp",
+      "/produtos/nike-dunk-jordan-low-manteiga-azul-bebe-2.webp",
+      "/produtos/nike-dunk-jordan-low-off-white-rosa.webp"
+    ],
+    "description": "Tons suaves de off white com rosa para um visual feminino e moderno. Fica lindo com jeans claro, saias e vestidos.",
+    "details": [
+      "Marca: Nike",
+      "Modelo: Nike Dunk Jordan Low",
+      "Cores: Off white/rosa flamingo, Manteiga/azul bebê, Off white/rosa",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Off white/rosa flamingo",
+        "hex": "#F2C4CE"
+      },
+      {
+        "name": "Manteiga/azul bebê",
+        "hex": "#F3E6C4"
+      },
+      {
+        "name": "Off white/rosa",
+        "hex": "#EDE6D6"
+      }
+    ],
+    "sizesByColor": {
+      "Off white/rosa": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Manteiga/azul bebê": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Off white/rosa flamingo": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Off white/rosa": "/produtos/nike-dunk-jordan-low-off-white-rosa.webp",
+      "Manteiga/azul bebê": "/produtos/nike-dunk-jordan-low-manteiga-azul-bebe.webp",
+      "Off white/rosa flamingo": "/produtos/nike-dunk-jordan-low-off-rosa-flamingo.webp"
+    },
+    "marca": "Nike",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Reposição: manteiga com azul e rosa flamingo",
+    "addedAt": "2026-10-22"
+  },
+  {
+    "id": "puma-palermo",
+    "name": "Puma Palermo",
+    "category": "tenis",
+    "image": "/produtos/puma-palermo-premium-black-branco.webp",
+    "gallery": [
+      "/produtos/puma-palermo-premium-black.webp",
+      "/produtos/puma-palermo-premium-black-branco.webp",
+      "/produtos/puma-palermo-premium-black-branco-2.webp",
+      "/produtos/puma-palermo-premium-cinza-gelo.webp",
+      "/produtos/puma-palermo-preto.webp",
+      "/produtos/puma-palermo-preto-branco.webp"
+    ],
+    "description": "Silhueta baixa e esportiva inspirada nos anos 80, em preto total ou preto com branco. Discreto, elegante e fácil de usar todos os dias.",
+    "details": [
+      "Marca: Puma",
+      "Modelo: Puma Palermo",
+      "Cores: Black (Premium), Black/branco (Premium), Cinza/gelo (Premium), Preto, Preto/branco",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Black (Premium)",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Black/branco (Premium)",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Cinza/gelo (Premium)",
+        "hex": "#C9C9C4"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Preto/branco",
+        "hex": "#F4F1EA"
+      }
+    ],
+    "sizesByColor": {
+      "Preto": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Preto/branco": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Cinza/gelo (Premium)": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Black/branco (Premium)": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ],
+      "Black (Premium)": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    },
+    "colorImages": {
+      "Preto": "/produtos/puma-palermo-preto.webp",
+      "Preto/branco": "/produtos/puma-palermo-preto-branco.webp",
+      "Cinza/gelo (Premium)": "/produtos/puma-palermo-premium-cinza-gelo.webp",
+      "Black/branco (Premium)": "/produtos/puma-palermo-premium-black-branco.webp",
+      "Black (Premium)": "/produtos/puma-palermo-premium-black.webp"
+    },
+    "marca": "Puma",
+    "publico": "feminino",
+    "inStock": true,
+    "subtitle": "Reposição: linha Premium em 3 cores",
+    "addedAt": "2026-10-22"
+  },
+  {
     "id": "polo-gucci-elastano",
     "name": "Camisa Polo Gucci Elastano",
     "subtitle": "Malha super premium com elastano",
@@ -5129,159 +5669,6 @@
     "addedAt": "2026-09-30"
   },
   {
-    "id": "nike-dunk-low",
-    "name": "Nike Dunk Low",
-    "category": "tenis",
-    "image": "/produtos/nike-dunk-low-panda-preto-branco.webp",
-    "gallery": [
-      "/produtos/nike-dunk-low-panda-preto-branco.webp",
-      "/produtos/nike-dunk-low-cimento-areia.webp",
-      "/produtos/nike-dunk-low-branco.webp",
-      "/produtos/nike-dunk-low-verde-branco.webp"
-    ],
-    "description": "Cano baixo, recortes sobrepostos e o swoosh em destaque. Do clássico panda preto e branco ao verde, cimento com areia e todo branco, há um Dunk para cada estilo.",
-    "details": [
-      "Marca: Nike",
-      "Modelo: Nike Dunk Low",
-      "Cores: Cimento/areia, Branco, Verde/branco, Panda (preto/branco)",
-      "Numeração: 34 ao 43",
-      "Público: Unissex"
-    ],
-    "sizes": [
-      "34",
-      "35",
-      "36",
-      "37",
-      "38",
-      "39",
-      "40",
-      "41",
-      "42",
-      "43"
-    ],
-    "colors": [
-      {
-        "name": "Panda (preto/branco)",
-        "hex": "#F4F1EA"
-      },
-      {
-        "name": "Cimento/areia",
-        "hex": "#D8C3A5"
-      },
-      {
-        "name": "Branco",
-        "hex": "#F4F1EA"
-      },
-      {
-        "name": "Verde/branco",
-        "hex": "#F4F1EA"
-      }
-    ],
-    "sizesByColor": {
-      "Cimento/areia": [
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43"
-      ],
-      "Branco": [
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43"
-      ],
-      "Verde/branco": [
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39"
-      ],
-      "Panda (preto/branco)": [
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39",
-        "40",
-        "41",
-        "42",
-        "43"
-      ]
-    },
-    "colorImages": {
-      "Cimento/areia": "/produtos/nike-dunk-low-cimento-areia.webp",
-      "Branco": "/produtos/nike-dunk-low-branco.webp",
-      "Verde/branco": "/produtos/nike-dunk-low-verde-branco.webp",
-      "Panda (preto/branco)": "/produtos/nike-dunk-low-panda-preto-branco.webp"
-    },
-    "marca": "Nike",
-    "publico": "unissex",
-    "inStock": true,
-    "tag": "Unissex",
-    "subtitle": "O Dunk em quatro combinações",
-    "addedAt": "2026-09-30"
-  },
-  {
-    "id": "nike-dunk-jordan-low",
-    "name": "Nike Dunk Jordan Low",
-    "category": "tenis",
-    "image": "/produtos/nike-dunk-jordan-low-off-white-rosa.webp",
-    "gallery": [
-      "/produtos/nike-dunk-jordan-low-off-white-rosa.webp"
-    ],
-    "description": "Tons suaves de off white com rosa para um visual feminino e moderno. Fica lindo com jeans claro, saias e vestidos.",
-    "details": [
-      "Marca: Nike",
-      "Modelo: Nike Dunk Jordan Low",
-      "Cores: Off white/rosa",
-      "Numeração: 34 ao 39",
-      "Público: Feminino"
-    ],
-    "sizes": [
-      "34",
-      "35",
-      "36",
-      "37",
-      "38",
-      "39"
-    ],
-    "colors": [
-      {
-        "name": "Off white/rosa",
-        "hex": "#EDE6D6"
-      }
-    ],
-    "sizesByColor": {
-      "Off white/rosa": [
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39"
-      ]
-    },
-    "colorImages": {
-      "Off white/rosa": "/produtos/nike-dunk-jordan-low-off-white-rosa.webp"
-    },
-    "marca": "Nike",
-    "publico": "feminino",
-    "inStock": true,
-    "subtitle": "Delicadeza em off white e rosa",
-    "addedAt": "2026-09-30"
-  },
-  {
     "id": "puma-180-xl",
     "name": "Puma 180 XL",
     "category": "tenis",
@@ -5377,69 +5764,6 @@
     "publico": "feminino",
     "inStock": true,
     "subtitle": "Camurça e plataforma",
-    "addedAt": "2026-09-30"
-  },
-  {
-    "id": "puma-palermo",
-    "name": "Puma Palermo",
-    "category": "tenis",
-    "image": "/produtos/puma-palermo-preto.webp",
-    "gallery": [
-      "/produtos/puma-palermo-preto.webp",
-      "/produtos/puma-palermo-preto-branco.webp"
-    ],
-    "description": "Silhueta baixa e esportiva inspirada nos anos 80, em preto total ou preto com branco. Discreto, elegante e fácil de usar todos os dias.",
-    "details": [
-      "Marca: Puma",
-      "Modelo: Puma Palermo",
-      "Cores: Preto, Preto/branco",
-      "Numeração: 34 ao 39",
-      "Público: Feminino"
-    ],
-    "sizes": [
-      "34",
-      "35",
-      "36",
-      "37",
-      "38",
-      "39"
-    ],
-    "colors": [
-      {
-        "name": "Preto",
-        "hex": "#1C1C1C"
-      },
-      {
-        "name": "Preto/branco",
-        "hex": "#F4F1EA"
-      }
-    ],
-    "sizesByColor": {
-      "Preto": [
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39"
-      ],
-      "Preto/branco": [
-        "34",
-        "35",
-        "36",
-        "37",
-        "38",
-        "39"
-      ]
-    },
-    "colorImages": {
-      "Preto": "/produtos/puma-palermo-preto.webp",
-      "Preto/branco": "/produtos/puma-palermo-preto-branco.webp"
-    },
-    "marca": "Puma",
-    "publico": "feminino",
-    "inStock": true,
-    "subtitle": "Estilo terraço, em preto",
     "addedAt": "2026-09-30"
   },
   {
