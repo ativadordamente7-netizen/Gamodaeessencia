@@ -3784,8 +3784,8 @@
   {
     "id": "body-splash-victorias-secret",
     "name": "Body Splash Victoria's Secret",
-    "subtitle": "15 fragrâncias, 250 ml",
-    "description": "Body splash de fragrância leve e marcante, perfeito para quem ama sensação de verão na pele. Escolha a sua entre 15 fragrâncias.",
+    "subtitle": "25 fragrâncias, 250 ml",
+    "description": "Body splash de fragrância leve e marcante, perfeito para quem ama sensação de verão na pele. Escolha a sua entre 25 fragrâncias.",
     "category": "essencia",
     "marca": "Victoria's Secret",
     "publico": "feminino",
@@ -3850,6 +3850,46 @@
       {
         "name": "Velvet Petals",
         "hex": "#D9A3A0"
+      },
+      {
+        "name": "Golden Apricot & Honey",
+        "hex": "#E58A4E"
+      },
+      {
+        "name": "Love Spell Intense",
+        "hex": "#7B5CC4"
+      },
+      {
+        "name": "Love Spell Bliss",
+        "hex": "#8FA3C8"
+      },
+      {
+        "name": "Pure Seduction Intense",
+        "hex": "#B0123F"
+      },
+      {
+        "name": "Velvet Petals Intense",
+        "hex": "#C2407A"
+      },
+      {
+        "name": "Love Spell Brûlée",
+        "hex": "#9C86B8"
+      },
+      {
+        "name": "Pure Seduction Brûlée",
+        "hex": "#A5505A"
+      },
+      {
+        "name": "Whipped Milk & Sugar",
+        "hex": "#E9E1C8"
+      },
+      {
+        "name": "Vanilla Lace",
+        "hex": "#C9934F"
+      },
+      {
+        "name": "Cashmere Fleur",
+        "hex": "#7A3E9D"
       }
     ],
     "colorImages": {
@@ -3867,7 +3907,17 @@
       "Aqua Kiss": "/produtos/body-splash-victorias-secret-aqua-kiss.webp",
       "Amber Romance": "/produtos/body-splash-victorias-secret-amber-romance.webp",
       "Coconut Passion": "/produtos/body-splash-victorias-secret-coconut-passion.webp",
-      "Velvet Petals": "/produtos/body-splash-victorias-secret-velvet-petals.webp"
+      "Velvet Petals": "/produtos/body-splash-victorias-secret-velvet-petals.webp",
+      "Golden Apricot & Honey": "/produtos/body-splash-victorias-secret-golden-apricot-honey.webp",
+      "Love Spell Intense": "/produtos/body-splash-victorias-secret-love-spell-intense.webp",
+      "Love Spell Bliss": "/produtos/body-splash-victorias-secret-love-spell-bliss.webp",
+      "Pure Seduction Intense": "/produtos/body-splash-victorias-secret-pure-seduction-intense.webp",
+      "Velvet Petals Intense": "/produtos/body-splash-victorias-secret-velvet-petals-intense.webp",
+      "Love Spell Brûlée": "/produtos/body-splash-victorias-secret-love-spell-brulee.webp",
+      "Pure Seduction Brûlée": "/produtos/body-splash-victorias-secret-pure-seduction-brulee.webp",
+      "Whipped Milk & Sugar": "/produtos/body-splash-victorias-secret-whipped-milk-sugar.webp",
+      "Vanilla Lace": "/produtos/body-splash-victorias-secret-vanilla-lace.webp",
+      "Cashmere Fleur": "/produtos/body-splash-victorias-secret-cashmere-fleur.webp"
     },
     "gallery": [
       "/produtos/body-splash-victorias-secret-coconut-passion-brulee.webp",
@@ -3884,7 +3934,17 @@
       "/produtos/body-splash-victorias-secret-aqua-kiss.webp",
       "/produtos/body-splash-victorias-secret-amber-romance.webp",
       "/produtos/body-splash-victorias-secret-coconut-passion.webp",
-      "/produtos/body-splash-victorias-secret-velvet-petals.webp"
+      "/produtos/body-splash-victorias-secret-velvet-petals.webp",
+      "/produtos/body-splash-victorias-secret-golden-apricot-honey.webp",
+      "/produtos/body-splash-victorias-secret-love-spell-intense.webp",
+      "/produtos/body-splash-victorias-secret-love-spell-bliss.webp",
+      "/produtos/body-splash-victorias-secret-pure-seduction-intense.webp",
+      "/produtos/body-splash-victorias-secret-velvet-petals-intense.webp",
+      "/produtos/body-splash-victorias-secret-love-spell-brulee.webp",
+      "/produtos/body-splash-victorias-secret-pure-seduction-brulee.webp",
+      "/produtos/body-splash-victorias-secret-whipped-milk-sugar.webp",
+      "/produtos/body-splash-victorias-secret-vanilla-lace.webp",
+      "/produtos/body-splash-victorias-secret-cashmere-fleur.webp"
     ],
     "image": "/produtos/body-splash-victorias-secret-coconut-passion-brulee.webp",
     "sizes": [
@@ -3896,7 +3956,7 @@
       "Também na versão com brilho (Shimmer)"
     ],
     "inStock": true,
-    "addedAt": "2026-10-19"
+    "addedAt": "2026-10-30"
   },
   {
     "id": "body-splash-victorias-secret-shimmer",
@@ -5131,8 +5191,10 @@
     "id": "nike-fit",
     "name": "Nike Fit",
     "category": "tenis",
-    "image": "/produtos/nike-fit-bordo-off-white.webp",
+    "image": "/produtos/nike-fit-branco-rose.webp",
     "gallery": [
+      "/produtos/nike-fit-branco-rose.webp",
+      "/produtos/nike-fit-branco-rose-2.webp",
       "/produtos/nike-fit-bordo-off-white.webp",
       "/produtos/nike-fit-marrom-cafe.webp"
     ],
@@ -5140,7 +5202,7 @@
     "details": [
       "Marca: Nike",
       "Modelo: Nike Fit",
-      "Cores: Bordô/off white, Marrom/café",
+      "Cores: Branco/rosé, Bordô/off white, Marrom/café",
       "Numeração: 34 ao 39",
       "Público: Feminino"
     ],
@@ -5160,6 +5222,10 @@
       {
         "name": "Marrom/café",
         "hex": "#5D4037"
+      },
+      {
+        "name": "Branco/rosé",
+        "hex": "#F2ECE6"
       }
     ],
     "sizesByColor": {
@@ -5178,17 +5244,26 @@
         "37",
         "38",
         "39"
+      ],
+      "Branco/rosé": [
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39"
       ]
     },
     "colorImages": {
       "Bordô/off white": "/produtos/nike-fit-bordo-off-white.webp",
-      "Marrom/café": "/produtos/nike-fit-marrom-cafe.webp"
+      "Marrom/café": "/produtos/nike-fit-marrom-cafe.webp",
+      "Branco/rosé": "/produtos/nike-fit-branco-rose.webp"
     },
     "marca": "Nike",
     "publico": "feminino",
     "inStock": true,
     "subtitle": "Conforto com elegância nas cores da estação",
-    "addedAt": "2026-09-30"
+    "addedAt": "2026-10-30"
   },
   {
     "id": "adidas-duramo",
@@ -5972,5 +6047,489 @@
     "inStock": true,
     "subtitle": "Tela grande em 4K para a sala",
     "addedAt": "2026-09-30"
+  },
+  {
+    "id": "creme-corporal-victorias-secret",
+    "name": "Creme Corporal Victoria's Secret",
+    "subtitle": "24 fragrâncias, 236 ml",
+    "description": "Loção corporal hidratante com a assinatura das fragrâncias Victoria's Secret. Use junto com o body splash da mesma fragrância para o perfume durar mais na pele. Escolha a sua entre 24 fragrâncias.",
+    "category": "essencia",
+    "marca": "Victoria's Secret",
+    "publico": "feminino",
+    "rotuloCor": "Fragrância",
+    "image": "/produtos/creme-corporal-victorias-secret-bare-vanilla.webp",
+    "gallery": [
+      "/produtos/creme-corporal-victorias-secret-pure-seduction-brulee.webp",
+      "/produtos/creme-corporal-victorias-secret-love-spell-bliss.webp",
+      "/produtos/creme-corporal-victorias-secret-glazed-petals-berries.webp",
+      "/produtos/creme-corporal-victorias-secret-cashmere-fleur.webp",
+      "/produtos/creme-corporal-victorias-secret-pure-seduction-intense.webp",
+      "/produtos/creme-corporal-victorias-secret-golden-apricot-honey.webp",
+      "/produtos/creme-corporal-victorias-secret-velvet-petals-intense.webp",
+      "/produtos/creme-corporal-victorias-secret-vanilla-lace.webp",
+      "/produtos/creme-corporal-victorias-secret-whipped-milk-sugar.webp",
+      "/produtos/creme-corporal-victorias-secret-love-spell-intense.webp",
+      "/produtos/creme-corporal-victorias-secret-coconut-passion-brulee.webp",
+      "/produtos/creme-corporal-victorias-secret-velvet-petals-brulee.webp",
+      "/produtos/creme-corporal-victorias-secret-angel-cake-cream.webp",
+      "/produtos/creme-corporal-victorias-secret-bare-vanilla.webp",
+      "/produtos/creme-corporal-victorias-secret-love-spell-brulee.webp",
+      "/produtos/creme-corporal-victorias-secret-coconut-passion.webp",
+      "/produtos/creme-corporal-victorias-secret-bare-vanilla-brulee.webp",
+      "/produtos/creme-corporal-victorias-secret-romantic.webp",
+      "/produtos/creme-corporal-victorias-secret-pure-seduction.webp",
+      "/produtos/creme-corporal-victorias-secret-aqua-kiss.webp",
+      "/produtos/creme-corporal-victorias-secret-amber-romance.webp",
+      "/produtos/creme-corporal-victorias-secret-midnight-bloom.webp",
+      "/produtos/creme-corporal-victorias-secret-love-spell.webp",
+      "/produtos/creme-corporal-victorias-secret-velvet-petals.webp"
+    ],
+    "sizes": [
+      "Único"
+    ],
+    "colors": [
+      {
+        "name": "Pure Seduction Brûlée",
+        "hex": "#A5505A"
+      },
+      {
+        "name": "Love Spell Bliss",
+        "hex": "#8FA3C8"
+      },
+      {
+        "name": "Glazed Petals & Berries",
+        "hex": "#E3D6D3"
+      },
+      {
+        "name": "Cashmere Fleur",
+        "hex": "#7A3E9D"
+      },
+      {
+        "name": "Pure Seduction Intense",
+        "hex": "#B0123F"
+      },
+      {
+        "name": "Golden Apricot & Honey",
+        "hex": "#E58A4E"
+      },
+      {
+        "name": "Velvet Petals Intense",
+        "hex": "#C2407A"
+      },
+      {
+        "name": "Vanilla Lace",
+        "hex": "#C9934F"
+      },
+      {
+        "name": "Whipped Milk & Sugar",
+        "hex": "#E9E1C8"
+      },
+      {
+        "name": "Love Spell Intense",
+        "hex": "#7B5CC4"
+      },
+      {
+        "name": "Coconut Passion Brûlée",
+        "hex": "#D9C79B"
+      },
+      {
+        "name": "Velvet Petals Brûlée",
+        "hex": "#C99A8A"
+      },
+      {
+        "name": "Angel Cake & Cream",
+        "hex": "#E6D29A"
+      },
+      {
+        "name": "Bare Vanilla",
+        "hex": "#E3B48C"
+      },
+      {
+        "name": "Love Spell Brûlée",
+        "hex": "#9C86B8"
+      },
+      {
+        "name": "Coconut Passion",
+        "hex": "#D9B866"
+      },
+      {
+        "name": "Bare Vanilla Brûlée",
+        "hex": "#D8A57A"
+      },
+      {
+        "name": "Romantic",
+        "hex": "#C62828"
+      },
+      {
+        "name": "Pure Seduction",
+        "hex": "#C2185B"
+      },
+      {
+        "name": "Aqua Kiss",
+        "hex": "#4FB3BF"
+      },
+      {
+        "name": "Amber Romance",
+        "hex": "#E39A74"
+      },
+      {
+        "name": "Midnight Bloom",
+        "hex": "#3F51B5"
+      },
+      {
+        "name": "Love Spell",
+        "hex": "#9C7FD1"
+      },
+      {
+        "name": "Velvet Petals",
+        "hex": "#D9A3A0"
+      }
+    ],
+    "colorImages": {
+      "Pure Seduction Brûlée": "/produtos/creme-corporal-victorias-secret-pure-seduction-brulee.webp",
+      "Love Spell Bliss": "/produtos/creme-corporal-victorias-secret-love-spell-bliss.webp",
+      "Glazed Petals & Berries": "/produtos/creme-corporal-victorias-secret-glazed-petals-berries.webp",
+      "Cashmere Fleur": "/produtos/creme-corporal-victorias-secret-cashmere-fleur.webp",
+      "Pure Seduction Intense": "/produtos/creme-corporal-victorias-secret-pure-seduction-intense.webp",
+      "Golden Apricot & Honey": "/produtos/creme-corporal-victorias-secret-golden-apricot-honey.webp",
+      "Velvet Petals Intense": "/produtos/creme-corporal-victorias-secret-velvet-petals-intense.webp",
+      "Vanilla Lace": "/produtos/creme-corporal-victorias-secret-vanilla-lace.webp",
+      "Whipped Milk & Sugar": "/produtos/creme-corporal-victorias-secret-whipped-milk-sugar.webp",
+      "Love Spell Intense": "/produtos/creme-corporal-victorias-secret-love-spell-intense.webp",
+      "Coconut Passion Brûlée": "/produtos/creme-corporal-victorias-secret-coconut-passion-brulee.webp",
+      "Velvet Petals Brûlée": "/produtos/creme-corporal-victorias-secret-velvet-petals-brulee.webp",
+      "Angel Cake & Cream": "/produtos/creme-corporal-victorias-secret-angel-cake-cream.webp",
+      "Bare Vanilla": "/produtos/creme-corporal-victorias-secret-bare-vanilla.webp",
+      "Love Spell Brûlée": "/produtos/creme-corporal-victorias-secret-love-spell-brulee.webp",
+      "Coconut Passion": "/produtos/creme-corporal-victorias-secret-coconut-passion.webp",
+      "Bare Vanilla Brûlée": "/produtos/creme-corporal-victorias-secret-bare-vanilla-brulee.webp",
+      "Romantic": "/produtos/creme-corporal-victorias-secret-romantic.webp",
+      "Pure Seduction": "/produtos/creme-corporal-victorias-secret-pure-seduction.webp",
+      "Aqua Kiss": "/produtos/creme-corporal-victorias-secret-aqua-kiss.webp",
+      "Amber Romance": "/produtos/creme-corporal-victorias-secret-amber-romance.webp",
+      "Midnight Bloom": "/produtos/creme-corporal-victorias-secret-midnight-bloom.webp",
+      "Love Spell": "/produtos/creme-corporal-victorias-secret-love-spell.webp",
+      "Velvet Petals": "/produtos/creme-corporal-victorias-secret-velvet-petals.webp"
+    },
+    "details": [
+      "Marca: Victoria's Secret",
+      "Fragrance lotion 236 ml",
+      "Combina com o Body Splash da mesma fragrância"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "sapatenis-armani-exchange",
+    "name": "Sapatênis Armani Exchange",
+    "subtitle": "Linha premium, AX em relevo, 3 combinações",
+    "description": "Sapatênis de linha premium com o monograma AX marcado na lateral e solado alto com recortes. Elegante no jeans e no look social leve, com presença na Serra e na cidade.",
+    "category": "tenis",
+    "marca": "Armani Exchange",
+    "publico": "masculino",
+    "image": "/produtos/sapatenis-armani-exchange-off-white-preto.webp",
+    "gallery": [
+      "/produtos/sapatenis-armani-exchange-off-white-preto.webp",
+      "/produtos/sapatenis-armani-exchange-preto-grafite.webp",
+      "/produtos/sapatenis-armani-exchange-preto-sola-creme.webp",
+      "/produtos/sapatenis-armani-exchange-off-white-preto-2.webp",
+      "/produtos/sapatenis-armani-exchange-off-white-preto-3.webp",
+      "/produtos/sapatenis-armani-exchange-preto-grafite-2.webp",
+      "/produtos/sapatenis-armani-exchange-preto-grafite-3.webp",
+      "/produtos/sapatenis-armani-exchange-preto-sola-creme-2.webp",
+      "/produtos/sapatenis-armani-exchange-preto-sola-creme-3.webp"
+    ],
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Off white/preto",
+        "hex": "#EDE8DC"
+      },
+      {
+        "name": "Preto/grafite",
+        "hex": "#2B2B2B"
+      },
+      {
+        "name": "Preto/sola creme",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Off white/preto": "/produtos/sapatenis-armani-exchange-off-white-preto.webp",
+      "Preto/grafite": "/produtos/sapatenis-armani-exchange-preto-grafite.webp",
+      "Preto/sola creme": "/produtos/sapatenis-armani-exchange-preto-sola-creme.webp"
+    },
+    "details": [
+      "Marca: Armani Exchange",
+      "Linha Premium",
+      "Cores: off white com preto, preto com grafite e preto com sola creme",
+      "Numeração: 38 ao 43",
+      "Público: Masculino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "sapatenis-mizuno",
+    "name": "Sapatênis Mizuno",
+    "subtitle": "Branco ou preto, sola de borracha",
+    "description": "Sapatênis de cabedal liso com a onda Mizuno na lateral e sola de borracha. Confortável para o dia inteiro, do trabalho ao passeio.",
+    "category": "tenis",
+    "marca": "Mizuno",
+    "publico": "unissex",
+    "image": "/produtos/sapatenis-mizuno-branco.webp",
+    "gallery": [
+      "/produtos/sapatenis-mizuno-branco.webp",
+      "/produtos/sapatenis-mizuno-preto.webp"
+    ],
+    "sizes": [
+      "35",
+      "36",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#F4F2EE"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Branco": "/produtos/sapatenis-mizuno-branco.webp",
+      "Preto": "/produtos/sapatenis-mizuno-preto.webp"
+    },
+    "details": [
+      "Marca: Mizuno",
+      "Cores: branco e preto",
+      "Branco: 35, 36, 38, 39, 40, 41 e 43",
+      "Preto: 38 ao 42",
+      "Público: Unissex"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-30",
+    "sizesByColor": {
+      "Branco": [
+        "35",
+        "36",
+        "38",
+        "39",
+        "40",
+        "41",
+        "43"
+      ],
+      "Preto": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
+      ]
+    }
+  },
+  {
+    "id": "nike-pegasus-plus",
+    "name": "Nike Pegasus Plus",
+    "subtitle": "Corrida e treino, 2 cores",
+    "description": "Tênis de corrida com cabedal respirável e entressola macia, pensado para treino e caminhada. Leve no pé e bonito no look esportivo do dia a dia.",
+    "category": "tenis",
+    "marca": "Nike",
+    "publico": "feminino",
+    "image": "/produtos/nike-pegasus-plus-preto-rosa.webp",
+    "gallery": [
+      "/produtos/nike-pegasus-plus-preto-rosa.webp",
+      "/produtos/nike-pegasus-plus-nude-bordo.webp"
+    ],
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "colors": [
+      {
+        "name": "Preto/rosa",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Nude/bordô",
+        "hex": "#E8C3B5"
+      }
+    ],
+    "colorImages": {
+      "Preto/rosa": "/produtos/nike-pegasus-plus-preto-rosa.webp",
+      "Nude/bordô": "/produtos/nike-pegasus-plus-nude-bordo.webp"
+    },
+    "details": [
+      "Marca: Nike",
+      "Modelo: Pegasus Plus",
+      "Cores: preto com rosa e nude com bordô",
+      "Numeração: 34 ao 39",
+      "Público: Feminino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "tenis-ultraleve-44-47",
+    "name": "Tênis Ultraleve Numeração Especial",
+    "subtitle": "Do 44 ao 47, solado de EVA",
+    "description": "Tênis esportivo leve para quem calça do 44 ao 47 e quase nunca encontra modelo. Solado de EVA macio e cabedal em tela respirável.",
+    "category": "tenis",
+    "marca": "Puma e Nike",
+    "publico": "masculino",
+    "image": "/produtos/tenis-ultraleve-44-47-puma-preto-branco.webp",
+    "gallery": [
+      "/produtos/tenis-ultraleve-44-47-puma-preto-branco.webp",
+      "/produtos/tenis-ultraleve-44-47-nike-preto.webp"
+    ],
+    "sizes": [
+      "44",
+      "45",
+      "46",
+      "47"
+    ],
+    "colors": [
+      {
+        "name": "Puma preto/branco",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Nike preto",
+        "hex": "#111111"
+      }
+    ],
+    "colorImages": {
+      "Puma preto/branco": "/produtos/tenis-ultraleve-44-47-puma-preto-branco.webp",
+      "Nike preto": "/produtos/tenis-ultraleve-44-47-nike-preto.webp"
+    },
+    "details": [
+      "Numeração especial: 44 ao 47",
+      "Solado de EVA",
+      "Modelos: Puma preto com branco e Nike preto",
+      "Público: Masculino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "chinelo-nike-eva",
+    "name": "Chinelo Nike EVA",
+    "subtitle": "Slide anatômico, 3 cores",
+    "description": "Slide de EVA com palmilha anatômica e visual robusto. Leve, macio e perfeito para o pós-treino e o fim de semana.",
+    "category": "chinelos",
+    "marca": "Nike",
+    "publico": "unissex",
+    "image": "/produtos/chinelo-nike-eva-bege.webp",
+    "gallery": [
+      "/produtos/chinelo-nike-eva-bege.webp",
+      "/produtos/chinelo-nike-eva-cinza.webp",
+      "/produtos/chinelo-nike-eva-preto.webp"
+    ],
+    "sizes": [
+      "37/38",
+      "39/40",
+      "41/42",
+      "43/44"
+    ],
+    "colors": [
+      {
+        "name": "Bege",
+        "hex": "#D9C3A0"
+      },
+      {
+        "name": "Cinza",
+        "hex": "#BDBDBD"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "colorImages": {
+      "Bege": "/produtos/chinelo-nike-eva-bege.webp",
+      "Cinza": "/produtos/chinelo-nike-eva-cinza.webp",
+      "Preto": "/produtos/chinelo-nike-eva-preto.webp"
+    },
+    "details": [
+      "Marca: Nike",
+      "Material: EVA",
+      "Cores disponíveis: bege, cinza e preto",
+      "Numeração: 37/38 ao 43/44",
+      "Público: Unissex"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-30"
+  },
+  {
+    "id": "slide-eva-alo",
+    "name": "Slide EVA Alo",
+    "subtitle": "Conforto macio, 4 cores",
+    "description": "Slide de EVA com sola grossa e toque macio, no estilo clean da Alo. Para usar em casa, na academia ou no passeio.",
+    "category": "chinelos",
+    "marca": "Alo",
+    "publico": "unissex",
+    "image": "/produtos/slide-eva-alo-branco.webp",
+    "gallery": [
+      "/produtos/slide-eva-alo-branco.webp",
+      "/produtos/slide-eva-alo-rosa.webp",
+      "/produtos/slide-eva-alo-preto.webp",
+      "/produtos/slide-eva-alo-marrom.webp"
+    ],
+    "sizes": [
+      "33/34",
+      "35/36",
+      "37/38",
+      "39/40"
+    ],
+    "colors": [
+      {
+        "name": "Branco",
+        "hex": "#F4F2EE"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#F1C6D3"
+      },
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#5E4A3A"
+      }
+    ],
+    "colorImages": {
+      "Branco": "/produtos/slide-eva-alo-branco.webp",
+      "Rosa": "/produtos/slide-eva-alo-rosa.webp",
+      "Preto": "/produtos/slide-eva-alo-preto.webp",
+      "Marrom": "/produtos/slide-eva-alo-marrom.webp"
+    },
+    "details": [
+      "Marca: Alo",
+      "Material: EVA",
+      "Cores: branco, rosa, preto e marrom",
+      "Numeração: 33/34 ao 39/40",
+      "Público: Unissex"
+    ],
+    "inStock": true,
+    "addedAt": "2026-10-30"
   }
 ]
