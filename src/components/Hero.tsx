@@ -10,12 +10,56 @@ interface HeroProps {
   whatsappNumber: string;
 }
 
-// Destaques do topo: produto (id do produtos.json) + cor da foto
-export const DESTAQUES: [string, string][] = [
-  ['nike-dunk-low', 'Panda (preto/branco)'],
-  ['new-balance-9060', 'Off white/castor'],
-  ['adidas-samba', 'Branco/preto'],
+// Destaques do topo: produto (id do produtos.json) + cor + vídeo cinematográfico (public/videos/hero).
+// O vídeo é feito a partir da foto real do produto; o pôster (.webp) aparece enquanto carrega,
+// para quem prefere menos movimento e para quem está com economia de dados.
+export const DESTAQUES: [string, string, string?][] = [
+  ['air-jordan-1-mid', 'Paris napolitano', 'hero-jordan-1-mid-napolitano'],
+  ['nike-air-max-90', 'Azul/grafite', 'hero-air-max-90-azul'],
+  ['nike-dunk-jordan-low', 'Off white/rosa flamingo', 'hero-dunk-jordan-low-rosa'],
 ];
+
+/** Vídeo em loop, sem som. Só toca quando está visível na tela; respeita "reduzir movimento" e economia de dados. */
+const VideoDestaque: React.FC<{ nome: string; alt: string; eager: boolean }> = ({ nome, alt, eager }) => {
+  const ref = useRef<HTMLVideoElement>(null);
+  const [tocar, setTocar] = React.useState(false);
+  useEffect(() => {
+    const reduz = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+    const economia = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection?.saveData;
+    if (reduz || economia) return;
+    setTocar(true);
+  }, []);
+  useEffect(() => {
+    const v = ref.current;
+    if (!tocar || !v || !('IntersectionObserver' in window)) return;
+    const io = new IntersectionObserver(([e]) => {
+      if (e.isIntersecting) v.play().catch(() => {});
+      else v.pause();
+    }, { threshold: 0.2 });
+    io.observe(v);
+    return () => io.disconnect();
+  }, [tocar]);
+  const poster = `/videos/hero/${nome}.webp`;
+  if (!tocar) {
+    return <img src={poster} alt={alt} width={720} height={900} loading={eager ? 'eager' : 'lazy'} className="w-full h-full object-cover" />;
+  }
+  return (
+    <video
+      ref={ref}
+      src={`/videos/hero/${nome}.mp4`}
+      poster={poster}
+      muted
+      loop
+      playsInline
+      autoPlay
+      preload={eager ? 'auto' : 'metadata'}
+      aria-label={alt}
+      width={720}
+      height={900}
+      className="w-full h-full object-cover transition duration-700 ease-[var(--ease-ga)] motion-safe:group-hover:scale-105"
+    />
+  );
+};
 
 /** Parallax discreto: escreve o scroll numa variável CSS (desligado para quem prefere menos movimento). */
 function useParallax<T extends HTMLElement>() {
@@ -39,9 +83,9 @@ function useParallax<T extends HTMLElement>() {
 export const Hero: React.FC<HeroProps> = ({ whatsappNumber }) => {
   const whatsappUrl = createGeneralWhatsAppLink(whatsappNumber);
   const ref = useParallax<HTMLElement>();
-  const fotos = DESTAQUES.flatMap(([id, cor]) => {
+  const fotos = DESTAQUES.flatMap(([id, cor, video]) => {
     const p = PRODUCTS_DATA.find((x) => x.id === id);
-    return p ? [{ ...p, foto: p.colorImages?.[cor] ?? p.image, cor }] : [];
+    return p ? [{ ...p, foto: p.colorImages?.[cor] ?? p.image, cor, video }] : [];
   });
   // velocidade de parallax diferente por camada = profundidade
   const camada = (f: number): React.CSSProperties => ({ transform: `translate3d(0, calc(var(--sy, 0) * ${f}px), 0)` });
@@ -114,14 +158,18 @@ export const Hero: React.FC<HeroProps> = ({ whatsappNumber }) => {
                       to={`/produto/${p.id}`}
                       className="group relative block rounded-[24px] overflow-hidden aspect-[4/5] ring-1 ring-white/10 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.8)]"
                     >
-                      <img
-                        src={thumb(p.foto)}
-                        alt={altProduto(p.name, p.cor)}
-                        width={480}
-                        height={600}
-                        loading={i === 0 ? 'eager' : 'lazy'}
-                        className="w-full h-full object-cover transition duration-700 ease-[var(--ease-ga)] motion-safe:group-hover:scale-105"
-                      />
+                      {p.video ? (
+                        <VideoDestaque nome={p.video} alt={altProduto(p.name, p.cor)} eager={i === 0} />
+                      ) : (
+                        <img
+                          src={thumb(p.foto)}
+                          alt={altProduto(p.name, p.cor)}
+                          width={480}
+                          height={600}
+                          loading={i === 0 ? 'eager' : 'lazy'}
+                          className="w-full h-full object-cover transition duration-700 ease-[var(--ease-ga)] motion-safe:group-hover:scale-105"
+                        />
+                      )}
                       <span className="absolute inset-x-0 bottom-0 p-3 bg-gradient-to-t from-black/80 to-transparent">
                         <span className="block text-[10px] uppercase tracking-[0.2em] text-[#D8B98A]">{p.marca}</span>
                         <span className="block font-serif text-base sm:text-lg text-white">{p.name}</span>
