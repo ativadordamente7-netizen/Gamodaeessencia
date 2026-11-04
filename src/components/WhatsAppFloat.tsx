@@ -11,7 +11,7 @@ export const WhatsAppFloat: React.FC<WhatsAppFloatProps> = ({ whatsappNumber }) 
   const whatsappUrl = createGeneralWhatsAppLink(whatsappNumber);
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2 pointer-events-auto">
+    <div data-whatsapp-flutuante className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2 pointer-events-auto">
       
       {/* Tooltip Popup Bubble */}
       {showTooltip && (

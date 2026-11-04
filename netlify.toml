@@ -26,3 +26,8 @@
   for = "/produtos/*"
   [headers.values]
     Cache-Control = "public, max-age=86400"
+# Quadros da abertura cinematográfica: nomes fixos por versão, cache longo
+[[headers]]
+  for = "/intro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2592000, immutable"
