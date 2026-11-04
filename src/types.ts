@@ -13,7 +13,8 @@ export type CategoryType =
   | 'fitness'
   | 'camisetas'
   | 'calcas'
-  | 'eletronicos';
+  | 'eletronicos'
+  | 'casa';
 
 export type ProductSize = string;
 
