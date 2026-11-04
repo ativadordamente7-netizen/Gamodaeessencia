@@ -1,5 +1,653 @@
 [
   {
+    "id": "scooter-eletrica-x13",
+    "name": "Scooter Elétrica X13",
+    "subtitle": "Estilo chopper, bateria de lítio e marcha ré",
+    "description": "Scooter elétrica de visual chopper, com banco largo com encosto para piloto e garupa. Silenciosa, econômica e prática para o trabalho, a faculdade e os passeios pela cidade.",
+    "category": "casa",
+    "image": "/produtos/scooter-eletrica-x13-azul.webp",
+    "gallery": [
+      "/produtos/scooter-eletrica-x13-azul.webp",
+      "/produtos/scooter-eletrica-x13-preta.webp",
+      "/produtos/scooter-eletrica-x13-vermelha.webp"
+    ],
+    "colors": [
+      {
+        "name": "Azul especial (UK)",
+        "hex": "#1F3FA6"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Vermelha",
+        "hex": "#C62828"
+      }
+    ],
+    "colorImages": {
+      "Azul especial (UK)": "/produtos/scooter-eletrica-x13-azul.webp",
+      "Preta": "/produtos/scooter-eletrica-x13-preta.webp",
+      "Vermelha": "/produtos/scooter-eletrica-x13-vermelha.webp"
+    },
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Modelo: X13",
+      "Autonomia de até 50 km (informada pelo fabricante)",
+      "Bateria de lítio removível, carrega em tomada comum",
+      "Marcha ré",
+      "Bluetooth com som integrado",
+      "Freio a disco",
+      "Banco com encosto para piloto e garupa",
+      "Antes de rodar, consulte as regras de trânsito da sua cidade"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "ar-condicionado-climaart-12000",
+    "name": "Ar-condicionado Climaart Inverter 12.000 BTUs",
+    "subtitle": "Mais silencioso e mais econômico",
+    "description": "Ar-condicionado split com tecnologia Inverter, que gasta menos energia e trabalha em silêncio. Conforto para o quarto ou a sala em todas as estações.",
+    "category": "casa",
+    "marca": "Climaart",
+    "image": "/produtos/ar-condicionado-climaart-12000.webp",
+    "gallery": [
+      "/produtos/ar-condicionado-climaart-12000.webp"
+    ],
+    "colors": [],
+    "sizes": [
+      "12.000 BTUs"
+    ],
+    "details": [
+      "Marca: Climaart",
+      "Potência: 12.000 BTUs",
+      "Tecnologia Inverter",
+      "Funcionamento mais silencioso",
+      "Condições de pagamento pelo WhatsApp"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "conjunto-dry-fit-hugo-boss",
+    "name": "Conjunto Dry-Fit Hugo Boss",
+    "subtitle": "Camiseta e bermuda em tecido leve",
+    "description": "Conjunto masculino de camiseta e bermuda em dry-fit, com faixas laterais e detalhes dourados. Leve e confortável do treino ao fim de semana.",
+    "category": "conjuntos",
+    "marca": "Hugo Boss",
+    "publico": "masculino",
+    "image": "/produtos/conjunto-dry-fit-hugo-boss-preto.webp",
+    "gallery": [
+      "/produtos/conjunto-dry-fit-hugo-boss-preto.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "sizes": [
+      "P",
+      "M",
+      "G",
+      "GG"
+    ],
+    "details": [
+      "Marca: Hugo Boss",
+      "Tecido dry-fit",
+      "Camiseta + bermuda",
+      "Tamanhos: P, M, G e GG",
+      "Público: Masculino"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "conjunto-dry-fit-infantil",
+    "name": "Conjunto Dry-Fit Infantil",
+    "subtitle": "Camiseta e bermuda para os pequenos",
+    "description": "Conjunto infantil de camiseta e bermuda em dry-fit, leve e fresquinho para brincar o dia todo. A confecção é pequena: na dúvida, peça um número acima.",
+    "category": "conjuntos",
+    "publico": "unissex",
+    "image": "/produtos/conjunto-dry-fit-infantil-1.webp",
+    "gallery": [
+      "/produtos/conjunto-dry-fit-infantil-1.webp",
+      "/produtos/conjunto-dry-fit-infantil-2.webp",
+      "/produtos/conjunto-dry-fit-infantil-3.webp"
+    ],
+    "colors": [],
+    "sizes": [
+      "2",
+      "4",
+      "6",
+      "8",
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "details": [
+      "Tecido dry-fit",
+      "Camiseta + bermuda",
+      "Do 2 ao 16 anos",
+      "Confecção pequena",
+      "Vários modelos: consulte o disponível pelo WhatsApp"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "calcinha-canelada-strass",
+    "name": "Calcinha Canelada com Strass",
+    "subtitle": "Canelado macio com tira brilhante",
+    "description": "Calcinha em tecido canelado, super confortável, com tira lateral de strass. Vendida por unidade, em várias cores.",
+    "category": "pijamas",
+    "publico": "feminino",
+    "image": "/produtos/calcinha-canelada-strass-1.webp",
+    "gallery": [
+      "/produtos/calcinha-canelada-strass-1.webp",
+      "/produtos/calcinha-canelada-strass-2.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A44"
+      },
+      {
+        "name": "Bordô",
+        "hex": "#6D1A2E"
+      },
+      {
+        "name": "Branca",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Verde",
+        "hex": "#1F5A44"
+      },
+      {
+        "name": "Bege",
+        "hex": "#D9C2A6"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E8A5B5"
+      },
+      {
+        "name": "Branco azulado",
+        "hex": "#D8E4EE"
+      }
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "sizesByColor": {
+      "Preta": [
+        "P/M",
+        "G/GG"
+      ],
+      "Azul marinho": [
+        "P/M",
+        "G/GG"
+      ],
+      "Bordô": [
+        "P/M",
+        "G/GG"
+      ],
+      "Branca": [
+        "P/M"
+      ],
+      "Verde": [
+        "P/M"
+      ],
+      "Bege": [
+        "P/M",
+        "G/GG"
+      ],
+      "Rosa": [
+        "G/GG"
+      ],
+      "Branco azulado": [
+        "G/GG"
+      ]
+    },
+    "details": [
+      "Tecido canelado",
+      "Tira lateral com strass",
+      "Vendida por unidade",
+      "Tamanhos: P/M e G/GG (consulte a cor)"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "calcinha-renda-strass",
+    "name": "Calcinha de Renda com Strass",
+    "subtitle": "Renda e poliamida com tira brilhante",
+    "description": "Calcinha em renda e poliamida, delicada e confortável, com tira lateral de strass. Vendida por unidade.",
+    "category": "pijamas",
+    "publico": "feminino",
+    "image": "/produtos/calcinha-renda-strass-1.webp",
+    "gallery": [
+      "/produtos/calcinha-renda-strass-1.webp",
+      "/produtos/calcinha-renda-strass-2.webp"
+    ],
+    "colors": [
+      {
+        "name": "Pink",
+        "hex": "#D81B72"
+      },
+      {
+        "name": "Vermelha",
+        "hex": "#C62828"
+      },
+      {
+        "name": "Branca",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      }
+    ],
+    "sizes": [
+      "P/M",
+      "G/GG"
+    ],
+    "details": [
+      "Renda e poliamida",
+      "Tira lateral com strass",
+      "Vendida por unidade",
+      "Tamanhos: P/M e G/GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "body-splash-haya-yara",
+    "name": "Body Splash Haya e Yara",
+    "subtitle": "Brumas árabes doces e envolventes",
+    "description": "Body splash das linhas Haya e Yara, com frasco escultural e fragrâncias doces, frutadas e florais. Perfeito para usar no dia a dia e reaplicar ao longo do dia.",
+    "category": "essencia",
+    "publico": "feminino",
+    "image": "/produtos/body-splash-haya-yara-1.webp",
+    "gallery": [
+      "/produtos/body-splash-haya-yara-1.webp",
+      "/produtos/body-splash-haya-yara-2.webp",
+      "/produtos/body-splash-haya-yara-3.webp",
+      "/produtos/body-splash-haya-yara-4.webp",
+      "/produtos/body-splash-haya-yara-5.webp",
+      "/produtos/body-splash-haya-yara-6.webp"
+    ],
+    "colors": [],
+    "sizes": [
+      "Único"
+    ],
+    "details": [
+      "Linhas: Haya e Yara",
+      "Notas doces, frutadas e florais",
+      "Consulte as fragrâncias disponíveis pelo WhatsApp"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "perfume-arabe-miniatura-25ml",
+    "name": "Perfume Árabe Miniatura 25 ml",
+    "subtitle": "Arabic Collection em tamanho de bolsa",
+    "description": "Miniaturas de 25 ml da Arabic Collection, com frascos trabalhados e fragrâncias marcantes. Cabem na bolsa e são ótimas para presentear.",
+    "category": "essencia",
+    "publico": "feminino",
+    "image": "/produtos/perfume-arabe-miniatura-rosa.webp",
+    "gallery": [
+      "/produtos/perfume-arabe-miniatura-rosa.webp",
+      "/produtos/perfume-arabe-miniatura-doces.webp",
+      "/produtos/perfume-arabe-miniatura-tropical.webp",
+      "/produtos/perfume-arabe-miniatura-minha-essencia.webp",
+      "/produtos/perfume-arabe-miniatura-fakh-rosa.webp",
+      "/produtos/perfume-arabe-miniatura-fakh-preto.webp",
+      "/produtos/perfume-arabe-miniatura-majestade.webp",
+      "/produtos/perfume-arabe-miniatura-asad-brown.webp",
+      "/produtos/perfume-arabe-miniatura-4.webp",
+      "/produtos/perfume-arabe-miniatura-5.webp",
+      "/produtos/perfume-arabe-miniatura-6.webp",
+      "/produtos/perfume-arabe-miniatura-7.webp"
+    ],
+    "colors": [
+      {
+        "name": "Rosa",
+        "hex": "#E9C9D2"
+      },
+      {
+        "name": "Doces",
+        "hex": "#D81B72"
+      },
+      {
+        "name": "Tropical",
+        "hex": "#F2B01E"
+      },
+      {
+        "name": "Minha Essência",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Fakh Rosa",
+        "hex": "#EFE3D3"
+      },
+      {
+        "name": "Fakh Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Majestade",
+        "hex": "#2B2622"
+      },
+      {
+        "name": "Asad Brown",
+        "hex": "#7A4A30"
+      }
+    ],
+    "colorImages": {
+      "Rosa": "/produtos/perfume-arabe-miniatura-rosa.webp",
+      "Doces": "/produtos/perfume-arabe-miniatura-doces.webp",
+      "Tropical": "/produtos/perfume-arabe-miniatura-tropical.webp",
+      "Minha Essência": "/produtos/perfume-arabe-miniatura-minha-essencia.webp",
+      "Fakh Rosa": "/produtos/perfume-arabe-miniatura-fakh-rosa.webp",
+      "Fakh Preto": "/produtos/perfume-arabe-miniatura-fakh-preto.webp",
+      "Majestade": "/produtos/perfume-arabe-miniatura-majestade.webp",
+      "Asad Brown": "/produtos/perfume-arabe-miniatura-asad-brown.webp"
+    },
+    "sizes": [
+      "25 ml"
+    ],
+    "details": [
+      "Linha: Arabic Collection",
+      "Frasco: 25 ml",
+      "Mais fragrâncias na loja: consulte pelo WhatsApp"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "vulcan-sable",
+    "name": "Vulcan Sable 100 ml",
+    "subtitle": "Âmbar amadeirado, quente e cremoso",
+    "description": "Perfume âmbar amadeirado unissex que abre com whisky e mandarina, fica cremoso com cacau e sândalo e seca em baunilha, fava tonka e madeiras. Marcante, para a noite e ocasiões especiais.",
+    "category": "essencia",
+    "marca": "French Avenue",
+    "publico": "unissex",
+    "image": "/produtos/vulcan-sable-1.webp",
+    "gallery": [
+      "/produtos/vulcan-sable-1.webp",
+      "/produtos/vulcan-sable-2.webp",
+      "/produtos/vulcan-sable-3.webp"
+    ],
+    "colors": [],
+    "sizes": [
+      "100 ml"
+    ],
+    "details": [
+      "Família: âmbar amadeirado",
+      "Topo: whisky envelhecido, mandarina, coentro, gergelim tostado e anis",
+      "Coração: cacau amargo, sândalo e cashmeran",
+      "Fundo: baunilha, fava tonka, patchouli, benjoim e madeira cashmere",
+      "Frasco: 100 ml"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "noble-ameer",
+    "name": "Al Noble Ameer 100 ml",
+    "subtitle": "Oriental amadeirado, elegante e intenso",
+    "description": "Perfume oriental amadeirado com maçã, bergamota e pimenta rosa na saída, lavanda e gerânio no coração e vetiver, cedro e âmbar no fundo. Presença refinada e duradoura.",
+    "category": "essencia",
+    "marca": "Lattafa",
+    "publico": "masculino",
+    "image": "/produtos/noble-ameer-1.webp",
+    "gallery": [
+      "/produtos/noble-ameer-1.webp",
+      "/produtos/noble-ameer-2.webp"
+    ],
+    "colors": [],
+    "sizes": [
+      "100 ml"
+    ],
+    "details": [
+      "Família: oriental amadeirado",
+      "Topo: maçã, bergamota e pimenta rosa",
+      "Coração: lavanda, gerânio e elemi",
+      "Fundo: vetiver, cedro, âmbar e patchouli",
+      "Frasco: 100 ml"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "sabah-al-ward",
+    "name": "Sabah Al Ward 100 ml",
+    "subtitle": "Âmbar floral feminino",
+    "description": "Perfume âmbar floral com pimenta rosa e mandarina na saída, cacau, flor de laranjeira e jasmim no coração e baunilha, fava tonka e patchouli no fundo. Doce, sofisticado e feminino.",
+    "category": "essencia",
+    "marca": "Al Wataniah",
+    "publico": "feminino",
+    "image": "/produtos/sabah-al-ward-1.webp",
+    "gallery": [
+      "/produtos/sabah-al-ward-1.webp",
+      "/produtos/sabah-al-ward-2.webp",
+      "/produtos/sabah-al-ward-3.webp",
+      "/produtos/sabah-al-ward-4.webp"
+    ],
+    "colors": [],
+    "sizes": [
+      "100 ml"
+    ],
+    "details": [
+      "Família: âmbar floral",
+      "Topo: pimenta rosa e mandarina",
+      "Coração: semente de cacau, flor de laranjeira e jasmim sambac",
+      "Fundo: baunilha, fava tonka e patchouli",
+      "Frasco: 100 ml"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "papete-monograma-fivela",
+    "name": "Papete Monograma com Fivela",
+    "subtitle": "Tiras acolchoadas e fivela dourada",
+    "description": "Papete de sola alta com tiras cruzadas acolchoadas em tecido monograma e fivela dourada. Confortável e cheia de estilo para os dias de calor.",
+    "category": "chinelos",
+    "publico": "feminino",
+    "image": "/produtos/papete-monograma-fivela-bege.webp",
+    "gallery": [
+      "/produtos/papete-monograma-fivela-bege.webp",
+      "/produtos/papete-monograma-fivela-preta.webp",
+      "/produtos/papete-monograma-fivela-rosa.webp",
+      "/produtos/papete-monograma-fivela-marrom.webp"
+    ],
+    "colors": [
+      {
+        "name": "Bege",
+        "hex": "#D9C2A6"
+      },
+      {
+        "name": "Preta",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Rosa",
+        "hex": "#E8B4A8"
+      },
+      {
+        "name": "Marrom",
+        "hex": "#6B4A35"
+      }
+    ],
+    "colorImages": {
+      "Bege": "/produtos/papete-monograma-fivela-bege.webp",
+      "Preta": "/produtos/papete-monograma-fivela-preta.webp",
+      "Rosa": "/produtos/papete-monograma-fivela-rosa.webp",
+      "Marrom": "/produtos/papete-monograma-fivela-marrom.webp"
+    },
+    "sizes": [
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "details": [
+      "Sola alta",
+      "Tiras acolchoadas com fivela dourada",
+      "Numeração: 34 ao 39"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "slide-plissado-plataforma",
+    "name": "Slide Plissado Plataforma",
+    "subtitle": "Tira franzida com logo dourado",
+    "description": "Slide de sola plataforma com tira franzida e aplicação metálica dourada. Leve, macio e elegante para o dia a dia.",
+    "category": "chinelos",
+    "publico": "feminino",
+    "image": "/produtos/slide-plissado-plataforma-1.webp",
+    "gallery": [
+      "/produtos/slide-plissado-plataforma-1.webp",
+      "/produtos/slide-plissado-plataforma-2.webp",
+      "/produtos/slide-plissado-plataforma-3.webp"
+    ],
+    "colors": [
+      {
+        "name": "Off white",
+        "hex": "#F1EBDC"
+      }
+    ],
+    "sizes": [
+      "34/35",
+      "36/37",
+      "38/39"
+    ],
+    "details": [
+      "Sola plataforma em EVA",
+      "Tira franzida com aplicação dourada",
+      "Numeração: 34/35 ao 38/39"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "camiseta-premium-bordada",
+    "name": "Camiseta Premium Bordada",
+    "subtitle": "Malha 50.1 com logo bordado",
+    "description": "Camiseta em malha 50.1 encorpada, com logo bordado e modelagem nova de ótimo caimento. Básica, versátil e fácil de combinar.",
+    "category": "camisetas",
+    "publico": "masculino",
+    "image": "/produtos/camiseta-premium-bordada-1.webp",
+    "gallery": [
+      "/produtos/camiseta-premium-bordada-1.webp",
+      "/produtos/camiseta-premium-bordada-2.webp",
+      "/produtos/camiseta-premium-bordada-3.webp",
+      "/produtos/camiseta-premium-bordada-4.webp",
+      "/produtos/camiseta-premium-bordada-5.webp",
+      "/produtos/camiseta-premium-bordada-6.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Branco",
+        "hex": "#F4F1EA"
+      },
+      {
+        "name": "Off white",
+        "hex": "#EFE8DA"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#B3202A"
+      },
+      {
+        "name": "Azul marinho",
+        "hex": "#1F2A44"
+      },
+      {
+        "name": "Bege",
+        "hex": "#D9C2A6"
+      }
+    ],
+    "sizes": [
+      "M",
+      "G",
+      "GG"
+    ],
+    "details": [
+      "Malha 50.1 de alta qualidade",
+      "Logo bordado",
+      "Modelagem nova",
+      "Tamanhos: M, G e GG"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
+    "id": "camiseta-premium-emborrachada",
+    "name": "Camiseta Premium Estampa Emborrachada",
+    "subtitle": "Malha 50.1 com estampa em relevo",
+    "description": "Camiseta em malha 50.1 encorpada, com estampa emborrachada e modelagem nova. Acabamento caprichado para usar em qualquer ocasião.",
+    "category": "camisetas",
+    "publico": "masculino",
+    "image": "/produtos/camiseta-premium-emborrachada-1.webp",
+    "gallery": [
+      "/produtos/camiseta-premium-emborrachada-1.webp",
+      "/produtos/camiseta-premium-emborrachada-2.webp",
+      "/produtos/camiseta-premium-emborrachada-3.webp",
+      "/produtos/camiseta-premium-emborrachada-4.webp"
+    ],
+    "colors": [
+      {
+        "name": "Preto",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Vermelho",
+        "hex": "#B3202A"
+      }
+    ],
+    "sizes": [
+      "M",
+      "G"
+    ],
+    "sizesByColor": {
+      "Preto": [
+        "M",
+        "G"
+      ],
+      "Vermelho": [
+        "G"
+      ]
+    },
+    "details": [
+      "Malha 50.1 de alta qualidade",
+      "Estampa emborrachada",
+      "Preto: M e G · Vermelho: G"
+    ],
+    "inStock": true,
+    "addedAt": "2026-11-03"
+  },
+  {
     "id": "tenis-polo-master-cup",
     "name": "Tênis Polo Master Cup",
     "subtitle": "Couro liso, sola marcante, 4 combinações",
@@ -955,7 +1603,7 @@
       "Tamanhos: P/M e G/GG (rosa só G/GG)"
     ],
     "inStock": true,
-    "addedAt": "2026-10-21"
+    "addedAt": "2026-11-03"
   },
   {
     "id": "conjunto-alo-legging-liso",
@@ -1023,7 +1671,7 @@
       "Tamanhos: P/M e G/GG (consulte a cor)"
     ],
     "inStock": true,
-    "addedAt": "2026-10-21"
+    "addedAt": "2026-11-03"
   },
   {
     "id": "conjunto-alo-legging-canelado",
@@ -1170,7 +1818,7 @@
       "Tamanhos: P/M e G/GG"
     ],
     "inStock": true,
-    "addedAt": "2026-10-21"
+    "addedAt": "2026-11-03"
   },
   {
     "id": "conjunto-alo-alcas-contraste",
@@ -1339,7 +1987,7 @@
       "Tamanhos: G/GG (preto também P/M)"
     ],
     "inStock": true,
-    "addedAt": "2026-10-21"
+    "addedAt": "2026-11-03"
   },
   {
     "id": "conjunto-alo-calca-flare",
@@ -1405,7 +2053,7 @@
       "Tamanhos: G/GG (rosa também P/M)"
     ],
     "inStock": true,
-    "addedAt": "2026-10-21"
+    "addedAt": "2026-11-03"
   },
   {
     "id": "conjunto-alo-saia",
@@ -3078,7 +3726,7 @@
       "Numeração: 34 ao 39 (consulte a cor)"
     ],
     "inStock": true,
-    "addedAt": "2026-10-19"
+    "addedAt": "2026-11-03"
   },
   {
     "id": "papete-spikes",
@@ -4494,7 +5142,7 @@
       "Público: Feminino"
     ],
     "inStock": true,
-    "addedAt": "2026-10-17"
+    "addedAt": "2026-11-03"
   },
   {
     "id": "conjunto-alo-shorts",
@@ -4553,7 +5201,7 @@
       "Público: Feminino"
     ],
     "inStock": true,
-    "addedAt": "2026-10-17"
+    "addedAt": "2026-11-03"
   },
   {
     "id": "conjunto-alo-suplex",
