@@ -46,10 +46,10 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   const chegouHoje = isChegouHoje(product);
   const novidade = !chegouHoje && isNovidade(product);
   const faixa =
-    product.sizes.length > 1 && product.category !== 'eletronicos'
+    product.sizes.length > 1 && product.category !== 'eletronicos' && product.category !== 'casa'
       ? `${/^\d/.test(product.sizes[0]) ? 'Nº' : 'Tam.'} ${product.sizes[0]} ao ${product.sizes[product.sizes.length - 1]}`
       : product.sizes[0];
-  const publico = product.publico ? PUBLICO_LABEL[product.publico] : product.category === 'eletronicos' ? 'Eletrônicos' : '';
+  const publico = product.publico ? PUBLICO_LABEL[product.publico] : product.category === 'eletronicos' ? 'Eletrônicos' : product.category === 'casa' ? 'Casa & Mobilidade' : '';
   const Titulo = `h${headingLevel}` as 'h2' | 'h3';
   const url = `/produto/${product.id}`;
 
