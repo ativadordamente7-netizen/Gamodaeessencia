@@ -19,6 +19,7 @@ import { registrar } from './utils/medicao';
 import { Navbar } from './components/Navbar';
 import { PromoMarquee } from './components/PromoMarquee';
 import { Hero } from './components/Hero';
+import { AberturaRolagem } from './components/experience/AberturaRolagem';
 import { VitrineSection } from './components/VitrineSection';
 import { AboutSection } from './components/AboutSection';
 import { FaqSection } from './components/FaqSection';
@@ -153,7 +154,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F7F3ED] text-[#242322] font-sans selection:bg-[#D8B98A] selection:text-white relative overflow-x-hidden">
+    <div className="min-h-screen bg-[#F7F3ED] text-[#242322] font-sans selection:bg-[#D8B98A] selection:text-white relative overflow-x-clip">
       
       <a href={isProduto ? '#conteudo' : '#vitrine'} className="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[60] focus:bg-[#242322] focus:text-white focus:px-4 focus:py-2 focus:rounded-full">
         Pular para o conteúdo
@@ -197,6 +198,7 @@ export default function App() {
       <>
       <ListagemSeo titulo={TITULOS[rota]} rota={rota} />
       {/* Hero Banner Section */}
+      {isHome && <AberturaRolagem whatsappNumber={whatsappNumber} />}
       {isHome && <Hero whatsappNumber={whatsappNumber} />}
 
       {/* Main Product Showcase / Vitrine */}

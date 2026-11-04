@@ -198,3 +198,17 @@
 .ga-sacola-in { animation: gaSacola .35s var(--ease-ga) both; }
 @keyframes gaSacola { from { transform: translateX(100%); } to { transform: none; } }
 @media (prefers-reduced-motion: reduce) { .ga-sacola-in { animation: none; } }
+
+/* ===== Abertura cinematográfica ===== */
+/* Enquanto a abertura está na tela, o cabeçalho fica sólido: nada de backdrop-blur por cima do canvas */
+.ga-abertura-ativa header { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; background-color: #ffffff !important; }
+/* Logo oficial com um brilho de luz atravessando (só transform/opacity numa área pequena) */
+.ga-logo-brilho { position: relative; display: block; background: url("/logo-ga-transparente.webp") center / contain no-repeat; overflow: hidden;
+  -webkit-mask: url("/logo-ga-transparente.webp") center / contain no-repeat; mask: url("/logo-ga-transparente.webp") center / contain no-repeat; }
+.ga-logo-brilho::after { content: ""; position: absolute; inset: -20% -60%; background: linear-gradient(105deg, transparent 40%, rgba(255,244,214,0.95) 50%, transparent 60%);
+  transform: translateX(-60%); animation: ga-brilho 3.2s var(--ease-ga) infinite 0.6s; }
+@keyframes ga-brilho { 0% { transform: translateX(-60%); } 45%, 100% { transform: translateX(60%); } }
+@media (prefers-reduced-motion: reduce) { .ga-logo-brilho::after { animation: none; opacity: 0; } }
+/* O botão flutuante do WhatsApp some durante a abertura (a chamada final já tem o botão) */
+.ga-abertura-ativa [data-whatsapp-flutuante] { opacity: 0; pointer-events: none; transform: translateY(12px); transition: opacity .3s, transform .3s; }
+[data-whatsapp-flutuante] { transition: opacity .3s, transform .3s; }
