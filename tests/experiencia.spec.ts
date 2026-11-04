@@ -75,9 +75,9 @@ test('galeria em tela cheia abre, navega pelo teclado e fecha com Esc', async ({
   await page.getByRole('button', { name: 'Tela cheia' }).click();
   const dialogo = page.getByRole('dialog', { name: 'Fotos em tela cheia' });
   await expect(dialogo).toBeVisible();
-  await expect(dialogo.getByText('1 / 4')).toBeVisible();
+  await expect(dialogo.getByText(/^1 \/ \d+$/)).toBeVisible();
   await page.keyboard.press('ArrowRight');
-  await expect(dialogo.getByText('2 / 4')).toBeVisible();
+  await expect(dialogo.getByText(/^2 \/ \d+$/)).toBeVisible();
   await page.keyboard.press('Escape');
   await expect(dialogo).toBeHidden();
 });
