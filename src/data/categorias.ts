@@ -4,7 +4,7 @@ import { CategoryType } from '../types';
 export const CATEGORIAS: { id: CategoryType; rota: string; label: string }[] = [
   { id: 'tenis', rota: 'tenis', label: 'Tênis' },
   { id: 'chinelos', rota: 'chinelos', label: 'Chinelos e papetes' },
-  { id: 'pijamas', rota: 'pijamas', label: 'Pijamas' },
+  { id: 'pijamas', rota: 'pijamas', label: 'Pijamas e lingerie' },
   { id: 'fitness', rota: 'fitness', label: 'Fitness' },
   { id: 'camisetas', rota: 'camisetas', label: 'Camisetas e polos' },
   { id: 'calcas', rota: 'calcas', label: 'Calças' },
@@ -12,4 +12,5 @@ export const CATEGORIAS: { id: CategoryType; rota: string; label: string }[] = [
   { id: 'essencia', rota: 'perfumaria', label: 'Perfumaria e corpo' },
   { id: 'acessorios', rota: 'acessorios', label: 'Bonés e acessórios' },
   { id: 'eletronicos', rota: 'eletronicos', label: 'Eletrônicos' },
+  { id: 'casa', rota: 'casa-e-mobilidade', label: 'Casa & Mobilidade' },
 ];
