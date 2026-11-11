@@ -5446,17 +5446,30 @@
     "id": "hugo-boss-sapatenis",
     "name": "Sapatênis Hugo Boss",
     "category": "tenis",
-    "image": "/produtos/hugo-boss-sapatenis-caramelo.webp",
+    "image": "/produtos/hugo-boss-sapatenis-caramelo-ga.webp",
     "gallery": [
-      "/produtos/hugo-boss-sapatenis-caramelo.webp",
+      "/produtos/hugo-boss-sapatenis-caramelo-ga.webp",
+      "/produtos/hugo-boss-sapatenis-caramelo-ga-2.webp",
+      "/produtos/hugo-boss-sapatenis-caramelo-real-1.webp",
+      "/produtos/hugo-boss-sapatenis-caramelo-real-2.webp",
+      "/produtos/hugo-boss-sapatenis-preto-ga.webp",
+      "/produtos/hugo-boss-sapatenis-preto-real-1.webp",
+      "/produtos/hugo-boss-sapatenis-preto-ga-2.webp",
+      "/produtos/hugo-boss-sapatenis-preto-real-2.webp",
+      "/produtos/hugo-boss-sapatenis-offwhite-ga-2.webp",
+      "/produtos/hugo-boss-sapatenis-offwhite-ga-3.webp",
+      "/produtos/hugo-boss-sapatenis-offwhite-real-1.webp",
+      "/produtos/hugo-boss-sapatenis-offwhite-real-2.webp",
+      "/produtos/hugo-boss-sapatenis-offwhite-ga.webp",
+      "/produtos/hugo-boss-sapatenis-offwhite-real-3.webp",
       "/produtos/hugo-boss-sapatenis-marrom-cafe.webp"
     ],
-    "description": "Sapatênis de visual sóbrio, com sola em contraste e tons terrosos que combinam com tudo. Caramelo ou marrom café, para o homem que quer se vestir bem do trabalho ao fim de semana.",
+    "description": "Sapatênis de visual sóbrio, com sola em contraste e o logo BOSS discreto na lateral. Agora em seis cores, do caramelo ao off-white com azul, para o homem que quer se vestir bem do trabalho ao fim de semana.",
     "details": [
       "Marca: Hugo Boss",
       "Modelo: Sapatênis Hugo Boss",
-      "Cores: Caramelo, Marrom/café",
-      "Numeração: 38 ao 43",
+      "Cores: Caramelo, Preto/branco, Preto/preto, Off-white/azul, Off-white/preto, Marrom/café",
+      "Numeração: 38 ao 43 (confirme a sua cor no WhatsApp)",
       "Público: Masculino"
     ],
     "sizes": [
@@ -5471,6 +5484,22 @@
       {
         "name": "Caramelo",
         "hex": "#B5733A"
+      },
+      {
+        "name": "Preto/branco",
+        "hex": "#1C1C1C"
+      },
+      {
+        "name": "Preto/preto",
+        "hex": "#0E0E0E"
+      },
+      {
+        "name": "Off-white/azul",
+        "hex": "#E9E6DF"
+      },
+      {
+        "name": "Off-white/preto",
+        "hex": "#DCD8D0"
       },
       {
         "name": "Marrom/café",
@@ -5493,17 +5522,28 @@
         "41",
         "42",
         "43"
+      ],
+      "Preto/preto": [
+        "38",
+        "39",
+        "40",
+        "41",
+        "42"
       ]
     },
     "colorImages": {
-      "Caramelo": "/produtos/hugo-boss-sapatenis-caramelo.webp",
+      "Caramelo": "/produtos/hugo-boss-sapatenis-caramelo-ga.webp",
+      "Preto/branco": "/produtos/hugo-boss-sapatenis-preto-ga.webp",
+      "Preto/preto": "/produtos/hugo-boss-sapatenis-preto-ga-2.webp",
+      "Off-white/azul": "/produtos/hugo-boss-sapatenis-offwhite-ga-2.webp",
+      "Off-white/preto": "/produtos/hugo-boss-sapatenis-offwhite-ga.webp",
       "Marrom/café": "/produtos/hugo-boss-sapatenis-marrom-cafe.webp"
     },
     "marca": "Hugo Boss",
     "publico": "masculino",
     "inStock": true,
-    "subtitle": "Sofisticação para o dia a dia",
-    "addedAt": "2026-09-30"
+    "subtitle": "Novas cores: preto e off-white",
+    "addedAt": "2026-11-11"
   },
   {
     "id": "new-balance",
